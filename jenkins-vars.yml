@@ -1,0 +1,27 @@
+---
+
+# jenkins variables
+project_name: docker-kali-linux
+external_type: os
+release_type: stable
+release_tag: latest
+ls_branch: master
+build_armhf: false
+repo_vars:
+  - BUILD_VERSION_ARG = 'OS_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-kali-linux'
+  - CONTAINER_NAME = 'kali-linux'
+  - DOCKERHUB_IMAGE = 'linuxserver/kali-linux'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/kali-linux'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/kali-linux'
+  - DIST_IMAGE = 'ubuntu'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='3000'
+  - CI_SSL='false'
+  - CI_DELAY='120'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''
