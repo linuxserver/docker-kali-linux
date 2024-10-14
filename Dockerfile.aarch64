@@ -26,7 +26,7 @@ RUN \
     fern-wifi-cracker \
     guymager \
     gwenview \
-    hydra-gtk \
+    hydra \
     kali-desktop-kde \
     kali-linux-default \
     kali-tools-top10 \
