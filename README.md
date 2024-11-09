@@ -64,17 +64,14 @@ The Kali Linux image can be accessed at:
 * http://yourhost:3000/
 * https://yourhost:3001/
 
-**Modern GUI desktop apps (including some flavors terminals) have issues with the latest Docker and syscall compatibility, you can use Docker with the `--security-opt seccomp=unconfined` setting to allow these syscalls**
+**Modern GUI desktop apps have issues with the latest Docker and syscall compatibility, you can use Docker with the `--security-opt seccomp=unconfined` setting to allow these syscalls on hosts with older Kernels or libseccomp**
 
-### Application management - PRoot Apps
+### Security
 
-If you run system native installations of software IE `sudo apt-get install filezilla` and then upgrade or destroy/re-create the container that software will be removed and the container will be at a clean state. For some users that will be acceptable and they can update their system packages as well using system native commands like `apt-get upgrade`. If you want Docker to handle upgrading the container and retain your applications and settings we have created [proot-apps](https://github.com/linuxserver/proot-apps) which allow portable applications to be installed to persistent storage in the user's `$HOME` directory and they will work in a confined Docker environment out of the box. These applications and their settings will persist upgrades of the base container and can be mounted into different KasmVNC based containers on the fly facilitating virtual "Distro Hopping". In order to retain the same applications and settings install applications with `proot-apps install`. This can be achieved from the command line with:
+>[!WARNING]
+>Do not put this on the Internet if you do not know what you are doing.
 
-```
-proot-apps install filezilla
-```
-
-PRoot Apps is included in all KasmVNC based containers, a list of linuxserver.io supported applications is located [HERE](https://github.com/linuxserver/proot-apps?tab=readme-ov-file#supported-apps).
+By default this container has no authentication and the optional environment variables `CUSTOM_USER` and `PASSWORD` to enable basic http auth via the embedded NGINX server should only be used to locally secure the container from unwanted access on a local network. If exposing this to the Internet we recommend putting it behind a reverse proxy, such as [SWAG](https://github.com/linuxserver/docker-swag), and ensuring a secure authentication solution is in place. From the web interface a terminal can be launched and it is configured for passwordless sudo, so anyone with access to it can install and run whatever they want along with probing your local network.
 
 ### Options in all KasmVNC based GUI containers
 
@@ -114,8 +111,7 @@ To install cjk fonts on startup as an example pass the environment variables (Al
 
 ```
 -e DOCKER_MODS=linuxserver/mods:universal-package-install 
--e INSTALL_PACKAGES=fonts-noto-cjk 
--e LC_ALL=zh_CN.UTF-8
+-e INSTALL_PACKAGES=fonts-noto-cjk-e LC_ALL=zh_CN.UTF-8
 ```
 
 The web interface has the option for "IME Input Mode" in Settings which will allow non english characters to be used from a non en_US keyboard on the client. Once enabled it will perform the same as a local Linux installation set to your locale.
@@ -137,11 +133,9 @@ This feature only supports **Open Source** GPU drivers:
 The `DRINODE` environment variable can be used to point to a specific GPU.
 Up to date information can be found [here](https://www.kasmweb.com/kasmvnc/docs/master/gpu_acceleration.html)
 
-#### Display Compositing (desktop effects)
-
-When using this image in tandem with a supported video card, compositing will function albeit with a performance hit when syncing the frames with pixmaps for the applications using it. This can greatly increase app compatibility if the application in question requires compositing, but requires a real GPU to be mounted into the container. By default we disable compositing at a DE level for performance reasons on our downstream images, but it can be enabled by the user and programs using compositing will still function even if the DE has it disabled in its settings. When building desktop images be sure you understand that with it enabled by default only users that have a compatible GPU mounted in will be able to use your image.
-
 ### Nvidia GPU Support
+
+**Nvidia support is not compatible with Alpine based images as Alpine lacks Nvidia drivers**
 
 Nvidia support is available by leveraging Zink for OpenGL support. This can be enabled with the following run flags:
 
@@ -161,8 +155,8 @@ And to assign the GPU in compose:
 
 ```
 services:
-  kali:
-    image: linuxserver/kali-linux:latest
+  kali-linux:
+    image: lscr.io/linuxserver/kali-linux:latest
     deploy:
       resources:
         reservations:
@@ -172,10 +166,33 @@ services:
               capabilities: [compute,video,graphics,utility]
 ```
 
+### Application management
+
+#### PRoot Apps
+
+If you run system native installations of software IE `sudo apt-get install filezilla` and then upgrade or destroy/re-create the container that software will be removed and the container will be at a clean state. For some users that will be acceptable and they can update their system packages as well using system native commands like `apt-get upgrade`. If you want Docker to handle upgrading the container and retain your applications and settings we have created [proot-apps](https://github.com/linuxserver/proot-apps) which allow portable applications to be installed to persistent storage in the user's `$HOME` directory and they will work in a confined Docker environment out of the box. These applications and their settings will persist upgrades of the base container and can be mounted into different flavors of KasmVNC based containers on the fly. This can be achieved from the command line with:
+
+```
+proot-apps install filezilla
+```
+
+PRoot Apps is included in all KasmVNC based containers, a list of linuxserver.io supported applications is located [HERE](https://github.com/linuxserver/proot-apps?tab=readme-ov-file#supported-apps).
+
+#### Native Apps
+
+It is possible to install extra packages during container start using [universal-package-install](https://github.com/linuxserver/docker-mods/tree/universal-package-install). It might increase starting time significantly. PRoot is preferred.
+
+```yaml
+  environment:
+    - DOCKER_MODS=linuxserver/mods:universal-package-install
+    - INSTALL_PACKAGES=libfuse2|git|gdb
+```
+
 ### Lossless mode
 
 This container is capable of delivering a true lossless image at a high framerate to your web browser by changing the Stream Quality preset to "Lossless", more information [here](https://www.kasmweb.com/docs/latest/how_to/lossless.html#technical-background). In order to use this mode from a non localhost endpoint the HTTPS port on 3001 needs to be used. If using a reverse proxy to port 3000 specific headers will need to be set as outlined [here](https://github.com/linuxserver/docker-baseimage-kasmvnc#lossless).
 
+ 
 ## Usage
 
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
@@ -400,10 +417,10 @@ docker build \
   -t lscr.io/linuxserver/kali-linux:latest .
 ```
 
-The ARM variants can be built on x86_64 hardware using `multiarch/qemu-user-static`
+The ARM variants can be built on x86_64 hardware and vice versa using `lscr.io/linuxserver/qemu-static`
 
 ```bash
-docker run --rm --privileged multiarch/qemu-user-static:register --reset
+docker run --rm --privileged lscr.io/linuxserver/qemu-static --reset
 ```
 
 Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64`.
