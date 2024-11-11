@@ -544,8 +544,8 @@ binutils-common                                                               2.
 binutils-mingw-w64-i686                                                       2.43.1-5+12                                         deb                             
 binutils-mingw-w64-x86-64                                                     2.43.1-5+12                                         deb                             
 binutils-x86-64-linux-gnu                                                     2.43.1-5                                            deb                             
-binwalk                                                                       2.4.2                                               python                          
-binwalk                                                                       2.4.2+dfsg1-1                                       deb                             
+binwalk                                                                       2.4.3                                               python                          
+binwalk                                                                       2.4.3+dfsg1-1                                       deb                             
 bitstruct                                                                     8.19.0                                              python                          
 bleach                                                                        6.1.0                                               python                          
 blinker                                                                       1.8.2                                               python                          
@@ -2382,7 +2382,7 @@ libpciaccess0                                                                 0.
 libpcre2-16-0                                                                 10.42-4+b2                                          deb                             
 libpcre2-8-0                                                                  10.42-4+b2                                          deb                             
 libpcre3                                                                      2:8.39-15.1                                         deb                             
-libpcsclite1                                                                  2.3.0-2                                             deb                             
+libpcsclite1                                                                  2.3.0-3                                             deb                             
 libperl5.40                                                                   5.40.0-6                                            deb                             
 libpgm-5.3-0t64                                                               5.3.128~dfsg-2.1+b1                                 deb                             
 libphonon-l10n                                                                4:4.12.0-4                                          deb                             
@@ -3307,7 +3307,7 @@ python3-base58                                                                1.
 python3-bcrypt                                                                4.2.0-2                                             deb                             
 python3-bidict                                                                0.23.1-2                                            deb                             
 python3-billiard                                                              4.2.1-1                                             deb                             
-python3-binwalk                                                               2.4.2+dfsg1-1                                       deb                             
+python3-binwalk                                                               2.4.3+dfsg1-1                                       deb                             
 python3-bitstruct                                                             8.19.0-1+b1                                         deb                             
 python3-bleach                                                                6.1.0-2                                             deb                             
 python3-blinker                                                               1.8.2-1                                             deb                             
