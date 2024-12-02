@@ -7,48 +7,44 @@ project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/ma
 project_blurb: |
   [{{ project_name|capitalize }}]({{ project_url }}) - is an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. KALI LINUX ™ is a trademark of OffSec.
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
-
 # supported architectures
 available_architectures:
-  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
-  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-
+  - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - {arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 # container parameters
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "abc users home directory" }
+  - {vol_path: "/config", vol_host_path: "/path/to/data", desc: "abc users home directory"}
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "3000", internal_port: "3000", port_desc: "Web Desktop GUI" }
-  - { external_port: "3001", internal_port: "3001", port_desc: "Web Desktop GUI HTTPS" }
+  - {external_port: "3000", internal_port: "3000", port_desc: "Web Desktop GUI"}
+  - {external_port: "3001", internal_port: "3001", port_desc: "Web Desktop GUI HTTPS"}
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
+  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
 # optional variables
 opt_param_usage_include_env: true
 opt_param_env_vars:
-  - { env_var: "SUBFOLDER", env_value: "/", desc: "Specify a subfolder to use with reverse proxies, IE `/subfolder/`"}
-  - { env_var: "TITLE", env_value: "Kali Linux", desc: "String which will be used as page/tab title in the web browser." }
+  - {env_var: "SUBFOLDER", env_value: "/", desc: "Specify a subfolder to use with reverse proxies, IE `/subfolder/`"}
+  - {env_var: "TITLE", env_value: "Kali Linux", desc: "String which will be used as page/tab title in the web browser."}
 opt_param_usage_include_vols: true
 opt_param_volumes:
-  - { vol_path: "/var/run/docker.sock", vol_host_path: "/var/run/docker.sock", desc: "Docker Socket on the system, if you want to use Docker in the container" }
+  - {vol_path: "/var/run/docker.sock", vol_host_path: "/var/run/docker.sock", desc: "Docker Socket on the system, if you want to use Docker in the container"}
 opt_custom_params:
-  - { name: "shm-size", name_compose: "shm_size", value: "1gb",desc: "We set this to 1 gig to prevent modern web browsers from crashing" }
+  - {name: "shm-size", name_compose: "shm_size", value: "1gb", desc: "We set this to 1 gig to prevent modern web browsers from crashing"}
 opt_security_opt_param: true
 opt_security_opt_param_vars:
-  - { run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function on older hosts as syscalls are unknown to Docker." }
+  - {run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function on older hosts as syscalls are unknown to Docker."}
 opt_param_device_map: true
 opt_param_devices:
-  - { device_path: "/dev/dri", device_host_path: "/dev/dri", desc: "Add this for GL support (Linux hosts only)" }
-
+  - {device_path: "/dev/dri", device_host_path: "/dev/dri", desc: "Add this for GL support (Linux hosts only)"}
 # Kasm blurb settings
 kasm_blurb: true
 show_nvidia: true
 external_http_port: "3000"
 external_https_port: "3001"
 noto_fonts: "fonts-noto-cjk"
-
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -56,7 +52,68 @@ app_setup_block: |
 
   * http://yourhost:3000/
   * https://yourhost:3001/
-
+# init diagram
+init_diagram: |
+  "kali-linux:latest": {
+    docker-mods
+    base {
+      fix-attr +\nlegacy cont-init
+    }
+    docker-mods -> base
+    legacy-services
+    custom services
+    init-services -> legacy-services
+    init-services -> custom services
+    custom services -> legacy-services
+    legacy-services -> ci-service-check
+    init-migrations -> init-adduser
+    init-kasmvnc-end -> init-config
+    init-os-end -> init-config
+    init-config -> init-config-end
+    init-os-end -> init-crontab-config
+    init-mods-end -> init-custom-files
+    base -> init-envfile
+    init-os-end -> init-kasmvnc
+    init-nginx -> init-kasmvnc-config
+    init-video -> init-kasmvnc-end
+    base -> init-migrations
+    base -> init-mods
+    init-config-end -> init-mods
+    init-mods -> init-mods-end
+    init-mods-package-install -> init-mods-end
+    init-mods -> init-mods-package-install
+    init-kasmvnc -> init-nginx
+    base -> init-os-end
+    init-adduser -> init-os-end
+    init-envfile -> init-os-end
+    init-migrations -> init-os-end
+    init-custom-files -> init-services
+    init-mods-end -> init-services
+    init-kasmvnc-config -> init-video
+    init-services -> svc-cron
+    svc-cron -> legacy-services
+    init-services -> svc-de
+    svc-nginx -> svc-de
+    svc-de -> legacy-services
+    init-services -> svc-docker
+    svc-de -> svc-docker
+    svc-docker -> legacy-services
+    init-services -> svc-kasmvnc
+    svc-pulseaudio -> svc-kasmvnc
+    svc-kasmvnc -> legacy-services
+    init-services -> svc-kclient
+    svc-kasmvnc -> svc-kclient
+    svc-kclient -> legacy-services
+    init-services -> svc-nginx
+    svc-kclient -> svc-nginx
+    svc-nginx -> legacy-services
+    init-services -> svc-pulseaudio
+    svc-pulseaudio -> legacy-services
+  }
+  Base Images: {
+    "baseimage-kasmvnc:kali" <- "baseimage-debian:kali"
+  }
+  "kali-linux:latest" <- Base Images
 # changelog
 changelogs:
-  - { date: "18.07.24:", desc: "Initial release." }
+  - {date: "18.07.24:", desc: "Initial release."}
