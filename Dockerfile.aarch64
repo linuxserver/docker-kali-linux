@@ -34,7 +34,6 @@ RUN \
     kde-config-gtk-style \
     kdialog \
     kfind \
-    khotkeys \
     kio-extras \
     knewstuff-dialog \
     konsole \
