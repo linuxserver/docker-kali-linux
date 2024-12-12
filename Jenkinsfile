@@ -33,6 +33,7 @@ pipeline {
     CI_PORT='3000'
     CI_SSL='false'
     CI_DELAY='120'
+    CI_SBOM_TIMEOUT='1800'
     CI_DOCKERENV='TZ=US/Pacific'
     CI_AUTH='user:password'
     CI_WEBPATH=''
@@ -855,6 +856,7 @@ pipeline {
                 --shm-size=1gb \
                 -v /var/run/docker.sock:/var/run/docker.sock \
                 -e IMAGE=\"${IMAGE}\" \
+                -e SBOM_TIMEOUT=\"${CI_SBOM_TIMEOUT}\" \
                 -e DOCKER_LOGS_TIMEOUT=\"${CI_DELAY}\" \
                 -e TAGS=\"${CI_TAGS}\" \
                 -e META_TAG=\"${META_TAG}\" \
