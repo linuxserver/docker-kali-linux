@@ -46,6 +46,7 @@ RUN \
     plasma-desktop \
     plasma-workspace \
     qml-module-qt-labs-platform \
+    qt6-svg-plugins \
     sqlitebrowser \
     systemsettings && \
   echo "**** kde tweaks ****" && \

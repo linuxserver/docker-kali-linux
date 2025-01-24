@@ -117,4 +117,5 @@ init_diagram: |
   "kali-linux:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "24.01.25:", desc: "Fix SVG icons not rendering."}
   - {date: "18.07.24:", desc: "Initial release."}
