@@ -26,6 +26,7 @@ Microsoft.CSharp                                                              6.
 Microsoft.CodeAnalysis.CSharp                                                 4.0.1                                   dotnet                         
 Microsoft.CodeAnalysis.Common                                                 4.0.1                                   dotnet                         
 Microsoft.Extensions.ObjectPool                                               5.0.10                                  dotnet                         
+Microsoft.Management.Infrastructure                                           2.0.0                                   dotnet                         
 Microsoft.Management.Infrastructure.Runtime.Unix                              2.0.0                                   dotnet                         
 Microsoft.PackageManagement                                                   3.0.0.1                                 dotnet                         
 Microsoft.PackageManagement.Archivers                                         3.0.0.0                                 dotnet                         
@@ -35,6 +36,7 @@ Microsoft.PowerShell.Commands.Management                                      7.
 Microsoft.PowerShell.Commands.Utility                                         7.2.6                                   dotnet                         
 Microsoft.PowerShell.ConsoleHost                                              7.2.6                                   dotnet                         
 Microsoft.PowerShell.MarkdownRender                                           7.2.0                                   dotnet                         
+Microsoft.PowerShell.Native                                                   7.2.0                                   dotnet                         
 Microsoft.PowerShell.PSReadLine2                                              2.1.0                                   dotnet                         
 Microsoft.PowerShell.SDK                                                      7.2.6                                   dotnet                         
 Microsoft.PowerShell.Security                                                 7.2.6                                   dotnet                         
@@ -45,6 +47,7 @@ Microsoft.Win32.Primitives                                                    6.
 Microsoft.Win32.Registry                                                      6.0.822.36306                           dotnet                         
 Microsoft.Win32.Registry.AccessControl                                        6.0.0                                   dotnet                         
 Microsoft.Win32.SystemEvents                                                  6.0.0                                   dotnet                         
+Microsoft.Windows.Compatibility                                               6.0.0                                   dotnet                         
 NJsonSchema                                                                   10.5.2                                  dotnet                         
 Namotion.Reflection                                                           2.0.3                                   dotnet                         
 Newtonsoft.Json                                                               13.0.1                                  dotnet                         
@@ -3830,6 +3833,8 @@ rubyntlm                                                                      0.
 rubyzip                                                                       2.3.2                                   gem                            
 rubyzip                                                                       2.4.1                                   gem                            
 runit-helper                                                                  2.16.4                                  deb                            
+runtime.linux-x64.runtime.native.System.IO.Ports                              6.0.0                                   dotnet                         
+runtime.native.System.IO.Ports                                                6.0.0                                   dotnet                         
 runtimepack.Microsoft.NETCore.App.Runtime.linux-x64                           6.0.8                                   dotnet                         
 safe-buffer                                                                   5.2.1                                   npm                            
 safer-buffer                                                                  2.1.2                                   npm                            
