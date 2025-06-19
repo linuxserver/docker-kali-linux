@@ -426,5 +426,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **19.06.25:** - Rebase to Selkies baseimage.
 * **24.01.25:** - Fix SVG icons not rendering.
 * **18.07.24:** - Initial release.
