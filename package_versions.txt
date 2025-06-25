@@ -422,7 +422,7 @@ bundler                                                                       2.
 bundler                                                                       2.6.7-2                                                      deb                            
 burpsuite                                                                     2025.5.3-0kali1                                              deb                            
 burpsuite                                                                     39567                                                        java-archive                   
-busybox                                                                       1:1.37.0-6                                                   deb                            
+busybox                                                                       1:1.37.0-6+b1                                                deb                            
 bzip2                                                                         1.0.8-6                                                      deb                            
 ca-certificates                                                               20250419                                                     deb                            
 ca-certificates-java                                                          20240118                                                     deb                            
@@ -456,16 +456,16 @@ click                                                                         8.
 click-didyoumean                                                              0.3.1                                                        python                         
 click-plugins                                                                 1.1.1                                                        python                         
 click-repl                                                                    0.3.0                                                        python                         
-cloud.google.com/go/compute/metadata                                          v0.5.2                                                       go-module                      
+cloud.google.com/go/compute/metadata                                          v0.6.0                                                       go-module                      
 cloud.google.com/go/logging                                                   v1.9.0                                                       go-module                      
-cloud.google.com/go/longrunning                                               v0.5.4                                                       go-module                      
+cloud.google.com/go/longrunning                                               v0.5.5                                                       go-module                      
 cmake                                                                         3.31.6-2                                                     deb                            
 cmake-data                                                                    3.31.6-2                                                     deb                            
 cmd                                                                           UNKNOWN                                                      java-archive                   
 cms_scanner                                                                   0.15.0                                                       gem                            
 code.cloudfoundry.org/clock                                                   v1.1.0                                                       go-module                      
 colorama                                                                      0.4.6                                                        python                         
-comerr-dev                                                                    2.1-1.47.2-1+b1                                              deb                            
+comerr-dev                                                                    2.1-1.47.2-3+b1                                              deb                            
 commix                                                                        4.0-0kali1                                                   deb                            
 commons-codec                                                                 1.3                                                          java-archive                   
 commons-httpclient                                                            3.1                                                          java-archive                   
@@ -547,7 +547,7 @@ diffutils                                                                     1:
 digest                                                                        3.1.1                                                        gem                            
 dirb                                                                          2.22+dfsg-7                                                  deb                            
 dirbuster                                                                     1.0-1kali6                                                   deb                            
-dirmngr                                                                       2.4.7-21                                                     deb                            
+dirmngr                                                                       2.4.7-21+b1                                                  deb                            
 distlib                                                                       0.3.9                                                        python                         
 distro                                                                        1.9.0                                                        python                         
 distro-info-data                                                              0.64                                                         deb                            
@@ -563,10 +563,10 @@ dnsmap                                                                        0.
 dnspython                                                                     2.7.0                                                        python                         
 dnsrecon                                                                      1.2.0-3                                                      deb                            
 dnsruby                                                                       1.72.4                                                       gem                            
-docker-buildx-plugin                                                          0.24.0-1~debian.12~bookworm                                  deb                            
-docker-ce                                                                     5:28.2.2-1~debian.12~bookworm                                deb                            
-docker-ce-cli                                                                 5:28.2.2-1~debian.12~bookworm                                deb                            
-docker-compose-plugin                                                         2.36.2-1~debian.12~bookworm                                  deb                            
+docker-buildx-plugin                                                          0.25.0-1~debian.12~bookworm                                  deb                            
+docker-ce                                                                     5:28.3.0-1~debian.12~bookworm                                deb                            
+docker-ce-cli                                                                 5:28.3.0-1~debian.12~bookworm                                deb                            
+docker-compose-plugin                                                         2.37.3-1~debian.12~bookworm                                  deb                            
 docopt                                                                        0.6.2                                                        python                         
 dolphin                                                                       4:25.04.2-1                                                  deb                            
 dolphin-data                                                                  4:25.04.2-1                                                  deb                            
@@ -721,16 +721,16 @@ gir1.2-girepository-2.0                                                       1.
 gir1.2-glib-2.0                                                               2.84.1-2                                                     deb                            
 gir1.2-glib-2.0-dev                                                           2.84.1-2                                                     deb                            
 gir1.2-gst-plugins-bad-1.0                                                    1.26.1-1                                                     deb                            
-gir1.2-gst-plugins-base-1.0                                                   1.26.1-1                                                     deb                            
-gir1.2-gstreamer-1.0                                                          1.26.1-1                                                     deb                            
+gir1.2-gst-plugins-base-1.0                                                   1.26.2-1                                                     deb                            
+gir1.2-gstreamer-1.0                                                          1.26.2-1                                                     deb                            
 gir1.2-gtk-3.0                                                                3.24.49-3                                                    deb                            
 gir1.2-harfbuzz-0.0                                                           10.2.0-1+b1                                                  deb                            
 gir1.2-packagekitglib-1.0                                                     1.3.1-1                                                      deb                            
 gir1.2-pango-1.0                                                              1.56.3-1                                                     deb                            
 gir1.2-vte-2.91                                                               0.80.1-1                                                     deb                            
 girepository-tools                                                            2.84.1-2                                                     deb                            
-git                                                                           1:2.47.2-0.1                                                 deb                            
-git-man                                                                       1:2.47.2-0.1                                                 deb                            
+git                                                                           1:2.47.2-0.2                                                 deb                            
+git-man                                                                       1:2.47.2-0.2                                                 deb                            
 gitdb                                                                         4.0.12                                                       python                         
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                                       go-module                      
 github.com/AndreasBriese/bbloom                                               v0.0.0-20190825152654-46b345b51c96                           go-module                      
@@ -741,7 +741,7 @@ github.com/DefangLabs/secret-detector                                         v0
 github.com/Graylog2/go-gelf                                                   v0.0.0-20191017102106-1550ee647df0                           go-module                      
 github.com/Masterminds/semver/v3                                              v3.2.1                                                       go-module     (+1 duplicate)   
 github.com/Microsoft/hcsshim                                                  v0.11.7                                                      go-module     (+1 duplicate)   
-github.com/Microsoft/hcsshim                                                  v0.12.9                                                      go-module                      
+github.com/Microsoft/hcsshim                                                  v0.13.0                                                      go-module                      
 github.com/OJ/gobuster                                                        UNKNOWN                                                      go-module                      
 github.com/PuerkitoBio/goquery                                                v1.8.1                                                       go-module                      
 github.com/RackSec/srslog                                                     v0.0.0-20180709174129-a4725f04ec91                           go-module                      
@@ -793,7 +793,7 @@ github.com/cilium/ebpf                                                        v0
 github.com/cjoudrey/gluaurl                                                   v0.0.0-20161028222611-31cbb9bef199                           go-module                      
 github.com/cloudflare/cfssl                                                   v1.6.4                                                       go-module                      
 github.com/compose-spec/compose-go/v2                                         v2.6.3                                                       go-module                      
-github.com/compose-spec/compose-go/v2                                         v2.6.4                                                       go-module                      
+github.com/compose-spec/compose-go/v2                                         v2.6.5                                                       go-module                      
 github.com/container-storage-interface/spec                                   v1.5.0                                                       go-module                      
 github.com/containerd/accelerated-container-image                             v1.3.0                                                       go-module                      
 github.com/containerd/aufs                                                    v1.0.0                                                       go-module                      
@@ -802,12 +802,13 @@ github.com/containerd/cgroups                                                 v1
 github.com/containerd/cgroups/v3                                              v3.0.2                                                       go-module     (+3 duplicates)  
 github.com/containerd/cgroups/v3                                              v3.0.5                                                       go-module                      
 github.com/containerd/console                                                 v1.0.3                                                       go-module     (+4 duplicates)  
-github.com/containerd/console                                                 v1.0.4                                                       go-module     (+3 duplicates)  
+github.com/containerd/console                                                 v1.0.4                                                       go-module                      
+github.com/containerd/console                                                 v1.0.5                                                       go-module     (+2 duplicates)  
 github.com/containerd/containerd                                              v1.7.27                                                      go-module     (+4 duplicates)  
-github.com/containerd/containerd/api                                          v1.8.0                                                       go-module     (+5 duplicates)  
-github.com/containerd/containerd/api                                          v1.9.0                                                       go-module     (+1 duplicate)   
-github.com/containerd/containerd/v2                                           v2.0.5                                                       go-module     (+1 duplicate)   
+github.com/containerd/containerd/api                                          v1.8.0                                                       go-module     (+4 duplicates)  
+github.com/containerd/containerd/api                                          v1.9.0                                                       go-module     (+2 duplicates)  
 github.com/containerd/containerd/v2                                           v2.1.1                                                       go-module                      
+github.com/containerd/containerd/v2                                           v2.1.3                                                       go-module     (+1 duplicate)   
 github.com/containerd/continuity                                              v0.4.4                                                       go-module     (+4 duplicates)  
 github.com/containerd/continuity                                              v0.4.5                                                       go-module     (+2 duplicates)  
 github.com/containerd/errdefs                                                 v0.3.0                                                       go-module     (+4 duplicates)  
@@ -831,9 +832,9 @@ github.com/containerd/typeurl/v2                                              v2
 github.com/containerd/typeurl/v2                                              v2.2.3                                                       go-module     (+2 duplicates)  
 github.com/containerd/zfs                                                     v1.1.0                                                       go-module                      
 github.com/containernetworking/cni                                            v1.1.2                                                       go-module     (+1 duplicate)   
-github.com/containernetworking/cni                                            v1.2.3                                                       go-module                      
+github.com/containernetworking/cni                                            v1.3.0                                                       go-module                      
 github.com/containernetworking/plugins                                        v1.2.0                                                       go-module                      
-github.com/containernetworking/plugins                                        v1.6.2                                                       go-module                      
+github.com/containernetworking/plugins                                        v1.7.1                                                       go-module                      
 github.com/containers/ocicrypt                                                v1.1.10                                                      go-module                      
 github.com/coreos/go-systemd/v22                                              v22.5.0                                                      go-module     (+5 duplicates)  
 github.com/cyphar/filepath-securejoin                                         v0.4.1                                                       go-module     (+1 duplicate)   
@@ -844,14 +845,14 @@ github.com/dgraph-io/ristretto                                                v0
 github.com/dimchansky/utfbom                                                  v1.1.1                                                       go-module                      
 github.com/distribution/reference                                             v0.6.0                                                       go-module     (+4 duplicates)  
 github.com/docker/buildx                                                      UNKNOWN                                                      go-module                      
-github.com/docker/buildx                                                      v0.24.0                                                      go-module                      
-github.com/docker/cli                                                         v28.1.1+incompatible                                         go-module     (+1 duplicate)   
-github.com/docker/cli-docs-tool                                               v0.9.0                                                       go-module     (+1 duplicate)   
+github.com/docker/buildx                                                      v0.25.0                                                      go-module                      
+github.com/docker/cli                                                         v28.2.2+incompatible                                         go-module     (+1 duplicate)   
+github.com/docker/cli-docs-tool                                               v0.10.0                                                      go-module     (+1 duplicate)   
 github.com/docker/cli/cmd/docker                                              UNKNOWN                                                      go-module                      
 github.com/docker/compose/v2                                                  UNKNOWN                                                      go-module                      
 github.com/docker/distribution                                                v2.8.3+incompatible                                          go-module     (+1 duplicate)   
-github.com/docker/docker                                                      v28.1.1+incompatible                                         go-module     (+1 duplicate)   
-github.com/docker/docker                                                      v28.2.2                                                      go-module     (+1 duplicate)   
+github.com/docker/docker                                                      v28.2.2+incompatible                                         go-module     (+1 duplicate)   
+github.com/docker/docker                                                      v28.3.0                                                      go-module     (+1 duplicate)   
 github.com/docker/docker-credential-helpers                                   v0.9.3                                                       go-module     (+1 duplicate)   
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c                       go-module                      
 github.com/docker/go-connections                                              v0.5.0                                                       go-module     (+2 duplicates)  
@@ -871,7 +872,7 @@ github.com/fernet/fernet-go                                                   v0
 github.com/ffuf/ffuf                                                          UNKNOWN                                                      go-module                      
 github.com/fluent/fluent-logger-golang                                        v1.9.0                                                       go-module                      
 github.com/fsnotify/fsnotify                                                  v1.6.0                                                       go-module                      
-github.com/fsnotify/fsnotify                                                  v1.7.0                                                       go-module                      
+github.com/fsnotify/fsnotify                                                  v1.9.0                                                       go-module                      
 github.com/fvbommel/sortorder                                                 v1.0.1                                                       go-module                      
 github.com/fvbommel/sortorder                                                 v1.1.0                                                       go-module                      
 github.com/fxamacker/cbor/v2                                                  v2.7.0                                                       go-module     (+1 duplicate)   
@@ -883,11 +884,9 @@ github.com/go-jose/go-jose/v3                                                 v3
 github.com/go-kit/kit                                                         v0.13.0                                                      go-module                      
 github.com/go-logr/logr                                                       v1.4.2                                                       go-module     (+4 duplicates)  
 github.com/go-logr/stdr                                                       v1.2.2                                                       go-module     (+4 duplicates)  
-github.com/go-openapi/jsonpointer                                             v0.19.6                                                      go-module                      
-github.com/go-openapi/jsonpointer                                             v0.21.0                                                      go-module                      
+github.com/go-openapi/jsonpointer                                             v0.21.0                                                      go-module     (+1 duplicate)   
 github.com/go-openapi/jsonreference                                           v0.20.2                                                      go-module     (+1 duplicate)   
-github.com/go-openapi/swag                                                    v0.22.4                                                      go-module                      
-github.com/go-openapi/swag                                                    v0.23.0                                                      go-module                      
+github.com/go-openapi/swag                                                    v0.23.0                                                      go-module     (+1 duplicate)   
 github.com/go-sql-driver/mysql                                                v1.7.1                                                       go-module                      
 github.com/go-viper/mapstructure/v2                                           v2.0.0                                                       go-module     (+1 duplicate)   
 github.com/gobwas/httphead                                                    v0.1.0                                                       go-module                      
@@ -921,8 +920,7 @@ github.com/gorilla/websocket                                                  v1
 github.com/grpc-ecosystem/go-grpc-middleware                                  v1.3.0                                                       go-module                      
 github.com/grpc-ecosystem/go-grpc-prometheus                                  v1.2.0                                                       go-module     (+1 duplicate)   
 github.com/grpc-ecosystem/grpc-gateway/v2                                     v2.16.0                                                      go-module                      
-github.com/grpc-ecosystem/grpc-gateway/v2                                     v2.22.0                                                      go-module     (+1 duplicate)   
-github.com/grpc-ecosystem/grpc-gateway/v2                                     v2.26.1                                                      go-module                      
+github.com/grpc-ecosystem/grpc-gateway/v2                                     v2.26.1                                                      go-module     (+2 duplicates)  
 github.com/hashicorp/errwrap                                                  v1.1.0                                                       go-module     (+3 duplicates)  
 github.com/hashicorp/go-cleanhttp                                             v0.5.2                                                       go-module     (+1 duplicate)   
 github.com/hashicorp/go-cty-funcs                                             v0.0.0-20250210171435-dda779884a9f                           go-module                      
@@ -938,8 +936,7 @@ github.com/hashicorp/golang-lru/v2                                            v2
 github.com/hashicorp/hcl/v2                                                   v2.23.0                                                      go-module                      
 github.com/hashicorp/memberlist                                               v0.4.0                                                       go-module                      
 github.com/hashicorp/serf                                                     v0.8.5                                                       go-module                      
-github.com/imdario/mergo                                                      v0.3.16                                                      go-module                      
-github.com/in-toto/in-toto-golang                                             v0.5.0                                                       go-module     (+2 duplicates)  
+github.com/in-toto/in-toto-golang                                             v0.9.0                                                       go-module     (+2 duplicates)  
 github.com/inhies/go-bytesize                                                 v0.0.0-20220417184213-4913239db9cf                           go-module                      
 github.com/intel/goresctrl                                                    v0.5.0                                                       go-module     (+1 duplicate)   
 github.com/ishidawataru/sctp                                                  v0.0.0-20230406120618-7ff4192f6ff2                           go-module     (+1 duplicate)   
@@ -965,7 +962,7 @@ github.com/mattn/go-shellwords                                                v1
 github.com/matttproud/golang_protobuf_extensions                              v1.0.4                                                       go-module     (+1 duplicate)   
 github.com/mgutz/ansi                                                         v0.0.0-20170206155736-9520e82c474b                           go-module                      
 github.com/miekg/dns                                                          v1.1.55                                                      go-module                      
-github.com/miekg/dns                                                          v1.1.61                                                      go-module                      
+github.com/miekg/dns                                                          v1.1.66                                                      go-module                      
 github.com/miekg/pkcs11                                                       v1.1.1                                                       go-module                      
 github.com/minio/sha256-simd                                                  v1.0.0                                                       go-module     (+1 duplicate)   
 github.com/mistifyio/go-zfs/v3                                                v3.0.1                                                       go-module     (+1 duplicate)   
@@ -974,7 +971,8 @@ github.com/mitchellh/go-wordwrap                                              v0
 github.com/mitchellh/hashstructure/v2                                         v2.0.2                                                       go-module     (+2 duplicates)  
 github.com/mitchellh/mapstructure                                             v1.5.0                                                       go-module                      
 github.com/mitchellh/reflectwalk                                              v1.0.2                                                       go-module                      
-github.com/moby/buildkit                                                      v0.22.0                                                      go-module     (+2 duplicates)  
+github.com/moby/buildkit                                                      v0.23.0                                                      go-module                      
+github.com/moby/buildkit                                                      v0.23.1                                                      go-module     (+1 duplicate)   
 github.com/moby/docker-image-spec                                             v1.3.1                                                       go-module     (+2 duplicates)  
 github.com/moby/go-archive                                                    v0.1.0                                                       go-module     (+2 duplicates)  
 github.com/moby/ipvs                                                          v1.1.0                                                       go-module                      
@@ -983,7 +981,7 @@ github.com/moby/patternmatcher                                                v0
 github.com/moby/pubsub                                                        v1.0.0                                                       go-module                      
 github.com/moby/spdystream                                                    v0.2.0                                                       go-module                      
 github.com/moby/spdystream                                                    v0.5.0                                                       go-module     (+1 duplicate)   
-github.com/moby/swarmkit/v2                                                   v2.0.0-20250103191802-8c1959736554                           go-module                      
+github.com/moby/swarmkit/v2                                                   v2.0.0                                                       go-module                      
 github.com/moby/sys/atomicwriter                                              v0.1.0                                                       go-module     (+2 duplicates)  
 github.com/moby/sys/capability                                                v0.4.0                                                       go-module                      
 github.com/moby/sys/mount                                                     v0.3.4                                                       go-module                      
@@ -1006,7 +1004,7 @@ github.com/morikuni/aec                                                       v1
 github.com/mrunalp/fileutils                                                  v0.5.1                                                       go-module                      
 github.com/munnerz/goautoneg                                                  v0.0.0-20191010083416-a7dc8b61c822                           go-module     (+2 duplicates)  
 github.com/mxk/go-flowrate                                                    v0.0.0-20140419014527-cca7078d478f                           go-module     (+1 duplicate)   
-github.com/opencontainers/cgroups                                             v0.0.2                                                       go-module                      
+github.com/opencontainers/cgroups                                             v0.0.3                                                       go-module                      
 github.com/opencontainers/go-digest                                           v1.0.0                                                       go-module     (+7 duplicates)  
 github.com/opencontainers/image-spec                                          v1.1.0                                                       go-module     (+4 duplicates)  
 github.com/opencontainers/image-spec                                          v1.1.1                                                       go-module     (+2 duplicates)  
@@ -1024,22 +1022,20 @@ github.com/owasp-amass/open-asset-model                                       v0
 github.com/owasp-amass/resolve                                                v0.6.21                                                      go-module                      
 github.com/package-url/packageurl-go                                          v0.1.1                                                       go-module                      
 github.com/pelletier/go-toml                                                  v1.9.5                                                       go-module     (+4 duplicates)  
-github.com/pelletier/go-toml/v2                                               v2.2.3                                                       go-module                      
+github.com/pelletier/go-toml/v2                                               v2.2.4                                                       go-module                      
 github.com/philhofer/fwd                                                      v1.1.2                                                       go-module                      
 github.com/pkg/browser                                                        v0.0.0-20240102092130-5ac0b6a4141c                           go-module                      
 github.com/pkg/errors                                                         v0.9.1                                                       go-module     (+8 duplicates)  
 github.com/planetscale/vtprotobuf                                             v0.6.1-0.20240319094008-0393e58bdf10                         go-module     (+2 duplicates)  
 github.com/pmezard/go-difflib                                                 v1.0.0                                                       go-module     (+1 duplicate)   
 github.com/prometheus/client_golang                                           v1.16.0                                                      go-module     (+1 duplicate)   
-github.com/prometheus/client_golang                                           v1.20.5                                                      go-module                      
-github.com/prometheus/client_golang                                           v1.22.0                                                      go-module                      
+github.com/prometheus/client_golang                                           v1.22.0                                                      go-module     (+1 duplicate)   
 github.com/prometheus/client_model                                            v0.3.0                                                       go-module                      
 github.com/prometheus/client_model                                            v0.4.0                                                       go-module                      
 github.com/prometheus/client_model                                            v0.6.1                                                       go-module     (+1 duplicate)   
 github.com/prometheus/common                                                  v0.42.0                                                      go-module                      
 github.com/prometheus/common                                                  v0.44.0                                                      go-module                      
-github.com/prometheus/common                                                  v0.55.0                                                      go-module                      
-github.com/prometheus/common                                                  v0.62.0                                                      go-module                      
+github.com/prometheus/common                                                  v0.62.0                                                      go-module     (+1 duplicate)   
 github.com/prometheus/procfs                                                  v0.10.1                                                      go-module                      
 github.com/prometheus/procfs                                                  v0.11.1                                                      go-module                      
 github.com/prometheus/procfs                                                  v0.15.1                                                      go-module     (+1 duplicate)   
@@ -1047,14 +1043,15 @@ github.com/remyoudompheng/bigfft                                              v0
 github.com/rivo/uniseg                                                        v0.2.0                                                       go-module     (+1 duplicate)   
 github.com/rootless-containers/rootlesskit/v2                                 v2.3.4                                                       go-module                      
 github.com/rubenv/sql-migrate                                                 v1.5.2                                                       go-module                      
+github.com/santhosh-tekuri/jsonschema/v6                                      v6.0.1                                                       go-module                      
 github.com/sean-/seed                                                         v0.0.0-20170313163322-e2103e2c3529                           go-module                      
 github.com/seccomp/libseccomp-golang                                          v0.10.0                                                      go-module                      
-github.com/secure-systems-lab/go-securesystemslib                             v0.4.0                                                       go-module     (+2 duplicates)  
+github.com/secure-systems-lab/go-securesystemslib                             v0.6.0                                                       go-module     (+2 duplicates)  
 github.com/serialx/hashring                                                   v0.0.0-20200727003509-22c0c7ab6b1b                           go-module     (+1 duplicate)   
 github.com/shibumi/go-pathspec                                                v1.3.0                                                       go-module     (+2 duplicates)  
 github.com/sirupsen/logrus                                                    v1.9.3                                                       go-module     (+9 duplicates)  
 github.com/skratchdot/open-golang                                             v0.0.0-20200116055534-eef842397966                           go-module                      
-github.com/spdx/tools-golang                                                  v0.5.3                                                       go-module                      
+github.com/spdx/tools-golang                                                  v0.5.5                                                       go-module                      
 github.com/spf13/cobra                                                        v1.9.1                                                       go-module     (+2 duplicates)  
 github.com/spf13/pflag                                                        v1.0.5                                                       go-module                      
 github.com/spf13/pflag                                                        v1.0.6                                                       go-module     (+2 duplicates)  
@@ -1067,10 +1064,10 @@ github.com/theupdateframework/notary                                          v0
 github.com/tilt-dev/fsnotify                                                  v1.4.8-0.20220602155310-fff9c274a375                         go-module                      
 github.com/tinylib/msgp                                                       v1.1.8                                                       go-module                      
 github.com/tonistiigi/dchapes-mode                                            v0.0.0-20250318174251-73d941a28323                           go-module     (+2 duplicates)  
-github.com/tonistiigi/fsutil                                                  v0.0.0-20250417144416-3f76f8130144                           go-module     (+2 duplicates)  
-github.com/tonistiigi/go-actions-cache                                        v0.0.0-20250228231703-3e9a6642607f                           go-module                      
+github.com/tonistiigi/fsutil                                                  v0.0.0-20250605211040-586307ad452f                           go-module     (+2 duplicates)  
+github.com/tonistiigi/go-actions-cache                                        v0.0.0-20250611155157-388a2ec8cdf8                           go-module                      
 github.com/tonistiigi/go-archvariant                                          v1.0.0                                                       go-module                      
-github.com/tonistiigi/go-csvvalue                                             v0.0.0-20240710180619-ddb21b71c0b4                           go-module     (+2 duplicates)  
+github.com/tonistiigi/go-csvvalue                                             v0.0.0-20240814133006-030d3b2625d0                           go-module     (+2 duplicates)  
 github.com/tonistiigi/jaeger-ui-rest                                          v0.0.0-20250408171107-3dd17559e117                           go-module                      
 github.com/tonistiigi/units                                                   v0.0.0-20180711220420-6950e57a87ea                           go-module     (+2 duplicates)  
 github.com/tonistiigi/vt100                                                   v0.0.0-20240514184818-90bafcd6abab                           go-module     (+1 duplicate)   
@@ -1103,50 +1100,42 @@ globalid                                                                      1.
 gnupg                                                                         2.4.7-21                                                     deb                            
 gnupg-l10n                                                                    2.4.7-21                                                     deb                            
 go.etcd.io/bbolt                                                              v1.3.10                                                      go-module                      
-go.etcd.io/bbolt                                                              v1.3.11                                                      go-module                      
+go.etcd.io/bbolt                                                              v1.4.0                                                       go-module                      
 go.etcd.io/etcd/client/pkg/v3                                                 v3.5.16                                                      go-module                      
 go.etcd.io/etcd/pkg/v3                                                        v3.5.16                                                      go-module                      
 go.etcd.io/etcd/raft/v3                                                       v3.5.16                                                      go-module                      
 go.etcd.io/etcd/server/v3                                                     v3.5.16                                                      go-module                      
 go.mozilla.org/pkcs7                                                          v0.0.0-20200128120323-432b2356ecb1                           go-module                      
 go.opencensus.io                                                              v0.24.0                                                      go-module                      
-go.opentelemetry.io/auto/sdk                                                  v1.1.0                                                       go-module                      
+go.opentelemetry.io/auto/sdk                                                  v1.1.0                                                       go-module     (+2 duplicates)  
 go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc   v0.46.1                                                      go-module                      
-go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc   v0.56.0                                                      go-module     (+1 duplicate)   
-go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc   v0.60.0                                                      go-module                      
-go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace  v0.56.0                                                      go-module     (+2 duplicates)  
+go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc   v0.60.0                                                      go-module     (+2 duplicates)  
+go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace  v0.56.0                                                      go-module     (+1 duplicate)   
+go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace  v0.60.0                                                      go-module                      
 go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp                 v0.45.0                                                      go-module     (+1 duplicate)   
-go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp                 v0.56.0                                                      go-module     (+1 duplicate)   
-go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp                 v0.60.0                                                      go-module                      
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp                 v0.60.0                                                      go-module     (+2 duplicates)  
 go.opentelemetry.io/contrib/processors/baggagecopy                            v0.4.0                                                       go-module                      
 go.opentelemetry.io/otel                                                      v1.21.0                                                      go-module     (+1 duplicate)   
-go.opentelemetry.io/otel                                                      v1.31.0                                                      go-module     (+1 duplicate)   
-go.opentelemetry.io/otel                                                      v1.35.0                                                      go-module                      
-go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc             v1.31.0                                                      go-module     (+2 duplicates)  
-go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp             v1.31.0                                                      go-module     (+2 duplicates)  
+go.opentelemetry.io/otel                                                      v1.35.0                                                      go-module     (+2 duplicates)  
+go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc             v1.31.0                                                      go-module     (+1 duplicate)   
+go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc             v1.35.0                                                      go-module                      
+go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp             v1.31.0                                                      go-module     (+1 duplicate)   
+go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp             v1.35.0                                                      go-module                      
 go.opentelemetry.io/otel/exporters/otlp/otlptrace                             v1.19.0                                                      go-module                      
-go.opentelemetry.io/otel/exporters/otlp/otlptrace                             v1.31.0                                                      go-module     (+1 duplicate)   
-go.opentelemetry.io/otel/exporters/otlp/otlptrace                             v1.35.0                                                      go-module                      
+go.opentelemetry.io/otel/exporters/otlp/otlptrace                             v1.35.0                                                      go-module     (+2 duplicates)  
 go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc               v1.19.0                                                      go-module                      
-go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc               v1.31.0                                                      go-module     (+1 duplicate)   
-go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc               v1.35.0                                                      go-module                      
+go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc               v1.35.0                                                      go-module     (+2 duplicates)  
 go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp               v1.19.0                                                      go-module                      
-go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp               v1.31.0                                                      go-module     (+1 duplicate)   
-go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp               v1.35.0                                                      go-module                      
+go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp               v1.35.0                                                      go-module     (+2 duplicates)  
 go.opentelemetry.io/otel/metric                                               v1.21.0                                                      go-module     (+1 duplicate)   
-go.opentelemetry.io/otel/metric                                               v1.31.0                                                      go-module     (+1 duplicate)   
-go.opentelemetry.io/otel/metric                                               v1.35.0                                                      go-module                      
+go.opentelemetry.io/otel/metric                                               v1.35.0                                                      go-module     (+2 duplicates)  
 go.opentelemetry.io/otel/sdk                                                  v1.21.0                                                      go-module                      
-go.opentelemetry.io/otel/sdk                                                  v1.31.0                                                      go-module     (+1 duplicate)   
-go.opentelemetry.io/otel/sdk                                                  v1.35.0                                                      go-module                      
-go.opentelemetry.io/otel/sdk/metric                                           v1.31.0                                                      go-module     (+1 duplicate)   
-go.opentelemetry.io/otel/sdk/metric                                           v1.35.0                                                      go-module                      
+go.opentelemetry.io/otel/sdk                                                  v1.35.0                                                      go-module     (+2 duplicates)  
+go.opentelemetry.io/otel/sdk/metric                                           v1.35.0                                                      go-module     (+2 duplicates)  
 go.opentelemetry.io/otel/trace                                                v1.21.0                                                      go-module     (+1 duplicate)   
-go.opentelemetry.io/otel/trace                                                v1.31.0                                                      go-module     (+1 duplicate)   
-go.opentelemetry.io/otel/trace                                                v1.35.0                                                      go-module                      
+go.opentelemetry.io/otel/trace                                                v1.35.0                                                      go-module     (+2 duplicates)  
 go.opentelemetry.io/proto/otlp                                                v1.0.0                                                       go-module                      
-go.opentelemetry.io/proto/otlp                                                v1.3.1                                                       go-module     (+1 duplicate)   
-go.opentelemetry.io/proto/otlp                                                v1.5.0                                                       go-module                      
+go.opentelemetry.io/proto/otlp                                                v1.5.0                                                       go-module     (+2 duplicates)  
 go.uber.org/atomic                                                            v1.9.0                                                       go-module                      
 go.uber.org/mock                                                              v0.5.2                                                       go-module                      
 go.uber.org/multierr                                                          v1.8.0                                                       go-module                      
@@ -1157,7 +1146,6 @@ golang.org/x/crypto                                                           v0
 golang.org/x/crypto                                                           v0.31.0                                                      go-module                      
 golang.org/x/crypto                                                           v0.37.0                                                      go-module     (+2 duplicates)  
 golang.org/x/exp                                                              v0.0.0-20230224173230-c95f2b4c22f2                           go-module                      
-golang.org/x/exp                                                              v0.0.0-20250408133849-7e4ce0ab07d0                           go-module                      
 golang.org/x/mod                                                              v0.17.0                                                      go-module                      
 golang.org/x/mod                                                              v0.24.0                                                      go-module                      
 golang.org/x/net                                                              v0.15.0                                                      go-module                      
@@ -1166,12 +1154,11 @@ golang.org/x/net                                                              v0
 golang.org/x/oauth2                                                           v0.11.0                                                      go-module                      
 golang.org/x/oauth2                                                           v0.29.0                                                      go-module     (+2 duplicates)  
 golang.org/x/sync                                                             v0.10.0                                                      go-module     (+4 duplicates)  
-golang.org/x/sync                                                             v0.13.0                                                      go-module     (+1 duplicate)   
-golang.org/x/sync                                                             v0.14.0                                                      go-module                      
+golang.org/x/sync                                                             v0.14.0                                                      go-module     (+1 duplicate)   
+golang.org/x/sync                                                             v0.15.0                                                      go-module                      
 golang.org/x/sys                                                              v0.12.0                                                      go-module                      
 golang.org/x/sys                                                              v0.28.0                                                      go-module     (+5 duplicates)  
-golang.org/x/sys                                                              v0.32.0                                                      go-module     (+2 duplicates)  
-golang.org/x/sys                                                              v0.33.0                                                      go-module                      
+golang.org/x/sys                                                              v0.33.0                                                      go-module     (+3 duplicates)  
 golang.org/x/term                                                             v0.27.0                                                      go-module                      
 golang.org/x/term                                                             v0.31.0                                                      go-module     (+1 duplicate)   
 golang.org/x/text                                                             v0.13.0                                                      go-module                      
@@ -1180,27 +1167,27 @@ golang.org/x/text                                                             v0
 golang.org/x/time                                                             v0.0.0-20220210224613-90d013bbcef8                           go-module                      
 golang.org/x/time                                                             v0.11.0                                                      go-module     (+2 duplicates)  
 golang.org/x/time                                                             v0.3.0                                                       go-module                      
-google.golang.org/api                                                         v0.155.0                                                     go-module                      
+google.golang.org/api                                                         v0.160.0                                                     go-module                      
 google.golang.org/genproto                                                    v0.0.0-20231211222908-989df2bf70f3                           go-module     (+4 duplicates)  
-google.golang.org/genproto                                                    v0.0.0-20240123012728-ef4313101c80                           go-module                      
+google.golang.org/genproto                                                    v0.0.0-20240227224415-6ceb2ff114de                           go-module                      
 google.golang.org/genproto/googleapis/api                                     v0.0.0-20231120223509-83a465c0220f                           go-module                      
-google.golang.org/genproto/googleapis/api                                     v0.0.0-20241021214115-324edc3d5d38                           go-module     (+1 duplicate)   
-google.golang.org/genproto/googleapis/api                                     v0.0.0-20250218202821-56aae31c358a                           go-module                      
+google.golang.org/genproto/googleapis/api                                     v0.0.0-20250218202821-56aae31c358a                           go-module     (+1 duplicate)   
+google.golang.org/genproto/googleapis/api                                     v0.0.0-20250324211829-b45e905df463                           go-module                      
 google.golang.org/genproto/googleapis/rpc                                     v0.0.0-20240401170217-c3f982113cda                           go-module     (+4 duplicates)  
-google.golang.org/genproto/googleapis/rpc                                     v0.0.0-20241021214115-324edc3d5d38                           go-module     (+1 duplicate)   
-google.golang.org/genproto/googleapis/rpc                                     v0.0.0-20250218202821-56aae31c358a                           go-module                      
+google.golang.org/genproto/googleapis/rpc                                     v0.0.0-20250218202821-56aae31c358a                           go-module     (+1 duplicate)   
+google.golang.org/genproto/googleapis/rpc                                     v0.0.0-20250324211829-b45e905df463                           go-module                      
 google.golang.org/grpc                                                        v1.59.0                                                      go-module     (+4 duplicates)  
-google.golang.org/grpc                                                        v1.69.4                                                      go-module     (+1 duplicate)   
-google.golang.org/grpc                                                        v1.72.1                                                      go-module                      
+google.golang.org/grpc                                                        v1.72.2                                                      go-module     (+1 duplicate)   
+google.golang.org/grpc                                                        v1.73.0                                                      go-module                      
 google.golang.org/protobuf                                                    v1.31.0                                                      go-module                      
 google.golang.org/protobuf                                                    v1.33.0                                                      go-module                      
-google.golang.org/protobuf                                                    v1.35.2                                                      go-module     (+6 duplicates)  
-google.golang.org/protobuf                                                    v1.36.6                                                      go-module                      
+google.golang.org/protobuf                                                    v1.35.2                                                      go-module     (+4 duplicates)  
+google.golang.org/protobuf                                                    v1.36.6                                                      go-module     (+2 duplicates)  
 gophish                                                                       0.12.1-0kali3+b1                                             deb                            
-gopkg.in/evanphx/json-patch.v4                                                v4.12.0                                                      go-module                      
+gopkg.in/evanphx/json-patch.v4                                                v4.12.0                                                      go-module     (+1 duplicate)   
 gopkg.in/inf.v0                                                               v0.9.1                                                       go-module     (+3 duplicates)  
 gopkg.in/ini.v1                                                               v1.67.0                                                      go-module                      
-gopkg.in/yaml.v2                                                              v2.4.0                                                       go-module     (+2 duplicates)  
+gopkg.in/yaml.v2                                                              v2.4.0                                                       go-module     (+1 duplicate)   
 gopkg.in/yaml.v3                                                              v3.0.1                                                       go-module     (+4 duplicates)  
 gorm.io/datatypes                                                             v1.2.0                                                       go-module                      
 gorm.io/driver/mysql                                                          v1.5.1                                                       go-module                      
@@ -1208,10 +1195,10 @@ gorm.io/driver/postgres                                                       v1
 gorm.io/gorm                                                                  v1.25.4                                                      go-module                      
 gparted                                                                       1.6.0-2                                                      deb                            
 gparted-common                                                                1.6.0-2                                                      deb                            
-gpg                                                                           2.4.7-21                                                     deb                            
-gpg-agent                                                                     2.4.7-21                                                     deb                            
-gpgconf                                                                       2.4.7-21                                                     deb                            
-gpgsm                                                                         2.4.7-21                                                     deb                            
+gpg                                                                           2.4.7-21+b1                                                  deb                            
+gpg-agent                                                                     2.4.7-21+b1                                                  deb                            
+gpgconf                                                                       2.4.7-21+b1                                                  deb                            
+gpgsm                                                                         2.4.7-21+b1                                                  deb                            
 gpp-decrypt                                                                   0.1-1kali2                                                   deb                            
 gputil                                                                        1.4.0                                                        python                         
 graphviz                                                                      2.42.4-3                                                     deb                            
@@ -1225,13 +1212,13 @@ gssapi                                                                        1.
 gstreamer1.0-nice                                                             0.1.22-1                                                     deb                            
 gstreamer1.0-plugins-bad                                                      1.26.1-1                                                     deb                            
 gstreamer1.0-plugins-bad-apps                                                 1.26.1-1                                                     deb                            
-gstreamer1.0-plugins-base                                                     1.26.1-1                                                     deb                            
-gstreamer1.0-plugins-base-apps                                                1.26.1-1                                                     deb                            
+gstreamer1.0-plugins-base                                                     1.26.2-1                                                     deb                            
+gstreamer1.0-plugins-base-apps                                                1.26.2-1                                                     deb                            
 gstreamer1.0-plugins-good                                                     1.26.1-1                                                     deb                            
 gstreamer1.0-plugins-rtp                                                      1.18.1.2                                                     deb                            
-gstreamer1.0-plugins-ugly                                                     1.26.1-1                                                     deb                            
+gstreamer1.0-plugins-ugly                                                     1.26.2-1                                                     deb                            
 gstreamer1.0-pulseaudio                                                       1.26.1-1                                                     deb                            
-gstreamer1.0-tools                                                            1.26.1-1                                                     deb                            
+gstreamer1.0-tools                                                            1.26.2-1                                                     deb                            
 gtk-update-icon-cache                                                         4.18.5+ds-1                                                  deb                            
 gtk2-engines-pixbuf                                                           2.24.33-7                                                    deb                            
 guymager                                                                      0.8.13-2+b1                                                  deb                            
@@ -1308,7 +1295,7 @@ iodine                                                                        0.
 ipaddr                                                                        1.2.6                                                        gem                            
 ipaddr                                                                        1.2.7                                                        gem                            
 ipaddress                                                                     0.8.3                                                        gem                            
-iproute2                                                                      6.14.0-3                                                     deb                            
+iproute2                                                                      6.15.0-1                                                     deb                            
 iptables                                                                      1.8.11-2                                                     deb                            
 ipwhois                                                                       1.2.0                                                        python                         
 ipy                                                                           1.1                                                          python                         
@@ -1353,24 +1340,19 @@ jsonschema                                                                    4.
 jsonschema-specifications                                                     2023.12.1                                                    python                         
 jwcrypto                                                                      1.5.6                                                        python                         
 k8s.io/api                                                                    v0.26.2                                                      go-module                      
-k8s.io/api                                                                    v0.31.2                                                      go-module                      
-k8s.io/api                                                                    v0.32.3                                                      go-module                      
+k8s.io/api                                                                    v0.32.3                                                      go-module     (+1 duplicate)   
 k8s.io/apimachinery                                                           v0.27.4                                                      go-module     (+1 duplicate)   
-k8s.io/apimachinery                                                           v0.31.2                                                      go-module                      
-k8s.io/apimachinery                                                           v0.32.3                                                      go-module                      
+k8s.io/apimachinery                                                           v0.32.3                                                      go-module     (+1 duplicate)   
 k8s.io/apiserver                                                              v0.26.2                                                      go-module                      
 k8s.io/client-go                                                              v0.26.2                                                      go-module                      
-k8s.io/client-go                                                              v0.31.2                                                      go-module                      
-k8s.io/client-go                                                              v0.32.3                                                      go-module                      
+k8s.io/client-go                                                              v0.32.3                                                      go-module     (+1 duplicate)   
 k8s.io/component-base                                                         v0.26.2                                                      go-module                      
 k8s.io/cri-api                                                                v0.27.1                                                      go-module                      
 k8s.io/klog/v2                                                                v2.130.1                                                     go-module     (+2 duplicates)  
 k8s.io/klog/v2                                                                v2.90.1                                                      go-module                      
-k8s.io/kube-openapi                                                           v0.0.0-20240228011516-70dd3763d340                           go-module                      
-k8s.io/kube-openapi                                                           v0.0.0-20241105132330-32ad38e42d3f                           go-module                      
+k8s.io/kube-openapi                                                           v0.0.0-20241105132330-32ad38e42d3f                           go-module     (+1 duplicate)   
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5                           go-module                      
-k8s.io/utils                                                                  v0.0.0-20240711033017-18e509b52bc8                           go-module                      
-k8s.io/utils                                                                  v0.0.0-20241104100929-3ea5e8cea738                           go-module                      
+k8s.io/utils                                                                  v0.0.0-20241104100929-3ea5e8cea738                           go-module     (+1 duplicate)   
 kactivitymanagerd                                                             6.3.4-1                                                      deb                            
 kaitaistruct                                                                  0.10                                                         python                         
 kali-archive-keyring                                                          2025.1                                                       deb                            
@@ -1439,8 +1421,8 @@ klibc-utils                                                                   2.
 kmod                                                                          34.2-2kali1                                                  deb                            
 knewstuff-dialog                                                              5.116.0-2                                                    deb                            
 kombu                                                                         5.5.3                                                        python                         
-konsole                                                                       4:25.04.0-2                                                  deb                            
-konsole-kpart                                                                 4:25.04.0-2                                                  deb                            
+konsole                                                                       4:25.04.2-1                                                  deb                            
+konsole-kpart                                                                 4:25.04.2-1                                                  deb                            
 kpackagetool5                                                                 5.116.0-1                                                    deb                            
 krb5-multidev                                                                 1.21.3-5                                                     deb                            
 ksystemstats                                                                  6.3.4-1                                                      deb                            
@@ -1460,7 +1442,7 @@ layer-shell-qt                                                                6.
 lazr-restfulclient                                                            0.14.6                                                       python                         
 lazr-uri                                                                      1.0.6                                                        python                         
 lbd                                                                           0.4-1kali3                                                   deb                            
-ldap-utils                                                                    2.6.9+dfsg-2                                                 deb                            
+ldap-utils                                                                    2.6.10+dfsg-1                                                deb                            
 ldap3                                                                         2.9.1                                                        python                         
 ldapdomaindump                                                                0.9.4                                                        python                         
 legacy-cgi                                                                    2.6.3                                                        python                         
@@ -1587,7 +1569,7 @@ libcloudproviders0                                                            0.
 libcodec2-1.2                                                                 1.2.0-3                                                      deb                            
 libcolorcorrect6                                                              4:6.3.5-1                                                    deb                            
 libcolord2                                                                    1.4.7-3                                                      deb                            
-libcom-err2                                                                   1.47.2-1+b1                                                  deb                            
+libcom-err2                                                                   1.47.2-3+b1                                                  deb                            
 libconfig-inifiles-perl                                                       3.000003-3                                                   deb                            
 libconfig11                                                                   1.7.3-2                                                      deb                            
 libcpuinfo0                                                                   0.0~git20250327.39ea79a-1                                    deb                            
@@ -1665,7 +1647,7 @@ libexiv2-28                                                                   0.
 libexiv2-data                                                                 0.28.5+dfsg-1                                                deb                            
 libexpat1                                                                     2.7.1-1                                                      deb                            
 libexpat1-dev                                                                 2.7.1-1                                                      deb                            
-libext2fs2t64                                                                 1.47.2-1+b1                                                  deb                            
+libext2fs2t64                                                                 1.47.2-3+b1                                                  deb                            
 libfaad2                                                                      2.11.2-1                                                     deb                            
 libfbclient2                                                                  4.0.5.3140.ds6-17                                            deb                            
 libfdisk1                                                                     2.41-5                                                       deb                            
@@ -1684,6 +1666,7 @@ libfmt10                                                                      10
 libfontconfig1                                                                2.15.0-2.3                                                   deb                            
 libfontenc1                                                                   1:1.1.8-1+b2                                                 deb                            
 libfreeaptx0                                                                  0.2.2-1                                                      deb                            
+libfreerdp-client3-3                                                          3.15.0+dfsg-2.1kali1                                         deb                            
 libfreerdp3-3                                                                 3.15.0+dfsg-2.1kali1                                         deb                            
 libfreetype6                                                                  2.13.3+dfsg-1                                                deb                            
 libfribidi0                                                                   1.0.16-1                                                     deb                            
@@ -1741,11 +1724,11 @@ libgspell-1-common                                                            1.
 libgssapi-krb5-2                                                              1.21.3-5                                                     deb                            
 libgssdp-1.6-0                                                                1.6.3-2                                                      deb                            
 libgssrpc4t64                                                                 1.21.3-5                                                     deb                            
-libgstreamer-gl1.0-0                                                          1.26.1-1                                                     deb                            
+libgstreamer-gl1.0-0                                                          1.26.2-1                                                     deb                            
 libgstreamer-plugins-bad1.0-0                                                 1.26.1-1                                                     deb                            
-libgstreamer-plugins-base1.0-0                                                1.26.1-1                                                     deb                            
-libgstreamer1.0-0                                                             1.26.1-1                                                     deb                            
-libgstreamer1.0-dev                                                           1.26.1-1                                                     deb                            
+libgstreamer-plugins-base1.0-0                                                1.26.2-1                                                     deb                            
+libgstreamer1.0-0                                                             1.26.2-1                                                     deb                            
+libgstreamer1.0-dev                                                           1.26.2-1                                                     deb                            
 libgtk-3-0t64                                                                 3.24.49-3                                                    deb                            
 libgtk-3-common                                                               3.24.49-3                                                    deb                            
 libgtkmm-3.0-1t64                                                             3.24.10-1                                                    deb                            
@@ -2082,7 +2065,7 @@ liblayershellqtinterface6                                                     6.
 liblc3-1                                                                      1.1.3+dfsg-1                                                 deb                            
 liblcms2-2                                                                    2.16-2                                                       deb                            
 libldacbt-enc2                                                                2.0.2.3+git20200429+ed310a0-5                                deb                            
-libldap2                                                                      2.6.9+dfsg-2                                                 deb                            
+libldap2                                                                      2.6.10+dfsg-1                                                deb                            
 libldb2                                                                       2:2.11.0+samba4.22.2+dfsg-1                                  deb                            
 liblerc4                                                                      4.0.0+ds-5                                                   deb                            
 liblilv-0-0                                                                   0.24.26-1                                                    deb                            
@@ -2223,7 +2206,7 @@ libpackagekitqt6-1                                                            1.
 libpam-modules                                                                1.7.0-3                                                      deb                            
 libpam-modules-bin                                                            1.7.0-3                                                      deb                            
 libpam-runtime                                                                1.7.0-3                                                      deb                            
-libpam-systemd                                                                257.5-2                                                      deb                            
+libpam-systemd                                                                257.6-1                                                      deb                            
 libpam0g                                                                      1.7.0-3                                                      deb                            
 libpango-1.0-0                                                                1.56.3-1                                                     deb                            
 libpangocairo-1.0-0                                                           1.56.3-1                                                     deb                            
@@ -2442,6 +2425,7 @@ libsigsegv2                                                                   2.
 libslang2                                                                     2.3.3-5+b2                                                   deb                            
 libsm6                                                                        2:1.2.6-1                                                    deb                            
 libsmartcols1                                                                 2.41-5                                                       deb                            
+libsmb2-6                                                                     6.2+dfsg-2                                                   deb                            
 libsmbclient0                                                                 2:4.22.2+dfsg-1                                              deb                            
 libsmi2t64                                                                    0.4.8+dfsg2-17+b1                                            deb                            
 libsnappy1v5                                                                  1.2.2-1                                                      deb                            
@@ -2487,8 +2471,8 @@ libswscale8                                                                   7:
 libsybdb5                                                                     1.3.17+ds-2+b5                                               deb                            
 libsyn123-0t64                                                                1.32.10-1                                                    deb                            
 libsysprof-capture-4-dev                                                      48.0-2                                                       deb                            
-libsystemd-shared                                                             257.5-2                                                      deb                            
-libsystemd0                                                                   257.5-2                                                      deb                            
+libsystemd-shared                                                             257.6-1                                                      deb                            
+libsystemd0                                                                   257.6-1                                                      deb                            
 libtag2                                                                       2.0.2-2                                                      deb                            
 libtalloc2                                                                    2:2.4.3+samba4.22.2+dfsg-1                                   deb                            
 libtaskmanager6                                                               4:6.3.5-1                                                    deb                            
@@ -2535,7 +2519,7 @@ libtwolame0                                                                   0.
 libubertooth1                                                                 2020.12.R1-0kali3                                            deb                            
 libubsan1                                                                     14.2.0-19                                                    deb                            
 libuchardet0                                                                  0.0.8-1+b2                                                   deb                            
-libudev1                                                                      257.5-2                                                      deb                            
+libudev1                                                                      257.6-1                                                      deb                            
 libudfread0                                                                   1.1.2-1+b2                                                   deb                            
 libudisks2-0                                                                  2.10.1-12.1                                                  deb                            
 libunibreak6                                                                  6.1-3                                                        deb                            
@@ -2722,7 +2706,7 @@ logging                                                                       2.
 logging                                                                       2.4.0                                                        gem                            
 login                                                                         1:4.16.0-2+really2.41-5                                      deb                            
 login.defs                                                                    1:4.17.4-2                                                   deb                            
-logsave                                                                       1.47.2-1+b1                                                  deb                            
+logsave                                                                       1.47.2-3+b1                                                  deb                            
 loofah                                                                        2.24.1                                                       gem                            
 looks                                                                         2.2.0                                                        java-archive                   
 lsassy                                                                        3.1.11                                                       python                         
@@ -2760,7 +2744,7 @@ md2pdf                                                                        1.
 mdurl                                                                         0.1.2                                                        python                         
 mechanize                                                                     0.4.10                                                       python                         
 media-types                                                                   13.0.0                                                       deb                            
-medusa                                                                        2.3~rc1-2                                                    deb                            
+medusa                                                                        2.3-2                                                        deb                            
 mesa-libgallium                                                               25.0.5-2                                                     deb                            
 mesa-va-drivers                                                               25.0.5-2                                                     deb                            
 mesa-vulkan-drivers                                                           25.0.5-2                                                     deb                            
@@ -3007,7 +2991,7 @@ pip                                                                           25
 pipal                                                                         3.4.0-0kali1                                                 deb                            
 pipx                                                                          1.7.1                                                        python                         
 pipx                                                                          1.7.1-1                                                      deb                            
-pixelflux                                                                     1.1.0                                                        python                         
+pixelflux                                                                     1.1.1                                                        python                         
 pixiewps                                                                      1.4.2-5                                                      deb                            
 pkexec                                                                        126-2+kali1                                                  deb                            
 pkg-config                                                                    1.5.9                                                        gem                            
@@ -3314,7 +3298,7 @@ python3-jaraco.context                                                        6.
 python3-jaraco.functools                                                      4.1.0-1                                                      deb                            
 python3-jaraco.text                                                           4.0.0-1                                                      deb                            
 python3-jinja2                                                                3.1.6-1                                                      deb                            
-python3-jq                                                                    1.8.0+dfsg-1+b2                                              deb                            
+python3-jq                                                                    1.8.0+dfsg-2                                                 deb                            
 python3-jsonschema                                                            4.19.2-6                                                     deb                            
 python3-jsonschema-specifications                                             2023.12.1-2                                                  deb                            
 python3-jwcrypto                                                              1.5.6-1                                                      deb                            
@@ -3854,11 +3838,10 @@ sh                                                                            2.
 shared-mime-info                                                              2.4-5+b2                                                     deb                            
 shellwords                                                                    0.2.0                                                        gem                            
 shodan                                                                        1.31.0                                                       python                         
-sigs.k8s.io/json                                                              v0.0.0-20221116044647-bc3834ca7abd                           go-module     (+1 duplicate)   
-sigs.k8s.io/json                                                              v0.0.0-20241010143419-9aa6b5e7a4b3                           go-module                      
+sigs.k8s.io/json                                                              v0.0.0-20221116044647-bc3834ca7abd                           go-module                      
+sigs.k8s.io/json                                                              v0.0.0-20241010143419-9aa6b5e7a4b3                           go-module     (+1 duplicate)   
 sigs.k8s.io/structured-merge-diff/v4                                          v4.2.3                                                       go-module                      
-sigs.k8s.io/structured-merge-diff/v4                                          v4.4.1                                                       go-module                      
-sigs.k8s.io/structured-merge-diff/v4                                          v4.4.2                                                       go-module                      
+sigs.k8s.io/structured-merge-diff/v4                                          v4.4.2                                                       go-module     (+1 duplicate)   
 sigs.k8s.io/yaml                                                              v1.3.0                                                       go-module     (+1 duplicate)   
 sigs.k8s.io/yaml                                                              v1.4.0                                                       go-module     (+2 duplicates)  
 simple-websocket                                                              1.1.0                                                        python                         
@@ -3920,7 +3903,7 @@ stdlib                                                                        go
 stdlib                                                                        go1.22.6                                                     go-module                      
 stdlib                                                                        go1.23.7                                                     go-module     (+5 duplicates)  
 stdlib                                                                        go1.24.2                                                     go-module     (+1 duplicate)   
-stdlib                                                                        go1.24.3                                                     go-module     (+4 duplicates)  
+stdlib                                                                        go1.24.4                                                     go-module     (+4 duplicates)  
 stix2                                                                         3.0.1                                                        python                         
 stix2-patterns                                                                2.0.0                                                        python                         
 stone                                                                         3.3.8                                                        python                         
@@ -3938,8 +3921,8 @@ sympy                                                                         1.
 syntax_suggest                                                                2.0.1                                                        gem                            
 syslog                                                                        0.1.2                                                        gem                            
 syslog-rfc5424-formatter                                                      1.2.3                                                        python                         
-systemd                                                                       257.5-2                                                      deb                            
-systemd-sysv                                                                  257.5-2                                                      deb                            
+systemd                                                                       257.6-1                                                      deb                            
+systemd-sysv                                                                  257.6-1                                                      deb                            
 systemsettings                                                                4:6.3.4-2                                                    deb                            
 sysvinit-utils                                                                3.14-4                                                       deb                            
 tabulate                                                                      0.9.0                                                        python                         
@@ -4016,7 +3999,7 @@ u-msgpack-python                                                              2.
 uc-micro-py                                                                   1.0.3                                                        python                         
 ucf                                                                           3.0052                                                       deb                            
 ucp                                                                           19.6.0.0.0                                                   java-archive                   
-udev                                                                          257.5-2                                                      deb                            
+udev                                                                          257.6-1                                                      deb                            
 udisks2                                                                       2.10.1-12.1                                                  deb                            
 udptunnel                                                                     1.1-12                                                       deb                            
 ufolib2                                                                       0.17.1                                                       python                         
@@ -4096,7 +4079,7 @@ wget                                                                          1.
 whatweb                                                                       0.5.5-1                                                      deb                            
 wheel                                                                         0.45.1                                                       python                         
 wheel                                                                         0.46.1                                                       python                         
-whois                                                                         5.6.1                                                        deb                            
+whois                                                                         5.6.2                                                        deb                            
 wifite                                                                        2.7.0                                                        python                         
 wifite                                                                        2.7.0-3                                                      deb                            
 win32api                                                                      0.1.0                                                        gem                            
@@ -4184,7 +4167,7 @@ zope-deprecation                                                              5.
 zope-event                                                                    5.0                                                          python                         
 zope-interface                                                                7.2                                                          python                         
 zopfli                                                                        0.2.3.post1                                                  python                         
-zsh                                                                           5.9-8+b10                                                    deb                            
+zsh                                                                           5.9-8+b11                                                    deb                            
 zsh-autosuggestions                                                           0.7.1-1                                                      deb                            
 zsh-common                                                                    5.9-8                                                        deb                            
 zsh-syntax-highlighting                                                       0.8.0-2                                                      deb                            
