@@ -1356,8 +1356,8 @@ k8s.io/utils                                                                  v0
 kactivitymanagerd                                                             6.3.4-1                                                      deb                            
 kaitaistruct                                                                  0.10                                                         python                         
 kali-archive-keyring                                                          2025.1                                                       deb                            
-kali-defaults                                                                 2025.2.4                                                     deb                            
-kali-defaults-desktop                                                         2025.2.4                                                     deb                            
+kali-defaults                                                                 2025.3.0                                                     deb                            
+kali-defaults-desktop                                                         2025.3.0                                                     deb                            
 kali-desktop-core                                                             2025.3.0                                                     deb                            
 kali-desktop-kde                                                              2025.3.0                                                     deb                            
 kali-grant-root                                                               2024.4.0                                                     deb                            
@@ -2991,7 +2991,7 @@ pip                                                                           25
 pipal                                                                         3.4.0-0kali1                                                 deb                            
 pipx                                                                          1.7.1                                                        python                         
 pipx                                                                          1.7.1-1                                                      deb                            
-pixelflux                                                                     1.1.1                                                        python                         
+pixelflux                                                                     1.1.2                                                        python                         
 pixiewps                                                                      1.4.2-5                                                      deb                            
 pkexec                                                                        126-2+kali1                                                  deb                            
 pkg-config                                                                    1.5.9                                                        gem                            
@@ -3083,7 +3083,7 @@ pydot                                                                         2.
 pydyf                                                                         0.11.0                                                       python                         
 pyee                                                                          13.0.0                                                       python                         
 pyexploitdb                                                                   0.2.85                                                       python                         
-pyfiglet                                                                      1.0.2                                                        python                         
+pyfiglet                                                                      1.0.3                                                        python                         
 pygame                                                                        2.6.1                                                        python                         
 pygexf                                                                        0.2.2                                                        python                         
 pygments                                                                      2.18.0                                                       python                         
@@ -3416,7 +3416,7 @@ python3-pydot                                                                 2.
 python3-pydyf                                                                 0.11.0-5                                                     deb                            
 python3-pyee                                                                  13.0.0-1                                                     deb                            
 python3-pyexploitdb                                                           0.2.85-0kali1                                                deb                            
-python3-pyfiglet                                                              1.0.2+dfsg-1                                                 deb                            
+python3-pyfiglet                                                              1.0.3+dfsg-1                                                 deb                            
 python3-pygame                                                                2.6.1-1+b2                                                   deb                            
 python3-pygments                                                              2.18.0+dfsg-2                                                deb                            
 python3-pyinstaller                                                           6.13.0+ds-2                                                  deb                            
