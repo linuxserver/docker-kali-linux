@@ -329,9 +329,9 @@ apache2-data                                                                  2.
 apache2-utils                                                                 2.4.63-1                                                     deb                            
 apispec                                                                       6.8.1                                                        python                         
 apispec-webframeworks                                                         0.5.2                                                        python                         
-apt                                                                           3.0.2+kali1                                                  deb                            
-apt-transport-https                                                           3.0.2+kali1                                                  deb                            
-apt-utils                                                                     3.0.2+kali1                                                  deb                            
+apt                                                                           3.0.3+kali1                                                  deb                            
+apt-transport-https                                                           3.0.3+kali1                                                  deb                            
+apt-utils                                                                     3.0.3+kali1                                                  deb                            
 arc4                                                                          0.3.0                                                        python                         
 arel-helpers                                                                  2.16.0                                                       gem                            
 argcomplete                                                                   3.6.2                                                        python                         
@@ -505,7 +505,7 @@ cssselect2                                                                    0.
 csv                                                                           3.2.8                                                        gem                            
 csv                                                                           3.3.4                                                        gem                            
 csv                                                                           3.3.5                                                        gem                            
-curl                                                                          8.14.1-1                                                     deb                            
+curl                                                                          8.14.1-2                                                     deb                            
 curlftpfs                                                                     0.9.2-10                                                     deb                            
 cutycapt                                                                      0.0+20200623-1                                               deb                            
 cvss                                                                          3.2                                                          python                         
@@ -564,16 +564,16 @@ dnspython                                                                     2.
 dnsrecon                                                                      1.2.0-3                                                      deb                            
 dnsruby                                                                       1.72.4                                                       gem                            
 docker-buildx-plugin                                                          0.25.0-1~debian.12~bookworm                                  deb                            
-docker-ce                                                                     5:28.3.0-1~debian.12~bookworm                                deb                            
-docker-ce-cli                                                                 5:28.3.0-1~debian.12~bookworm                                deb                            
-docker-compose-plugin                                                         2.37.3-1~debian.12~bookworm                                  deb                            
+docker-ce                                                                     5:28.3.1-1~debian.12~bookworm                                deb                            
+docker-ce-cli                                                                 5:28.3.1-1~debian.12~bookworm                                deb                            
+docker-compose-plugin                                                         2.38.1-1~debian.12~bookworm                                  deb                            
 docopt                                                                        0.6.2                                                        python                         
 dolphin                                                                       4:25.04.2-1                                                  deb                            
 dolphin-data                                                                  4:25.04.2-1                                                  deb                            
 domain_name                                                                   0.6.20240107                                                 gem           (+1 duplicate)   
 donut-shellcode                                                               1.1                                                          python                         
 dos2unix                                                                      7.5.2-1                                                      deb                            
-dpkg                                                                          1.22.18+kali1                                                deb                            
+dpkg                                                                          1.22.20+kali1                                                deb                            
 dploot                                                                        3.1.2                                                        python                         
 dracut-install                                                                106-6                                                        deb                            
 dragonplayer                                                                  4:25.04.0-3                                                  deb                            
@@ -675,7 +675,7 @@ fonts-firacode                                                                6.
 fonts-font-awesome                                                            5.0.10+really4.7.0~dfsg-4.1                                  deb                            
 fonts-freefont-ttf                                                            20211204+svn4273-2                                           deb                            
 fonts-noto-cjk                                                                1:20240730+repack1-1                                         deb                            
-fonts-noto-color-emoji                                                        2.047-1                                                      deb                            
+fonts-noto-color-emoji                                                        2.048-1                                                      deb                            
 fonts-noto-core                                                               20201225-2                                                   deb                            
 fonts-noto-mono                                                               20201225-2                                                   deb                            
 fonts-urw-base35                                                              20200910-8                                                   deb                            
@@ -791,7 +791,7 @@ github.com/cilium/ebpf                                                        v0
 github.com/cjoudrey/gluaurl                                                   v0.0.0-20161028222611-31cbb9bef199                           go-module                      
 github.com/cloudflare/cfssl                                                   v1.6.4                                                       go-module                      
 github.com/compose-spec/compose-go/v2                                         v2.6.3                                                       go-module                      
-github.com/compose-spec/compose-go/v2                                         v2.6.5                                                       go-module                      
+github.com/compose-spec/compose-go/v2                                         v2.7.1                                                       go-module                      
 github.com/container-storage-interface/spec                                   v1.5.0                                                       go-module                      
 github.com/containerd/accelerated-container-image                             v1.3.0                                                       go-module                      
 github.com/containerd/aufs                                                    v1.0.0                                                       go-module                      
@@ -844,13 +844,15 @@ github.com/dimchansky/utfbom                                                  v1
 github.com/distribution/reference                                             v0.6.0                                                       go-module     (+4 duplicates)  
 github.com/docker/buildx                                                      UNKNOWN                                                      go-module                      
 github.com/docker/buildx                                                      v0.25.0                                                      go-module                      
-github.com/docker/cli                                                         v28.2.2+incompatible                                         go-module     (+1 duplicate)   
+github.com/docker/cli                                                         v28.2.2+incompatible                                         go-module                      
+github.com/docker/cli                                                         v28.3.0+incompatible                                         go-module                      
 github.com/docker/cli-docs-tool                                               v0.10.0                                                      go-module     (+1 duplicate)   
 github.com/docker/cli/cmd/docker                                              UNKNOWN                                                      go-module                      
 github.com/docker/compose/v2                                                  UNKNOWN                                                      go-module                      
 github.com/docker/distribution                                                v2.8.3+incompatible                                          go-module     (+1 duplicate)   
-github.com/docker/docker                                                      v28.2.2+incompatible                                         go-module     (+1 duplicate)   
-github.com/docker/docker                                                      v28.3.0                                                      go-module     (+1 duplicate)   
+github.com/docker/docker                                                      v28.2.2+incompatible                                         go-module                      
+github.com/docker/docker                                                      v28.3.0+incompatible                                         go-module                      
+github.com/docker/docker                                                      v28.3.1                                                      go-module     (+1 duplicate)   
 github.com/docker/docker-credential-helpers                                   v0.9.3                                                       go-module     (+1 duplicate)   
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c                       go-module                      
 github.com/docker/go-connections                                              v0.5.0                                                       go-module     (+2 duplicates)  
@@ -970,7 +972,8 @@ github.com/mitchellh/hashstructure/v2                                         v2
 github.com/mitchellh/mapstructure                                             v1.5.0                                                       go-module                      
 github.com/mitchellh/reflectwalk                                              v1.0.2                                                       go-module                      
 github.com/moby/buildkit                                                      v0.23.0                                                      go-module                      
-github.com/moby/buildkit                                                      v0.23.1                                                      go-module     (+1 duplicate)   
+github.com/moby/buildkit                                                      v0.23.1                                                      go-module                      
+github.com/moby/buildkit                                                      v0.23.2                                                      go-module                      
 github.com/moby/docker-image-spec                                             v1.3.1                                                       go-module     (+2 duplicates)  
 github.com/moby/go-archive                                                    v0.1.0                                                       go-module     (+2 duplicates)  
 github.com/moby/ipvs                                                          v1.1.0                                                       go-module                      
@@ -1063,7 +1066,7 @@ github.com/tilt-dev/fsnotify                                                  v1
 github.com/tinylib/msgp                                                       v1.1.8                                                       go-module                      
 github.com/tonistiigi/dchapes-mode                                            v0.0.0-20250318174251-73d941a28323                           go-module     (+2 duplicates)  
 github.com/tonistiigi/fsutil                                                  v0.0.0-20250605211040-586307ad452f                           go-module     (+2 duplicates)  
-github.com/tonistiigi/go-actions-cache                                        v0.0.0-20250611155157-388a2ec8cdf8                           go-module                      
+github.com/tonistiigi/go-actions-cache                                        v0.0.0-20250626083717-378c5ed1ddd9                           go-module                      
 github.com/tonistiigi/go-archvariant                                          v1.0.0                                                       go-module                      
 github.com/tonistiigi/go-csvvalue                                             v0.0.0-20240814133006-030d3b2625d0                           go-module     (+2 duplicates)  
 github.com/tonistiigi/jaeger-ui-rest                                          v0.0.0-20250408171107-3dd17559e117                           go-module                      
@@ -1343,19 +1346,19 @@ kaitaistruct                                                                  0.
 kali-archive-keyring                                                          2025.1                                                       deb                            
 kali-defaults                                                                 2025.3.0                                                     deb                            
 kali-defaults-desktop                                                         2025.3.0                                                     deb                            
-kali-desktop-core                                                             2025.3.0                                                     deb                            
-kali-desktop-kde                                                              2025.3.0                                                     deb                            
+kali-desktop-core                                                             2025.3.1                                                     deb                            
+kali-desktop-kde                                                              2025.3.1                                                     deb                            
 kali-grant-root                                                               2024.4.0                                                     deb                            
-kali-linux-core                                                               2025.3.0                                                     deb                            
-kali-linux-default                                                            2025.3.0                                                     deb                            
-kali-linux-headless                                                           2025.3.0                                                     deb                            
+kali-linux-core                                                               2025.3.1                                                     deb                            
+kali-linux-default                                                            2025.3.1                                                     deb                            
+kali-linux-headless                                                           2025.3.1                                                     deb                            
 kali-menu                                                                     2025.3.0                                                     deb                            
-kali-system-cli                                                               2025.3.0                                                     deb                            
-kali-system-core                                                              2025.3.0                                                     deb                            
-kali-system-gui                                                               2025.3.0                                                     deb                            
+kali-system-cli                                                               2025.3.1                                                     deb                            
+kali-system-core                                                              2025.3.1                                                     deb                            
+kali-system-gui                                                               2025.3.1                                                     deb                            
 kali-themes                                                                   2025.3.1                                                     deb                            
 kali-themes-common                                                            2025.3.1                                                     deb                            
-kali-tools-top10                                                              2025.3.0                                                     deb                            
+kali-tools-top10                                                              2025.3.1                                                     deb                            
 kali-wallpapers-2025                                                          2025.1.2                                                     deb                            
 kate                                                                          4:25.04.2-1                                                  deb                            
 kate-data                                                                     4:25.04.2-1                                                  deb                            
@@ -1371,7 +1374,7 @@ kded5                                                                         5.
 kded6                                                                         6.13.0-1                                                     deb                            
 kdeplasma-addons-data                                                         4:6.3.5-1                                                    deb                            
 kdialog                                                                       4:25.04.0-1                                                  deb                            
-keyboard-configuration                                                        1.237                                                        deb                            
+keyboard-configuration                                                        1.239                                                        deb                            
 keyutils                                                                      1.6.3-6                                                      deb                            
 kf6-breeze-icon-theme                                                         6.13.0-3                                                     deb                            
 kfind                                                                         4:25.04.0-1                                                  deb                            
@@ -1454,7 +1457,7 @@ libapr1t64                                                                    1.
 libaprutil1-dbd-sqlite3                                                       1.6.3-3+b1                                                   deb                            
 libaprutil1-ldap                                                              1.6.3-3+b1                                                   deb                            
 libaprutil1t64                                                                1.6.3-3+b1                                                   deb                            
-libapt-pkg7.0                                                                 3.0.2+kali1                                                  deb                            
+libapt-pkg7.0                                                                 3.0.3+kali1                                                  deb                            
 libarchive13t64                                                               3.7.4-3                                                      deb                            
 libargon2-1                                                                   0~20190702+dfsg-4+b2                                         deb                            
 libaribb24-0t64                                                               1.0.3-2.1+b2                                                 deb                            
@@ -1514,19 +1517,19 @@ libbtbb1                                                                      20
 libbytesize-common                                                            2.11-2                                                       deb                            
 libbytesize1                                                                  2.11-2                                                       deb                            
 libbz2-1.0                                                                    1.0.8-6                                                      deb                            
-libc-bin                                                                      2.41-6                                                       deb                            
-libc-dev-bin                                                                  2.41-6                                                       deb                            
-libc-l10n                                                                     2.41-6                                                       deb                            
-libc6                                                                         2.41-6                                                       deb                            
-libc6-dev                                                                     2.41-6                                                       deb                            
+libc-bin                                                                      2.41-9                                                       deb                            
+libc-dev-bin                                                                  2.41-9                                                       deb                            
+libc-l10n                                                                     2.41-9                                                       deb                            
+libc6                                                                         2.41-9                                                       deb                            
+libc6-dev                                                                     2.41-9                                                       deb                            
 libcaca0                                                                      0.99.beta20-5                                                deb                            
 libcairo-gobject2                                                             1.18.4-1+b1                                                  deb                            
 libcairo2                                                                     1.18.4-1+b1                                                  deb                            
 libcairomm-1.0-1v5                                                            1.14.5-2+b1                                                  deb                            
 libcanberra0                                                                  0.30-18                                                      deb                            
 libcap-ng0                                                                    0.8.5-4+b1                                                   deb                            
-libcap2                                                                       1:2.75-8                                                     deb                            
-libcap2-bin                                                                   1:2.75-8                                                     deb                            
+libcap2                                                                       1:2.75-9                                                     deb                            
+libcap2-bin                                                                   1:2.75-9                                                     deb                            
 libcapstone5                                                                  5.0.6-1                                                      deb                            
 libcares2                                                                     1.34.5-1                                                     deb                            
 libcbor0.10                                                                   0.10.2-2                                                     deb                            
@@ -1561,9 +1564,9 @@ libct4                                                                        1.
 libctf-nobfd0                                                                 2.44-3                                                       deb                            
 libctf0                                                                       2.44-3                                                       deb                            
 libcups2t64                                                                   2.4.10-3                                                     deb                            
-libcurl3t64-gnutls                                                            8.14.1-1                                                     deb                            
-libcurl4t64                                                                   8.14.1-1                                                     deb                            
-libdate-manip-perl                                                            6.97-1                                                       deb                            
+libcurl3t64-gnutls                                                            8.14.1-2                                                     deb                            
+libcurl4t64                                                                   8.14.1-2                                                     deb                            
+libdate-manip-perl                                                            6.98-1                                                       deb                            
 libdatrie1                                                                    0.2.13-3+b1                                                  deb                            
 libdav1d7                                                                     1.5.1-1                                                      deb                            
 libdb5.3t64                                                                   5.3.28+dfsg2-9                                               deb                            
@@ -1584,7 +1587,7 @@ libdisplay-info2                                                              0.
 libdmtx0t64                                                                   0.7.7-1.2+b1                                                 deb                            
 libdolphinvcs6                                                                4:25.04.2-1                                                  deb                            
 libdouble-conversion3                                                         3.3.1-1                                                      deb                            
-libdpkg-perl                                                                  1.22.18+kali1                                                deb                            
+libdpkg-perl                                                                  1.22.20+kali1                                                deb                            
 libdrm-amdgpu1                                                                2.4.124-2                                                    deb                            
 libdrm-common                                                                 2.4.124-2                                                    deb                            
 libdrm-intel1                                                                 2.4.124-2                                                    deb                            
@@ -2626,13 +2629,13 @@ libzxing3                                                                     2.
 limits                                                                        4.4.1                                                        python                         
 linkify-it-py                                                                 2.0.3                                                        python                         
 linux-base                                                                    4.12                                                         deb                            
-linux-libc-dev                                                                6.12.25-1kali1                                               deb                            
+linux-libc-dev                                                                6.12.33-1kali1                                               deb                            
 little-plugger                                                                1.1.4                                                        gem           (+1 duplicate)   
 llvm-18-linker-tools                                                          1:18.1.8-18+b1                                               deb                            
 llvm-19-linker-tools                                                          1:19.1.7-3+b1                                                deb                            
 llvm-spirv-18                                                                 18.1.11-1                                                    deb                            
-locales                                                                       2.41-6                                                       deb                            
-locales-all                                                                   2.41-6                                                       deb                            
+locales                                                                       2.41-9                                                       deb                            
+locales-all                                                                   2.41-9                                                       deb                            
 logger                                                                        1.6.0                                                        gem                            
 logger                                                                        1.6.6                                                        gem                            
 logging                                                                       2.1.0.48                                                     gem                            
@@ -2919,7 +2922,7 @@ php8.4-mysql                                                                  8.
 php8.4-opcache                                                                8.4.8-1                                                      deb                            
 php8.4-readline                                                               8.4.8-1                                                      deb                            
 pillow                                                                        11.1.0                                                       python                         
-pillow                                                                        11.2.1                                                       python                         
+pillow                                                                        11.3.0                                                       python                         
 pinentry-curses                                                               1.3.1-2                                                      deb                            
 pip                                                                           25.1.1                                                       python                         
 pipal                                                                         3.4.0-0kali1                                                 deb                            
@@ -4060,10 +4063,10 @@ xmlrpc                                                                        0.
 xmltodict                                                                     0.13.0                                                       python                         
 xorg-sgml-doctools                                                            1:1.11-1.1                                                   deb                            
 xsel                                                                          1.2.1-1                                                      deb                            
-xserver-common                                                                2:21.1.16-1.1                                                deb                            
-xserver-xephyr                                                                2:21.1.16-1.1                                                deb                            
-xserver-xorg-core                                                             2:21.1.16-1.1                                                deb                            
-xserver-xorg-legacy                                                           2:21.1.16-1.1                                                deb                            
+xserver-common                                                                2:21.1.16-1.3                                                deb                            
+xserver-xephyr                                                                2:21.1.16-1.3                                                deb                            
+xserver-xorg-core                                                             2:21.1.16-1.3                                                deb                            
+xserver-xorg-legacy                                                           2:21.1.16-1.3                                                deb                            
 xserver-xorg-video-amdgpu                                                     23.0.0-1                                                     deb                            
 xserver-xorg-video-ati                                                        1:22.0.0-1                                                   deb                            
 xserver-xorg-video-intel                                                      2:2.99.917+git20210115-1                                     deb                            
@@ -4076,7 +4079,7 @@ xterm                                                                         39
 xtightvncviewer                                                               1:1.3.10-9                                                   deb                            
 xtrans-dev                                                                    1.4.0-1                                                      deb                            
 xutils                                                                        1:7.7+24                                                     deb                            
-xvfb                                                                          2:21.1.16-1.1                                                deb                            
+xvfb                                                                          2:21.1.16-1.3                                                deb                            
 xwayland                                                                      2:24.1.6-1                                                   deb                            
 xxd                                                                           2:9.1.1230-2                                                 deb                            
 yajl-ruby                                                                     1.4.3                                                        gem                            
