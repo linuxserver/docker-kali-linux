@@ -2734,7 +2734,7 @@ msgpack                                                                       1.
 msldap                                                                        0.5.10                                                       python                         
 multi_json                                                                    1.15.0                                                       gem           (+1 duplicate)   
 multidict                                                                     6.4.3                                                        python                         
-multidict                                                                     6.6.3                                                        python                         
+multidict                                                                     6.6.4                                                        python                         
 multimac                                                                      1.0.3-1kali3                                                 deb                            
 multipart                                                                     1.2.1                                                        python                         
 mustermann                                                                    3.0.3                                                        gem                            
@@ -2924,7 +2924,7 @@ pip                                                                           25
 pipal                                                                         3.4.0-0kali1                                                 deb                            
 pipx                                                                          1.7.1                                                        python                         
 pipx                                                                          1.7.1-1                                                      deb                            
-pixelflux                                                                     1.3.1                                                        python                         
+pixelflux                                                                     1.3.2                                                        python                         
 pixiewps                                                                      1.4.2-5                                                      deb                            
 pkexec                                                                        126-2+kali1                                                  deb                            
 pkg-config                                                                    1.5.9                                                        gem                            
@@ -3014,7 +3014,7 @@ pydispatcher                                                                  2.
 pydot                                                                         2.0.0                                                        python                         
 pydyf                                                                         0.11.0                                                       python                         
 pyee                                                                          13.0.0                                                       python        (+1 duplicate)   
-pyexploitdb                                                                   0.2.85                                                       python                         
+pyexploitdb                                                                   0.2.93                                                       python                         
 pyfiglet                                                                      1.0.3                                                        python                         
 pygame                                                                        2.6.1                                                        python                         
 pygexf                                                                        0.2.2                                                        python                         
@@ -3348,7 +3348,7 @@ python3-pydispatch                                                            2.
 python3-pydot                                                                 2.0.0-3                                                      deb                            
 python3-pydyf                                                                 0.11.0-5                                                     deb                            
 python3-pyee                                                                  13.0.0-1                                                     deb                            
-python3-pyexploitdb                                                           0.2.85-0kali1                                                deb                            
+python3-pyexploitdb                                                           0.2.93-0kali1                                                deb                            
 python3-pyfiglet                                                              1.0.3+dfsg-1                                                 deb                            
 python3-pygame                                                                2.6.1-1+b2                                                   deb                            
 python3-pygments                                                              2.18.0+dfsg-2                                                deb                            
@@ -3948,7 +3948,7 @@ unicrypto                                                                     0.
 unidecode                                                                     1.4.0                                                        python                         
 unix-crypt                                                                    1.3.1                                                        gem                            
 unix-privesc-check                                                            1.4-0kali1                                                   deb                            
-unrar                                                                         1:7.1.8-1                                                    deb                            
+unrar                                                                         1:7.1.10-1                                                   deb                            
 unsigned                                                                      UNKNOWN                                                      java-archive                   
 unzip                                                                         6.0-29                                                       deb                            
 update-inetd                                                                  4.53                                                         deb                            
