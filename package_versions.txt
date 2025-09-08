@@ -21,12 +21,12 @@ Microsoft Azure.Identity Component                                            1.
 Microsoft.ApplicationInsights                                                 2.22.0                                                       dotnet                         
 Microsoft.Bcl.AsyncInterfaces                                                 8.0.0                                                        dotnet                         
 Microsoft.Bcl.AsyncInterfaces                                                 8.0.23.53103                                                 dotnet                         
-Microsoft.CSharp                                                              9.0.425.16305                                                dotnet                         
+Microsoft.CSharp                                                              9.0.625.26613                                                dotnet                         
 Microsoft.CodeAnalysis.CSharp                                                 4.11.0                                                       dotnet                         
 Microsoft.CodeAnalysis.Common                                                 4.11.0                                                       dotnet                         
 Microsoft.Extensions.FileProviders.Abstractions                               6.0.21.52210                                                 dotnet                         
 Microsoft.Extensions.FileSystemGlobbing                                       6.0.21.52210                                                 dotnet                         
-Microsoft.Extensions.ObjectPool                                               8.0.15                                                       dotnet                         
+Microsoft.Extensions.ObjectPool                                               8.0.17                                                       dotnet                         
 Microsoft.Extensions.Primitives                                               6.0.21.52210                                                 dotnet                         
 Microsoft.Identity.Client                                                     4.61.3.0                                                     dotnet                         
 Microsoft.Identity.Client.Extensions.Msal                                     4.61.3.0                                                     dotnet                         
@@ -37,25 +37,25 @@ Microsoft.PackageManagement                                                   3.
 Microsoft.PackageManagement.Archivers                                         3.0.0.0                                                      dotnet                         
 Microsoft.PackageManagement.MetaProvider.PowerShell                           3.0.0.0                                                      dotnet                         
 Microsoft.PackageManagement.NuGetProvider                                     3.0.0.2                                                      dotnet                         
-Microsoft.PowerShell.Commands.Management                                      7.5.1                                                        dotnet                         
-Microsoft.PowerShell.Commands.Utility                                         7.5.1                                                        dotnet                         
-Microsoft.PowerShell.ConsoleHost                                              7.5.1                                                        dotnet                         
+Microsoft.PowerShell.Commands.Management                                      7.5.2                                                        dotnet                         
+Microsoft.PowerShell.Commands.Utility                                         7.5.2                                                        dotnet                         
+Microsoft.PowerShell.ConsoleHost                                              7.5.2                                                        dotnet                         
 Microsoft.PowerShell.MarkdownRender                                           7.2.1                                                        dotnet                         
 Microsoft.PowerShell.Native                                                   7.4.0                                                        dotnet                         
 Microsoft.PowerShell.PSReadLine.Polyfiller                                    1.0.0.0                                                      dotnet        (+1 duplicate)   
 Microsoft.PowerShell.PSReadLine2                                              2.3.6+d2e770f93b7a53d8660a6402eb29d1ae1c35e767               dotnet                         
 Microsoft.PowerShell.PSResourceGet                                            1.1.0.1+44697aed1740126153a8d9dd0ef368261b2fe45c             dotnet                         
 Microsoft.PowerShell.Pager                                                    1.0.0.0                                                      dotnet                         
-Microsoft.PowerShell.SDK                                                      7.5.1                                                        dotnet                         
-Microsoft.PowerShell.Security                                                 7.5.1                                                        dotnet                         
+Microsoft.PowerShell.SDK                                                      7.5.2                                                        dotnet                         
+Microsoft.PowerShell.Security                                                 7.5.2                                                        dotnet                         
 Microsoft.PowerShell.ThreadJob                                                2.0.1                                                        dotnet                         
-Microsoft.VisualBasic                                                         9.0.425.16305                                                dotnet                         
-Microsoft.VisualBasic.Core                                                    14.0.425.16305                                               dotnet                         
-Microsoft.Win32.Primitives                                                    9.0.425.16305                                                dotnet                         
-Microsoft.Win32.Registry                                                      9.0.425.16305                                                dotnet                         
-Microsoft.Win32.Registry.AccessControl                                        9.0.4                                                        dotnet                         
-Microsoft.Win32.SystemEvents                                                  9.0.4                                                        dotnet                         
-Microsoft.Windows.Compatibility                                               9.0.4                                                        dotnet                         
+Microsoft.VisualBasic                                                         9.0.625.26613                                                dotnet                         
+Microsoft.VisualBasic.Core                                                    14.0.625.26613                                               dotnet                         
+Microsoft.Win32.Primitives                                                    9.0.625.26613                                                dotnet                         
+Microsoft.Win32.Registry                                                      9.0.625.26613                                                dotnet                         
+Microsoft.Win32.Registry.AccessControl                                        9.0.6                                                        dotnet                         
+Microsoft.Win32.SystemEvents                                                  9.0.6                                                        dotnet                         
+Microsoft.Windows.Compatibility                                               9.0.6                                                        dotnet                         
 Newtonsoft.Json                                                               13.0.3                                                       dotnet                         
 NuGet.Commands                                                                6.9.1.3                                                      dotnet                         
 NuGet.Common                                                                  6.9.1.3                                                      dotnet                         
@@ -73,213 +73,213 @@ PackageManagement                                                             3.
 SharpHound                                                                    1.1.0                                                        dotnet                         
 SilverApp1                                                                    1.0.0.0                                                      dotnet                         
 SqlClrPayload                                                                 1.0.0.0                                                      dotnet        (+7 duplicates)  
-System                                                                        9.0.425.16305                                                dotnet                         
-System.AppContext                                                             9.0.425.16305                                                dotnet                         
+System                                                                        9.0.625.26613                                                dotnet                         
+System.AppContext                                                             9.0.625.26613                                                dotnet                         
 System.Buffers                                                                4.6.28619.01                                                 dotnet                         
-System.Buffers                                                                9.0.425.16305                                                dotnet                         
-System.CodeDom                                                                9.0.4                                                        dotnet                         
-System.Collections                                                            9.0.425.16305                                                dotnet                         
-System.Collections.Concurrent                                                 9.0.425.16305                                                dotnet                         
-System.Collections.Immutable                                                  9.0.425.16305                                                dotnet                         
-System.Collections.NonGeneric                                                 9.0.425.16305                                                dotnet                         
-System.Collections.Specialized                                                9.0.425.16305                                                dotnet                         
-System.ComponentModel                                                         9.0.425.16305                                                dotnet                         
-System.ComponentModel.Annotations                                             9.0.425.16305                                                dotnet                         
-System.ComponentModel.Composition                                             9.0.4                                                        dotnet                         
-System.ComponentModel.Composition.Registration                                9.0.4                                                        dotnet                         
-System.ComponentModel.DataAnnotations                                         9.0.425.16305                                                dotnet                         
-System.ComponentModel.EventBasedAsync                                         9.0.425.16305                                                dotnet                         
-System.ComponentModel.Primitives                                              9.0.425.16305                                                dotnet                         
-System.ComponentModel.TypeConverter                                           9.0.425.16305                                                dotnet                         
-System.Configuration                                                          9.0.425.16305                                                dotnet                         
-System.Configuration.ConfigurationManager                                     9.0.4                                                        dotnet                         
-System.Console                                                                9.0.425.16305                                                dotnet                         
-System.Core                                                                   9.0.425.16305                                                dotnet                         
-System.Data                                                                   9.0.425.16305                                                dotnet                         
-System.Data.Common                                                            9.0.425.16305                                                dotnet                         
-System.Data.DataSetExtensions                                                 9.0.425.16305                                                dotnet                         
-System.Data.Odbc                                                              9.0.4                                                        dotnet                         
-System.Data.OleDb                                                             9.0.4                                                        dotnet                         
-System.Data.SqlClient                                                         4.8.6                                                        dotnet                         
-System.Diagnostics.Contracts                                                  9.0.425.16305                                                dotnet                         
-System.Diagnostics.Debug                                                      9.0.425.16305                                                dotnet                         
+System.Buffers                                                                9.0.625.26613                                                dotnet                         
+System.CodeDom                                                                9.0.6                                                        dotnet                         
+System.Collections                                                            9.0.625.26613                                                dotnet                         
+System.Collections.Concurrent                                                 9.0.625.26613                                                dotnet                         
+System.Collections.Immutable                                                  9.0.625.26613                                                dotnet                         
+System.Collections.NonGeneric                                                 9.0.625.26613                                                dotnet                         
+System.Collections.Specialized                                                9.0.625.26613                                                dotnet                         
+System.ComponentModel                                                         9.0.625.26613                                                dotnet                         
+System.ComponentModel.Annotations                                             9.0.625.26613                                                dotnet                         
+System.ComponentModel.Composition                                             9.0.6                                                        dotnet                         
+System.ComponentModel.Composition.Registration                                9.0.6                                                        dotnet                         
+System.ComponentModel.DataAnnotations                                         9.0.625.26613                                                dotnet                         
+System.ComponentModel.EventBasedAsync                                         9.0.625.26613                                                dotnet                         
+System.ComponentModel.Primitives                                              9.0.625.26613                                                dotnet                         
+System.ComponentModel.TypeConverter                                           9.0.625.26613                                                dotnet                         
+System.Configuration                                                          9.0.625.26613                                                dotnet                         
+System.Configuration.ConfigurationManager                                     9.0.6                                                        dotnet                         
+System.Console                                                                9.0.625.26613                                                dotnet                         
+System.Core                                                                   9.0.625.26613                                                dotnet                         
+System.Data                                                                   9.0.625.26613                                                dotnet                         
+System.Data.Common                                                            9.0.625.26613                                                dotnet                         
+System.Data.DataSetExtensions                                                 9.0.625.26613                                                dotnet                         
+System.Data.Odbc                                                              9.0.6                                                        dotnet                         
+System.Data.OleDb                                                             9.0.6                                                        dotnet                         
+System.Data.SqlClient                                                         4.9.0                                                        dotnet                         
+System.Diagnostics.Contracts                                                  9.0.625.26613                                                dotnet                         
+System.Diagnostics.Debug                                                      9.0.625.26613                                                dotnet                         
 System.Diagnostics.DiagnosticSource                                           6.0.1523.11507                                               dotnet                         
-System.Diagnostics.DiagnosticSource                                           9.0.425.16305                                                dotnet                         
-System.Diagnostics.EventLog                                                   9.0.4                                                        dotnet                         
-System.Diagnostics.FileVersionInfo                                            9.0.425.16305                                                dotnet                         
-System.Diagnostics.PerformanceCounter                                         9.0.4                                                        dotnet                         
-System.Diagnostics.Process                                                    9.0.425.16305                                                dotnet                         
-System.Diagnostics.StackTrace                                                 9.0.425.16305                                                dotnet                         
-System.Diagnostics.TextWriterTraceListener                                    9.0.425.16305                                                dotnet                         
-System.Diagnostics.Tools                                                      9.0.425.16305                                                dotnet                         
-System.Diagnostics.TraceSource                                                9.0.425.16305                                                dotnet                         
-System.Diagnostics.Tracing                                                    9.0.425.16305                                                dotnet                         
-System.DirectoryServices                                                      9.0.4                                                        dotnet                         
-System.DirectoryServices.AccountManagement                                    9.0.4                                                        dotnet                         
-System.DirectoryServices.Protocols                                            9.0.4                                                        dotnet                         
-System.Drawing                                                                9.0.425.16305                                                dotnet                         
-System.Drawing.Common                                                         9.0.4                                                        dotnet                         
-System.Drawing.Primitives                                                     9.0.425.16305                                                dotnet                         
-System.Dynamic.Runtime                                                        9.0.425.16305                                                dotnet                         
-System.Formats.Asn1                                                           9.0.425.16305                                                dotnet                         
-System.Formats.Tar                                                            9.0.425.16305                                                dotnet                         
-System.Globalization                                                          9.0.425.16305                                                dotnet                         
-System.Globalization.Calendars                                                9.0.425.16305                                                dotnet                         
-System.Globalization.Extensions                                               9.0.425.16305                                                dotnet                         
-System.IO                                                                     9.0.425.16305                                                dotnet                         
-System.IO.Compression                                                         9.0.425.16305                                                dotnet                         
-System.IO.Compression.Brotli                                                  9.0.425.16305                                                dotnet                         
-System.IO.Compression.FileSystem                                              9.0.425.16305                                                dotnet                         
-System.IO.Compression.ZipFile                                                 9.0.425.16305                                                dotnet                         
-System.IO.FileSystem                                                          9.0.425.16305                                                dotnet                         
+System.Diagnostics.DiagnosticSource                                           9.0.625.26613                                                dotnet                         
+System.Diagnostics.EventLog                                                   9.0.6                                                        dotnet                         
+System.Diagnostics.FileVersionInfo                                            9.0.625.26613                                                dotnet                         
+System.Diagnostics.PerformanceCounter                                         9.0.6                                                        dotnet                         
+System.Diagnostics.Process                                                    9.0.625.26613                                                dotnet                         
+System.Diagnostics.StackTrace                                                 9.0.625.26613                                                dotnet                         
+System.Diagnostics.TextWriterTraceListener                                    9.0.625.26613                                                dotnet                         
+System.Diagnostics.Tools                                                      9.0.625.26613                                                dotnet                         
+System.Diagnostics.TraceSource                                                9.0.625.26613                                                dotnet                         
+System.Diagnostics.Tracing                                                    9.0.625.26613                                                dotnet                         
+System.DirectoryServices                                                      9.0.6                                                        dotnet                         
+System.DirectoryServices.AccountManagement                                    9.0.6                                                        dotnet                         
+System.DirectoryServices.Protocols                                            9.0.6                                                        dotnet                         
+System.Drawing                                                                9.0.625.26613                                                dotnet                         
+System.Drawing.Common                                                         9.0.6                                                        dotnet                         
+System.Drawing.Primitives                                                     9.0.625.26613                                                dotnet                         
+System.Dynamic.Runtime                                                        9.0.625.26613                                                dotnet                         
+System.Formats.Asn1                                                           9.0.625.26613                                                dotnet                         
+System.Formats.Tar                                                            9.0.625.26613                                                dotnet                         
+System.Globalization                                                          9.0.625.26613                                                dotnet                         
+System.Globalization.Calendars                                                9.0.625.26613                                                dotnet                         
+System.Globalization.Extensions                                               9.0.625.26613                                                dotnet                         
+System.IO                                                                     9.0.625.26613                                                dotnet                         
+System.IO.Compression                                                         9.0.625.26613                                                dotnet                         
+System.IO.Compression.Brotli                                                  9.0.625.26613                                                dotnet                         
+System.IO.Compression.FileSystem                                              9.0.625.26613                                                dotnet                         
+System.IO.Compression.ZipFile                                                 9.0.625.26613                                                dotnet                         
+System.IO.FileSystem                                                          9.0.625.26613                                                dotnet                         
 System.IO.FileSystem.AccessControl                                            5.0.20.51904                                                 dotnet                         
-System.IO.FileSystem.AccessControl                                            9.0.425.16305                                                dotnet                         
-System.IO.FileSystem.DriveInfo                                                9.0.425.16305                                                dotnet                         
-System.IO.FileSystem.Primitives                                               9.0.425.16305                                                dotnet                         
-System.IO.FileSystem.Watcher                                                  9.0.425.16305                                                dotnet                         
-System.IO.IsolatedStorage                                                     9.0.425.16305                                                dotnet                         
-System.IO.MemoryMappedFiles                                                   9.0.425.16305                                                dotnet                         
-System.IO.Packaging                                                           9.0.4                                                        dotnet                         
-System.IO.Pipelines                                                           9.0.425.16305                                                dotnet                         
-System.IO.Pipes                                                               9.0.425.16305                                                dotnet                         
-System.IO.Pipes.AccessControl                                                 9.0.425.16305                                                dotnet                         
-System.IO.Ports                                                               9.0.4                                                        dotnet                         
-System.IO.UnmanagedMemoryStream                                               9.0.425.16305                                                dotnet                         
-System.Linq                                                                   9.0.425.16305                                                dotnet                         
-System.Linq.Expressions                                                       9.0.425.16305                                                dotnet                         
-System.Linq.Parallel                                                          9.0.425.16305                                                dotnet                         
-System.Linq.Queryable                                                         9.0.425.16305                                                dotnet                         
-System.Management                                                             9.0.4                                                        dotnet                         
-System.Management.Automation                                                  7.5.1                                                        dotnet                         
+System.IO.FileSystem.AccessControl                                            9.0.625.26613                                                dotnet                         
+System.IO.FileSystem.DriveInfo                                                9.0.625.26613                                                dotnet                         
+System.IO.FileSystem.Primitives                                               9.0.625.26613                                                dotnet                         
+System.IO.FileSystem.Watcher                                                  9.0.625.26613                                                dotnet                         
+System.IO.IsolatedStorage                                                     9.0.625.26613                                                dotnet                         
+System.IO.MemoryMappedFiles                                                   9.0.625.26613                                                dotnet                         
+System.IO.Packaging                                                           9.0.6                                                        dotnet                         
+System.IO.Pipelines                                                           9.0.625.26613                                                dotnet                         
+System.IO.Pipes                                                               9.0.625.26613                                                dotnet                         
+System.IO.Pipes.AccessControl                                                 9.0.625.26613                                                dotnet                         
+System.IO.Ports                                                               9.0.6                                                        dotnet                         
+System.IO.UnmanagedMemoryStream                                               9.0.625.26613                                                dotnet                         
+System.Linq                                                                   9.0.625.26613                                                dotnet                         
+System.Linq.Expressions                                                       9.0.625.26613                                                dotnet                         
+System.Linq.Parallel                                                          9.0.625.26613                                                dotnet                         
+System.Linq.Queryable                                                         9.0.625.26613                                                dotnet                         
+System.Management                                                             9.0.6                                                        dotnet                         
+System.Management.Automation                                                  7.5.2                                                        dotnet                         
 System.Memory                                                                 4.6.31308.01                                                 dotnet                         
-System.Memory                                                                 9.0.425.16305                                                dotnet                         
+System.Memory                                                                 9.0.625.26613                                                dotnet                         
 System.Memory.Data                                                            1.0.221.20802                                                dotnet                         
-System.Net                                                                    9.0.425.16305                                                dotnet                         
-System.Net.Http                                                               9.0.425.16305                                                dotnet                         
-System.Net.Http.Json                                                          9.0.425.16305                                                dotnet                         
-System.Net.Http.WinHttpHandler                                                9.0.4                                                        dotnet                         
-System.Net.HttpListener                                                       9.0.425.16305                                                dotnet                         
-System.Net.Mail                                                               9.0.425.16305                                                dotnet                         
-System.Net.NameResolution                                                     9.0.425.16305                                                dotnet                         
-System.Net.NetworkInformation                                                 9.0.425.16305                                                dotnet                         
-System.Net.Ping                                                               9.0.425.16305                                                dotnet                         
-System.Net.Primitives                                                         9.0.425.16305                                                dotnet                         
-System.Net.Quic                                                               9.0.425.16305                                                dotnet                         
-System.Net.Requests                                                           9.0.425.16305                                                dotnet                         
-System.Net.Security                                                           9.0.425.16305                                                dotnet                         
-System.Net.ServicePoint                                                       9.0.425.16305                                                dotnet                         
-System.Net.Sockets                                                            9.0.425.16305                                                dotnet                         
-System.Net.WebClient                                                          9.0.425.16305                                                dotnet                         
-System.Net.WebHeaderCollection                                                9.0.425.16305                                                dotnet                         
-System.Net.WebProxy                                                           9.0.425.16305                                                dotnet                         
-System.Net.WebSockets                                                         9.0.425.16305                                                dotnet                         
-System.Net.WebSockets.Client                                                  9.0.425.16305                                                dotnet                         
-System.Numerics                                                               9.0.425.16305                                                dotnet                         
+System.Net                                                                    9.0.625.26613                                                dotnet                         
+System.Net.Http                                                               9.0.625.26613                                                dotnet                         
+System.Net.Http.Json                                                          9.0.625.26613                                                dotnet                         
+System.Net.Http.WinHttpHandler                                                9.0.6                                                        dotnet                         
+System.Net.HttpListener                                                       9.0.625.26613                                                dotnet                         
+System.Net.Mail                                                               9.0.625.26613                                                dotnet                         
+System.Net.NameResolution                                                     9.0.625.26613                                                dotnet                         
+System.Net.NetworkInformation                                                 9.0.625.26613                                                dotnet                         
+System.Net.Ping                                                               9.0.625.26613                                                dotnet                         
+System.Net.Primitives                                                         9.0.625.26613                                                dotnet                         
+System.Net.Quic                                                               9.0.625.26613                                                dotnet                         
+System.Net.Requests                                                           9.0.625.26613                                                dotnet                         
+System.Net.Security                                                           9.0.625.26613                                                dotnet                         
+System.Net.ServicePoint                                                       9.0.625.26613                                                dotnet                         
+System.Net.Sockets                                                            9.0.625.26613                                                dotnet                         
+System.Net.WebClient                                                          9.0.625.26613                                                dotnet                         
+System.Net.WebHeaderCollection                                                9.0.625.26613                                                dotnet                         
+System.Net.WebProxy                                                           9.0.625.26613                                                dotnet                         
+System.Net.WebSockets                                                         9.0.625.26613                                                dotnet                         
+System.Net.WebSockets.Client                                                  9.0.625.26613                                                dotnet                         
+System.Numerics                                                               9.0.625.26613                                                dotnet                         
 System.Numerics.Vectors                                                       4.6.26515.06                                                 dotnet                         
-System.Numerics.Vectors                                                       9.0.425.16305                                                dotnet                         
-System.ObjectModel                                                            9.0.425.16305                                                dotnet                         
+System.Numerics.Vectors                                                       9.0.625.26613                                                dotnet                         
+System.ObjectModel                                                            9.0.625.26613                                                dotnet                         
 System.Private.ServiceModel                                                   4.10.3                                                       dotnet                         
-System.Reflection                                                             9.0.425.16305                                                dotnet                         
-System.Reflection.Context                                                     9.0.4                                                        dotnet                         
-System.Reflection.DispatchProxy                                               9.0.425.16305                                                dotnet                         
-System.Reflection.Emit                                                        9.0.425.16305                                                dotnet                         
-System.Reflection.Emit.ILGeneration                                           9.0.425.16305                                                dotnet                         
-System.Reflection.Emit.Lightweight                                            9.0.425.16305                                                dotnet                         
-System.Reflection.Extensions                                                  9.0.425.16305                                                dotnet                         
-System.Reflection.Metadata                                                    9.0.425.16305                                                dotnet                         
-System.Reflection.Primitives                                                  9.0.425.16305                                                dotnet                         
-System.Reflection.TypeExtensions                                              9.0.425.16305                                                dotnet                         
-System.Resources.Reader                                                       9.0.425.16305                                                dotnet                         
-System.Resources.ResourceManager                                              9.0.425.16305                                                dotnet                         
-System.Resources.Writer                                                       9.0.425.16305                                                dotnet                         
-System.Runtime                                                                9.0.425.16305                                                dotnet                         
-System.Runtime.Caching                                                        9.0.4                                                        dotnet                         
+System.Reflection                                                             9.0.625.26613                                                dotnet                         
+System.Reflection.Context                                                     9.0.6                                                        dotnet                         
+System.Reflection.DispatchProxy                                               9.0.625.26613                                                dotnet                         
+System.Reflection.Emit                                                        9.0.625.26613                                                dotnet                         
+System.Reflection.Emit.ILGeneration                                           9.0.625.26613                                                dotnet                         
+System.Reflection.Emit.Lightweight                                            9.0.625.26613                                                dotnet                         
+System.Reflection.Extensions                                                  9.0.625.26613                                                dotnet                         
+System.Reflection.Metadata                                                    9.0.625.26613                                                dotnet                         
+System.Reflection.Primitives                                                  9.0.625.26613                                                dotnet                         
+System.Reflection.TypeExtensions                                              9.0.625.26613                                                dotnet                         
+System.Resources.Reader                                                       9.0.625.26613                                                dotnet                         
+System.Resources.ResourceManager                                              9.0.625.26613                                                dotnet                         
+System.Resources.Writer                                                       9.0.625.26613                                                dotnet                         
+System.Runtime                                                                9.0.625.26613                                                dotnet                         
+System.Runtime.Caching                                                        9.0.6                                                        dotnet                         
 System.Runtime.CompilerServices.Unsafe                                        6.0.21.52210                                                 dotnet                         
-System.Runtime.CompilerServices.Unsafe                                        9.0.425.16305                                                dotnet                         
-System.Runtime.CompilerServices.VisualC                                       9.0.425.16305                                                dotnet                         
-System.Runtime.Extensions                                                     9.0.425.16305                                                dotnet                         
-System.Runtime.Handles                                                        9.0.425.16305                                                dotnet                         
-System.Runtime.InteropServices                                                9.0.425.16305                                                dotnet                         
-System.Runtime.InteropServices.JavaScript                                     9.0.425.16305                                                dotnet                         
-System.Runtime.InteropServices.RuntimeInformation                             9.0.425.16305                                                dotnet                         
-System.Runtime.Intrinsics                                                     9.0.425.16305                                                dotnet                         
-System.Runtime.Loader                                                         9.0.425.16305                                                dotnet                         
-System.Runtime.Numerics                                                       9.0.425.16305                                                dotnet                         
-System.Runtime.Serialization                                                  9.0.425.16305                                                dotnet                         
-System.Runtime.Serialization.Formatters                                       9.0.425.16305                                                dotnet                         
-System.Runtime.Serialization.Json                                             9.0.425.16305                                                dotnet                         
-System.Runtime.Serialization.Primitives                                       9.0.425.16305                                                dotnet                         
-System.Runtime.Serialization.Xml                                              9.0.425.16305                                                dotnet                         
-System.Security                                                               9.0.425.16305                                                dotnet                         
+System.Runtime.CompilerServices.Unsafe                                        9.0.625.26613                                                dotnet                         
+System.Runtime.CompilerServices.VisualC                                       9.0.625.26613                                                dotnet                         
+System.Runtime.Extensions                                                     9.0.625.26613                                                dotnet                         
+System.Runtime.Handles                                                        9.0.625.26613                                                dotnet                         
+System.Runtime.InteropServices                                                9.0.625.26613                                                dotnet                         
+System.Runtime.InteropServices.JavaScript                                     9.0.625.26613                                                dotnet                         
+System.Runtime.InteropServices.RuntimeInformation                             9.0.625.26613                                                dotnet                         
+System.Runtime.Intrinsics                                                     9.0.625.26613                                                dotnet                         
+System.Runtime.Loader                                                         9.0.625.26613                                                dotnet                         
+System.Runtime.Numerics                                                       9.0.625.26613                                                dotnet                         
+System.Runtime.Serialization                                                  9.0.625.26613                                                dotnet                         
+System.Runtime.Serialization.Formatters                                       9.0.625.26613                                                dotnet                         
+System.Runtime.Serialization.Json                                             9.0.625.26613                                                dotnet                         
+System.Runtime.Serialization.Primitives                                       9.0.625.26613                                                dotnet                         
+System.Runtime.Serialization.Xml                                              9.0.625.26613                                                dotnet                         
+System.Security                                                               9.0.625.26613                                                dotnet                         
 System.Security.AccessControl                                                 5.0.20.51904                                                 dotnet                         
-System.Security.AccessControl                                                 9.0.425.16305                                                dotnet                         
-System.Security.Claims                                                        9.0.425.16305                                                dotnet                         
-System.Security.Cryptography                                                  9.0.425.16305                                                dotnet                         
-System.Security.Cryptography.Algorithms                                       9.0.425.16305                                                dotnet                         
-System.Security.Cryptography.Cng                                              9.0.425.16305                                                dotnet                         
-System.Security.Cryptography.Csp                                              9.0.425.16305                                                dotnet                         
-System.Security.Cryptography.Encoding                                         9.0.425.16305                                                dotnet                         
-System.Security.Cryptography.OpenSsl                                          9.0.425.16305                                                dotnet                         
-System.Security.Cryptography.Pkcs                                             9.0.4                                                        dotnet                         
-System.Security.Cryptography.Primitives                                       9.0.425.16305                                                dotnet                         
+System.Security.AccessControl                                                 9.0.625.26613                                                dotnet                         
+System.Security.Claims                                                        9.0.625.26613                                                dotnet                         
+System.Security.Cryptography                                                  9.0.625.26613                                                dotnet                         
+System.Security.Cryptography.Algorithms                                       9.0.625.26613                                                dotnet                         
+System.Security.Cryptography.Cng                                              9.0.625.26613                                                dotnet                         
+System.Security.Cryptography.Csp                                              9.0.625.26613                                                dotnet                         
+System.Security.Cryptography.Encoding                                         9.0.625.26613                                                dotnet                         
+System.Security.Cryptography.OpenSsl                                          9.0.625.26613                                                dotnet                         
+System.Security.Cryptography.Pkcs                                             9.0.6                                                        dotnet                         
+System.Security.Cryptography.Primitives                                       9.0.625.26613                                                dotnet                         
 System.Security.Cryptography.ProtectedData                                    4.700.19.56404                                               dotnet                         
-System.Security.Cryptography.ProtectedData                                    9.0.4                                                        dotnet                         
-System.Security.Cryptography.X509Certificates                                 9.0.425.16305                                                dotnet                         
-System.Security.Cryptography.Xml                                              9.0.4                                                        dotnet                         
-System.Security.Permissions                                                   9.0.4                                                        dotnet                         
-System.Security.Principal                                                     9.0.425.16305                                                dotnet                         
+System.Security.Cryptography.ProtectedData                                    9.0.6                                                        dotnet                         
+System.Security.Cryptography.X509Certificates                                 9.0.625.26613                                                dotnet                         
+System.Security.Cryptography.Xml                                              9.0.6                                                        dotnet                         
+System.Security.Permissions                                                   9.0.6                                                        dotnet                         
+System.Security.Principal                                                     9.0.625.26613                                                dotnet                         
 System.Security.Principal.Windows                                             5.0.20.51904                                                 dotnet                         
-System.Security.Principal.Windows                                             9.0.425.16305                                                dotnet                         
-System.Security.SecureString                                                  9.0.425.16305                                                dotnet                         
+System.Security.Principal.Windows                                             9.0.625.26613                                                dotnet                         
+System.Security.SecureString                                                  9.0.625.26613                                                dotnet                         
 System.ServiceModel.Duplex                                                    4.10.3                                                       dotnet                         
 System.ServiceModel.Http                                                      4.10.3                                                       dotnet                         
 System.ServiceModel.NetTcp                                                    4.10.3                                                       dotnet                         
 System.ServiceModel.Primitives                                                4.10.3                                                       dotnet                         
 System.ServiceModel.Security                                                  4.10.3                                                       dotnet                         
-System.ServiceModel.Syndication                                               9.0.4                                                        dotnet                         
-System.ServiceModel.Web                                                       9.0.425.16305                                                dotnet                         
-System.ServiceProcess                                                         9.0.425.16305                                                dotnet                         
-System.ServiceProcess.ServiceController                                       9.0.4                                                        dotnet                         
-System.Speech                                                                 9.0.4                                                        dotnet                         
-System.Text.Encoding                                                          9.0.425.16305                                                dotnet                         
-System.Text.Encoding.CodePages                                                9.0.425.16305                                                dotnet                         
-System.Text.Encoding.Extensions                                               9.0.425.16305                                                dotnet                         
+System.ServiceModel.Syndication                                               9.0.6                                                        dotnet                         
+System.ServiceModel.Web                                                       9.0.625.26613                                                dotnet                         
+System.ServiceProcess                                                         9.0.625.26613                                                dotnet                         
+System.ServiceProcess.ServiceController                                       9.0.6                                                        dotnet                         
+System.Speech                                                                 9.0.6                                                        dotnet                         
+System.Text.Encoding                                                          9.0.625.26613                                                dotnet                         
+System.Text.Encoding.CodePages                                                9.0.625.26613                                                dotnet                         
+System.Text.Encoding.Extensions                                               9.0.625.26613                                                dotnet                         
 System.Text.Encodings.Web                                                     8.0.23.53103                                                 dotnet                         
-System.Text.Encodings.Web                                                     9.0.425.16305                                                dotnet                         
+System.Text.Encodings.Web                                                     9.0.625.26613                                                dotnet                         
 System.Text.Json                                                              8.0.1024.46610                                               dotnet                         
-System.Text.Json                                                              9.0.425.16305                                                dotnet                         
-System.Text.RegularExpressions                                                9.0.425.16305                                                dotnet                         
-System.Threading                                                              9.0.425.16305                                                dotnet                         
-System.Threading.AccessControl                                                9.0.4                                                        dotnet                         
-System.Threading.Channels                                                     9.0.425.16305                                                dotnet                         
-System.Threading.Overlapped                                                   9.0.425.16305                                                dotnet                         
-System.Threading.Tasks                                                        9.0.425.16305                                                dotnet                         
-System.Threading.Tasks.Dataflow                                               9.0.425.16305                                                dotnet                         
+System.Text.Json                                                              9.0.625.26613                                                dotnet                         
+System.Text.RegularExpressions                                                9.0.625.26613                                                dotnet                         
+System.Threading                                                              9.0.625.26613                                                dotnet                         
+System.Threading.AccessControl                                                9.0.6                                                        dotnet                         
+System.Threading.Channels                                                     9.0.625.26613                                                dotnet                         
+System.Threading.Overlapped                                                   9.0.625.26613                                                dotnet                         
+System.Threading.Tasks                                                        9.0.625.26613                                                dotnet                         
+System.Threading.Tasks.Dataflow                                               9.0.625.26613                                                dotnet                         
 System.Threading.Tasks.Extensions                                             4.6.28619.01                                                 dotnet                         
-System.Threading.Tasks.Extensions                                             9.0.425.16305                                                dotnet                         
-System.Threading.Tasks.Parallel                                               9.0.425.16305                                                dotnet                         
-System.Threading.Thread                                                       9.0.425.16305                                                dotnet                         
-System.Threading.ThreadPool                                                   9.0.425.16305                                                dotnet                         
-System.Threading.Timer                                                        9.0.425.16305                                                dotnet                         
-System.Transactions                                                           9.0.425.16305                                                dotnet                         
-System.Transactions.Local                                                     9.0.425.16305                                                dotnet                         
+System.Threading.Tasks.Extensions                                             9.0.625.26613                                                dotnet                         
+System.Threading.Tasks.Parallel                                               9.0.625.26613                                                dotnet                         
+System.Threading.Thread                                                       9.0.625.26613                                                dotnet                         
+System.Threading.ThreadPool                                                   9.0.625.26613                                                dotnet                         
+System.Threading.Timer                                                        9.0.625.26613                                                dotnet                         
+System.Transactions                                                           9.0.625.26613                                                dotnet                         
+System.Transactions.Local                                                     9.0.625.26613                                                dotnet                         
 System.ValueTuple                                                             4.6.26515.06                                                 dotnet                         
-System.ValueTuple                                                             9.0.425.16305                                                dotnet                         
-System.Web                                                                    9.0.425.16305                                                dotnet                         
-System.Web.HttpUtility                                                        9.0.425.16305                                                dotnet                         
+System.ValueTuple                                                             9.0.625.26613                                                dotnet                         
+System.Web                                                                    9.0.625.26613                                                dotnet                         
+System.Web.HttpUtility                                                        9.0.625.26613                                                dotnet                         
 System.Web.Services.Description                                               8.0.0                                                        dotnet                         
-System.Windows                                                                9.0.425.16305                                                dotnet                         
-System.Windows.Extensions                                                     9.0.4                                                        dotnet                         
-System.Xml                                                                    9.0.425.16305                                                dotnet                         
-System.Xml.Linq                                                               9.0.425.16305                                                dotnet                         
-System.Xml.ReaderWriter                                                       9.0.425.16305                                                dotnet                         
-System.Xml.Serialization                                                      9.0.425.16305                                                dotnet                         
-System.Xml.XDocument                                                          9.0.425.16305                                                dotnet                         
-System.Xml.XPath                                                              9.0.425.16305                                                dotnet                         
-System.Xml.XPath.XDocument                                                    9.0.425.16305                                                dotnet                         
-System.Xml.XmlDocument                                                        9.0.425.16305                                                dotnet                         
-System.Xml.XmlSerializer                                                      9.0.425.16305                                                dotnet                         
-WindowsBase                                                                   9.0.425.16305                                                dotnet                         
+System.Windows                                                                9.0.625.26613                                                dotnet                         
+System.Windows.Extensions                                                     9.0.6                                                        dotnet                         
+System.Xml                                                                    9.0.625.26613                                                dotnet                         
+System.Xml.Linq                                                               9.0.625.26613                                                dotnet                         
+System.Xml.ReaderWriter                                                       9.0.625.26613                                                dotnet                         
+System.Xml.Serialization                                                      9.0.625.26613                                                dotnet                         
+System.Xml.XDocument                                                          9.0.625.26613                                                dotnet                         
+System.Xml.XPath                                                              9.0.625.26613                                                dotnet                         
+System.Xml.XPath.XDocument                                                    9.0.625.26613                                                dotnet                         
+System.Xml.XmlDocument                                                        9.0.625.26613                                                dotnet                         
+System.Xml.XmlSerializer                                                      9.0.625.26613                                                dotnet                         
+WindowsBase                                                                   9.0.625.26613                                                dotnet                         
 aarch64                                                                       2.1.0                                                        gem                            
 abbrev                                                                        0.1.2                                                        gem           (+1 duplicate)   
 accountsservice                                                               23.13.9-7                                                    deb                            
@@ -310,8 +310,7 @@ aiohttp                                                                       3.
 aioice                                                                        0.10.1                                                       python                         
 aiomultiprocess                                                               0.9.0                                                        python                         
 aioquic                                                                       1.2.0                                                        python                         
-aiosignal                                                                     1.3.2                                                        python                         
-aiosignal                                                                     1.4.0                                                        python                         
+aiosignal                                                                     1.4.0                                                        python        (+1 duplicate)   
 aiosmb                                                                        0.4.4                                                        python                         
 aiosqlite                                                                     0.21.0                                                       python                         
 aiowinreg                                                                     0.0.7                                                        python                         
@@ -473,7 +472,7 @@ cmake                                                                         3.
 cmake-data                                                                    3.31.6-2                                                     deb                            
 cmd                                                                           UNKNOWN                                                      java-archive                   
 cms_scanner                                                                   0.15.0                                                       gem                            
-code.cloudfoundry.org/clock                                                   v1.1.0                                                       go-module                      
+code.cloudfoundry.org/clock                                                   v1.37.0                                                      go-module                      
 colorama                                                                      0.4.6                                                        python                         
 comerr-dev                                                                    2.1-1.47.2-3+b3                                              deb                            
 commix                                                                        4.0-0kali1                                                   deb                            
@@ -520,7 +519,8 @@ cutycapt                                                                      0.
 cvss                                                                          3.2                                                          python                         
 daemons                                                                       1.4.1                                                        gem                            
 dario.cat/mergo                                                               v1.0.0                                                       go-module                      
-dario.cat/mergo                                                               v1.0.1                                                       go-module     (+1 duplicate)   
+dario.cat/mergo                                                               v1.0.1                                                       go-module                      
+dario.cat/mergo                                                               v1.0.2                                                       go-module                      
 dash                                                                          0.5.12-12                                                    deb                            
 date                                                                          3.3.4                                                        gem                            
 date                                                                          3.4.1                                                        gem                            
@@ -556,8 +556,8 @@ diffutils                                                                     1:
 digest                                                                        3.1.1                                                        gem                            
 dirb                                                                          2.22+dfsg-7                                                  deb                            
 dirbuster                                                                     1.0-1kali6                                                   deb                            
-dirmngr                                                                       2.4.8-2                                                      deb                            
-distlib                                                                       0.3.9                                                        python                         
+dirmngr                                                                       2.4.8-3                                                      deb                            
+distlib                                                                       0.4.0                                                        python                         
 distro                                                                        1.9.0                                                        python                         
 distro-info-data                                                              0.66                                                         deb                            
 django                                                                        4.2.23                                                       python                         
@@ -572,10 +572,10 @@ dnsmap                                                                        0.
 dnspython                                                                     2.7.0                                                        python        (+1 duplicate)   
 dnsrecon                                                                      1.2.0-3                                                      deb                            
 dnsruby                                                                       1.72.4                                                       gem                            
-docker-buildx-plugin                                                          0.26.1-1~debian.12~bookworm                                  deb                            
-docker-ce                                                                     5:28.3.3-1~debian.12~bookworm                                deb                            
-docker-ce-cli                                                                 5:28.3.3-1~debian.12~bookworm                                deb                            
-docker-compose-plugin                                                         2.39.1-1~debian.12~bookworm                                  deb                            
+docker-buildx-plugin                                                          0.27.0-1~debian.12~bookworm                                  deb                            
+docker-ce                                                                     5:28.4.0-1~debian.12~bookworm                                deb                            
+docker-ce-cli                                                                 5:28.4.0-1~debian.12~bookworm                                deb                            
+docker-compose-plugin                                                         2.39.2-1~debian.12~bookworm                                  deb                            
 docopt                                                                        0.6.2                                                        python                         
 dolphin                                                                       4:25.04.3-1                                                  deb                            
 dolphin-data                                                                  4:25.04.3-1                                                  deb                            
@@ -625,15 +625,15 @@ exe2hexbat                                                                    1.
 exifread                                                                      3.0.0                                                        python                         
 exiv2                                                                         0.28.5+dfsg-1                                                deb                            
 expect                                                                        5.45.4-4                                                     deb                            
-exploitdb                                                                     20250819-0kali1                                              deb                            
+exploitdb                                                                     20250827-0kali1                                              deb                            
 faker                                                                         3.5.2                                                        gem                            
 faraday                                                                       2.7.11                                                       gem                            
-faraday                                                                       5.15.3-0kali1                                                deb                            
-faraday-agent-parameters-types                                                1.8.1                                                        python                         
+faraday                                                                       5.16.0-0kali1                                                deb                            
+faraday-agent-parameters-types                                                1.9.0                                                        python                         
 faraday-net_http                                                              3.0.2                                                        gem                            
-faraday-plugins                                                               1.25.0                                                       python                         
+faraday-plugins                                                               1.26.0                                                       python                         
 faraday-retry                                                                 2.3.2                                                        gem                            
-faradaysec                                                                    5.15.3                                                       python                         
+faradaysec                                                                    5.16.0                                                       python                         
 fastapi                                                                       0.115.11                                                     python                         
 faye-websocket                                                                0.12.0                                                       gem                            
 fcntl                                                                         1.1.0                                                        gem                            
@@ -657,9 +657,9 @@ finger                                                                        0.
 firebird4.0-common                                                            4.0.6.3221.ds6-1                                             deb                            
 firebird4.0-common-doc                                                        4.0.6.3221.ds6-1                                             deb                            
 firefox-esr                                                                   128.14.0esr-1                                                deb                            
-firmware-amd-graphics                                                         20250410-2                                                   deb                            
-firmware-linux-nonfree                                                        20250410-2                                                   deb                            
-firmware-misc-nonfree                                                         20250410-2                                                   deb                            
+firmware-amd-graphics                                                         20250808-1                                                   deb                            
+firmware-linux-nonfree                                                        20250808-1                                                   deb                            
+firmware-misc-nonfree                                                         20250808-1                                                   deb                            
 flac                                                                          1.5.0+ds-2                                                   deb                            
 flasgger                                                                      0.9.7.2.dev2                                                 python                         
 flashrom                                                                      1.6.0-2                                                      deb                            
@@ -693,7 +693,7 @@ fonttools                                                                     4.
 forwardable                                                                   1.3.3                                                        gem           (+1 duplicate)   
 fping                                                                         5.1-1                                                        deb                            
 frameworkintegration6                                                         6.13.0-2                                                     deb                            
-freetds-common                                                                1.5.4+ds-1                                                   deb                            
+freetds-common                                                                1.5.5+ds-1                                                   deb                            
 frozenlist                                                                    1.7.0                                                        python        (+1 duplicate)   
 fs                                                                            2.4.16                                                       python                         
 ftp                                                                           20230507-2                                                   deb                            
@@ -798,8 +798,7 @@ github.com/cilium/ebpf                                                        v0
 github.com/cilium/ebpf                                                        v0.9.1                                                       go-module     (+3 duplicates)  
 github.com/cjoudrey/gluaurl                                                   v0.0.0-20161028222611-31cbb9bef199                           go-module                      
 github.com/cloudflare/cfssl                                                   v1.6.4                                                       go-module                      
-github.com/compose-spec/compose-go/v2                                         v2.7.2-0.20250703132301-891fce532a51                         go-module                      
-github.com/compose-spec/compose-go/v2                                         v2.8.1                                                       go-module                      
+github.com/compose-spec/compose-go/v2                                         v2.8.1                                                       go-module     (+1 duplicate)   
 github.com/container-storage-interface/spec                                   v1.5.0                                                       go-module                      
 github.com/containerd/accelerated-container-image                             v1.3.0                                                       go-module                      
 github.com/containerd/aufs                                                    v1.0.0                                                       go-module                      
@@ -813,7 +812,7 @@ github.com/containerd/console                                                 v1
 github.com/containerd/containerd                                              v1.7.27                                                      go-module     (+4 duplicates)  
 github.com/containerd/containerd/api                                          v1.8.0                                                       go-module     (+4 duplicates)  
 github.com/containerd/containerd/api                                          v1.9.0                                                       go-module     (+2 duplicates)  
-github.com/containerd/containerd/v2                                           v2.1.3                                                       go-module     (+2 duplicates)  
+github.com/containerd/containerd/v2                                           v2.1.4                                                       go-module     (+2 duplicates)  
 github.com/containerd/continuity                                              v0.4.4                                                       go-module     (+4 duplicates)  
 github.com/containerd/continuity                                              v0.4.5                                                       go-module     (+2 duplicates)  
 github.com/containerd/errdefs                                                 v0.3.0                                                       go-module     (+4 duplicates)  
@@ -851,17 +850,19 @@ github.com/dimchansky/utfbom                                                  v1
 github.com/distribution/reference                                             v0.6.0                                                       go-module     (+4 duplicates)  
 github.com/docker/buildx                                                      UNKNOWN                                                      go-module                      
 github.com/docker/buildx                                                      v0.26.1                                                      go-module                      
-github.com/docker/cli                                                         v28.3.2+incompatible                                         go-module     (+1 duplicate)   
+github.com/docker/cli                                                         v28.3.3+incompatible                                         go-module     (+1 duplicate)   
 github.com/docker/cli-docs-tool                                               v0.10.0                                                      go-module     (+1 duplicate)   
 github.com/docker/cli/cmd/docker                                              UNKNOWN                                                      go-module                      
 github.com/docker/compose/v2                                                  UNKNOWN                                                      go-module                      
 github.com/docker/distribution                                                v2.8.3+incompatible                                          go-module     (+1 duplicate)   
-github.com/docker/docker                                                      v28.3.2+incompatible                                         go-module     (+1 duplicate)   
-github.com/docker/docker                                                      v28.3.3                                                      go-module     (+1 duplicate)   
+github.com/docker/docker                                                      v28.3.3+incompatible                                         go-module     (+1 duplicate)   
+github.com/docker/docker                                                      v28.4.0                                                      go-module     (+1 duplicate)   
 github.com/docker/docker-credential-helpers                                   v0.9.3                                                       go-module     (+1 duplicate)   
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c                       go-module                      
-github.com/docker/go-connections                                              v0.5.0                                                       go-module     (+2 duplicates)  
-github.com/docker/go-events                                                   v0.0.0-20190806004212-e31b211e4f1c                           go-module     (+4 duplicates)  
+github.com/docker/go-connections                                              v0.5.0                                                       go-module     (+1 duplicate)   
+github.com/docker/go-connections                                              v0.6.0                                                       go-module                      
+github.com/docker/go-events                                                   v0.0.0-20190806004212-e31b211e4f1c                           go-module     (+3 duplicates)  
+github.com/docker/go-events                                                   v0.0.0-20250114142523-c867878c5e32                           go-module                      
 github.com/docker/go-metrics                                                  v0.0.1                                                       go-module     (+2 duplicates)  
 github.com/docker/go-units                                                    v0.5.0                                                       go-module     (+7 duplicates)  
 github.com/docker/libtrust                                                    v0.0.0-20150526203908-9cbd2a1374f4                           go-module                      
@@ -873,7 +874,7 @@ github.com/emicklei/go-restful/v3                                             v3
 github.com/fatih/color                                                        v1.15.0                                                      go-module                      
 github.com/felixge/httpsnoop                                                  v1.0.3                                                       go-module     (+1 duplicate)   
 github.com/felixge/httpsnoop                                                  v1.0.4                                                       go-module     (+2 duplicates)  
-github.com/fernet/fernet-go                                                   v0.0.0-20211208181803-9f70042a33ee                           go-module                      
+github.com/fernet/fernet-go                                                   v0.0.0-20240119011108-303da6aec611                           go-module                      
 github.com/ffuf/ffuf                                                          UNKNOWN                                                      go-module                      
 github.com/fluent/fluent-logger-golang                                        v1.9.0                                                       go-module                      
 github.com/fsnotify/fsnotify                                                  v1.6.0                                                       go-module                      
@@ -978,13 +979,16 @@ github.com/mitchellh/go-wordwrap                                              v0
 github.com/mitchellh/hashstructure/v2                                         v2.0.2                                                       go-module     (+2 duplicates)  
 github.com/mitchellh/mapstructure                                             v1.5.0                                                       go-module                      
 github.com/mitchellh/reflectwalk                                              v1.0.2                                                       go-module                      
-github.com/moby/buildkit                                                      v0.23.0-rc1.0.20250618182037-9b91d20367db                    go-module     (+1 duplicate)   
-github.com/moby/buildkit                                                      v0.23.2                                                      go-module                      
+github.com/moby/buildkit                                                      v0.23.0-rc1.0.20250618182037-9b91d20367db                    go-module                      
+github.com/moby/buildkit                                                      v0.23.0-rc1.0.20250806140246-955c2b2f7d01                    go-module                      
+github.com/moby/buildkit                                                      v0.24.0                                                      go-module                      
 github.com/moby/docker-image-spec                                             v1.3.1                                                       go-module     (+2 duplicates)  
 github.com/moby/go-archive                                                    v0.1.0                                                       go-module     (+2 duplicates)  
 github.com/moby/ipvs                                                          v1.1.0                                                       go-module                      
 github.com/moby/locker                                                        v1.0.1                                                       go-module     (+4 duplicates)  
 github.com/moby/patternmatcher                                                v0.6.0                                                       go-module     (+2 duplicates)  
+github.com/moby/profiles/apparmor                                             v0.1.0                                                       go-module                      
+github.com/moby/profiles/seccomp                                              v0.1.0                                                       go-module                      
 github.com/moby/pubsub                                                        v1.0.0                                                       go-module                      
 github.com/moby/spdystream                                                    v0.2.0                                                       go-module                      
 github.com/moby/spdystream                                                    v0.5.0                                                       go-module     (+1 duplicate)   
@@ -1102,10 +1106,10 @@ github.com/zmap/zcrypto                                                       v0
 github.com/zmap/zlint/v3                                                      v3.1.0                                                       go-module                      
 gitpython                                                                     3.1.44                                                       python                         
 globalid                                                                      1.2.1                                                        gem                            
-gnupg                                                                         2.4.8-2                                                      deb                            
-gnupg-l10n                                                                    2.4.8-2                                                      deb                            
+gnupg                                                                         2.4.8-3                                                      deb                            
+gnupg-l10n                                                                    2.4.8-3                                                      deb                            
 go.etcd.io/bbolt                                                              v1.3.10                                                      go-module                      
-go.etcd.io/bbolt                                                              v1.4.0                                                       go-module                      
+go.etcd.io/bbolt                                                              v1.4.3                                                       go-module                      
 go.etcd.io/etcd/client/pkg/v3                                                 v3.5.16                                                      go-module                      
 go.etcd.io/etcd/pkg/v3                                                        v3.5.16                                                      go-module                      
 go.etcd.io/etcd/raft/v3                                                       v3.5.16                                                      go-module                      
@@ -1148,7 +1152,7 @@ go.uber.org/mock                                                              v0
 go.uber.org/multierr                                                          v1.8.0                                                       go-module                      
 go.uber.org/ratelimit                                                         v0.3.0                                                       go-module                      
 go.uber.org/zap                                                               v1.21.0                                                      go-module                      
-go.yaml.in/yaml/v3                                                            v3.0.4                                                       go-module                      
+go.yaml.in/yaml/v3                                                            v3.0.4                                                       go-module     (+1 duplicate)   
 gobuster                                                                      3.8.0-2                                                      deb                            
 golang.org/x/crypto                                                           v0.13.0                                                      go-module                      
 golang.org/x/crypto                                                           v0.31.0                                                      go-module                      
@@ -1165,12 +1169,12 @@ golang.org/x/oauth2                                                           v0
 golang.org/x/oauth2                                                           v0.29.0                                                      go-module     (+1 duplicate)   
 golang.org/x/oauth2                                                           v0.30.0                                                      go-module                      
 golang.org/x/sync                                                             v0.10.0                                                      go-module     (+4 duplicates)  
-golang.org/x/sync                                                             v0.14.0                                                      go-module     (+1 duplicate)   
-golang.org/x/sync                                                             v0.16.0                                                      go-module                      
+golang.org/x/sync                                                             v0.14.0                                                      go-module                      
+golang.org/x/sync                                                             v0.16.0                                                      go-module     (+1 duplicate)   
 golang.org/x/sys                                                              v0.12.0                                                      go-module                      
 golang.org/x/sys                                                              v0.28.0                                                      go-module     (+5 duplicates)  
 golang.org/x/sys                                                              v0.33.0                                                      go-module     (+2 duplicates)  
-golang.org/x/sys                                                              v0.34.0                                                      go-module                      
+golang.org/x/sys                                                              v0.35.0                                                      go-module                      
 golang.org/x/term                                                             v0.27.0                                                      go-module                      
 golang.org/x/term                                                             v0.31.0                                                      go-module                      
 golang.org/x/term                                                             v0.32.0                                                      go-module                      
@@ -1210,10 +1214,10 @@ gorm.io/driver/postgres                                                       v1
 gorm.io/gorm                                                                  v1.25.4                                                      go-module                      
 gparted                                                                       1.6.0-2                                                      deb                            
 gparted-common                                                                1.6.0-2                                                      deb                            
-gpg                                                                           2.4.8-2                                                      deb                            
-gpg-agent                                                                     2.4.8-2                                                      deb                            
-gpgconf                                                                       2.4.8-2                                                      deb                            
-gpgsm                                                                         2.4.8-2                                                      deb                            
+gpg                                                                           2.4.8-3                                                      deb                            
+gpg-agent                                                                     2.4.8-3                                                      deb                            
+gpgconf                                                                       2.4.8-3                                                      deb                            
+gpgsm                                                                         2.4.8-3                                                      deb                            
 gpp-decrypt                                                                   0.1-1kali2                                                   deb                            
 gputil                                                                        1.4.0                                                        python                         
 graphviz                                                                      2.42.4-3                                                     deb                            
@@ -1292,7 +1296,7 @@ incremental                                                                   24
 inetsim                                                                       1.3.2+dfsg.1-1                                               deb                            
 inetutils-telnet                                                              2:2.6-4                                                      deb                            
 inflect                                                                       7.3.1                                                        python        (+2 duplicates)  
-init-system-helpers                                                           1.68+kali2                                                   deb                            
+init-system-helpers                                                           1.69+kali1                                                   deb                            
 initramfs-tools                                                               0.148.3                                                      deb                            
 initramfs-tools-bin                                                           0.148.3                                                      deb                            
 initramfs-tools-core                                                          0.148.3                                                      deb                            
@@ -1366,15 +1370,15 @@ k8s.io/utils                                                                  v0
 kactivitymanagerd                                                             6.3.4-1                                                      deb                            
 kaitaistruct                                                                  0.10                                                         python                         
 kali-archive-keyring                                                          2025.1                                                       deb                            
-kali-defaults                                                                 2025.3.2                                                     deb                            
-kali-defaults-desktop                                                         2025.3.2                                                     deb                            
+kali-defaults                                                                 2025.3.4                                                     deb                            
+kali-defaults-desktop                                                         2025.3.4                                                     deb                            
 kali-desktop-core                                                             2025.3.2                                                     deb                            
 kali-desktop-kde                                                              2025.3.2                                                     deb                            
 kali-grant-root                                                               2024.4.0                                                     deb                            
 kali-linux-core                                                               2025.3.2                                                     deb                            
 kali-linux-default                                                            2025.3.2                                                     deb                            
 kali-linux-headless                                                           2025.3.2                                                     deb                            
-kali-menu                                                                     2025.3.0                                                     deb                            
+kali-menu                                                                     2025.3.2                                                     deb                            
 kali-system-cli                                                               2025.3.2                                                     deb                            
 kali-system-core                                                              2025.3.2                                                     deb                            
 kali-system-gui                                                               2025.3.2                                                     deb                            
@@ -1505,11 +1509,11 @@ libavahi-client3                                                              0.
 libavahi-common-data                                                          0.8-16                                                       deb                            
 libavahi-common3                                                              0.8-16                                                       deb                            
 libavc1394-0                                                                  0.5.4-5+b2                                                   deb                            
-libavcodec61                                                                  7:7.1.1-1+b5                                                 deb                            
-libavfilter10                                                                 7:7.1.1-1+b5                                                 deb                            
-libavformat61                                                                 7:7.1.1-1+b5                                                 deb                            
+libavcodec61                                                                  7:7.1.1-1+b8                                                 deb                            
+libavfilter10                                                                 7:7.1.1-1+b8                                                 deb                            
+libavformat61                                                                 7:7.1.1-1+b8                                                 deb                            
 libavif16                                                                     1.3.0-1                                                      deb                            
-libavutil59                                                                   7:7.1.1-1+b5                                                 deb                            
+libavutil59                                                                   7:7.1.1-1+b8                                                 deb                            
 libb2-1                                                                       0.98.1-1.1+b2                                                deb                            
 libbabeltrace1                                                                1.5.11-4+b2                                                  deb                            
 libbatterycontrol6                                                            4:6.3.6-2                                                    deb                            
@@ -1528,9 +1532,9 @@ libblockdev-swap3                                                             3.
 libblockdev-utils3                                                            3.3.1-3                                                      deb                            
 libblockdev3                                                                  3.3.1-3                                                      deb                            
 libbluetooth3                                                                 5.82-1.1                                                     deb                            
-libbluray2                                                                    1:1.3.4-1+b3                                                 deb                            
+libbluray3                                                                    1:1.4.0-3                                                    deb                            
 libboost-filesystem1.83.0                                                     1.83.0-4.2                                                   deb                            
-libbpf1                                                                       1:1.6.1-1                                                    deb                            
+libbpf1                                                                       1:1.6.2-1                                                    deb                            
 libbrotli1                                                                    1.1.0-2+b7                                                   deb                            
 libbs2b0                                                                      3.1.0+dfsg-8+b1                                              deb                            
 libbsd0                                                                       0.12.2-2                                                     deb                            
@@ -1561,7 +1565,7 @@ libcdt5                                                                       2.
 libcfitsio10t64                                                               4.6.2-2                                                      deb                            
 libcgi-pm-perl                                                                4.68-1                                                       deb                            
 libcgraph6                                                                    2.42.4-3                                                     deb                            
-libchromaprint1                                                               1.5.1-7                                                      deb                            
+libchromaprint1                                                               1.6.0-1                                                      deb                            
 libcjson1                                                                     1.7.18-3.1                                                   deb                            
 libclang-common-18-dev                                                        1:18.1.8-18+b2                                               deb                            
 libclang-common-19-dev                                                        1:19.1.7-3+b2                                                deb                            
@@ -1582,7 +1586,7 @@ libcrypt-dev                                                                  1:
 libcrypt1                                                                     1:4.4.38-1                                                   deb                            
 libcrypto++8t64                                                               8.9.0-2                                                      deb                            
 libcryptsetup12                                                               2:2.8.1-1                                                    deb                            
-libct4                                                                        1.5.4+ds-1                                                   deb                            
+libct4                                                                        1.5.5+ds-1                                                   deb                            
 libctf-nobfd0                                                                 2.45-4                                                       deb                            
 libctf0                                                                       2.45-4                                                       deb                            
 libcups2t64                                                                   2.4.10-3                                                     deb                            
@@ -1610,12 +1614,12 @@ libdmtx0t64                                                                   0.
 libdolphinvcs6                                                                4:25.04.3-1                                                  deb                            
 libdouble-conversion3                                                         3.3.1-1                                                      deb                            
 libdpkg-perl                                                                  1.22.21+kali1                                                deb                            
-libdrm-amdgpu1                                                                2.4.124-2                                                    deb                            
-libdrm-common                                                                 2.4.124-2                                                    deb                            
-libdrm-intel1                                                                 2.4.124-2                                                    deb                            
-libdrm-nouveau2                                                               2.4.124-2                                                    deb                            
-libdrm-radeon1                                                                2.4.124-2                                                    deb                            
-libdrm2                                                                       2.4.124-2                                                    deb                            
+libdrm-amdgpu1                                                                2.4.125-2                                                    deb                            
+libdrm-common                                                                 2.4.125-2                                                    deb                            
+libdrm-intel1                                                                 2.4.125-2                                                    deb                            
+libdrm-nouveau2                                                               2.4.125-2                                                    deb                            
+libdrm-radeon1                                                                2.4.125-2                                                    deb                            
+libdrm2                                                                       2.4.125-2                                                    deb                            
 libduktape207                                                                 2.7.0-2+b2                                                   deb                            
 libdumbnet1                                                                   1.18.0-2                                                     deb                            
 libdvbpsi10                                                                   1.3.3-1+b2                                                   deb                            
@@ -1667,7 +1671,7 @@ libfreerdp3-3                                                                 3.
 libfreetype6                                                                  2.13.3+dfsg-1                                                deb                            
 libfribidi0                                                                   1.0.16-1                                                     deb                            
 libfstrm0                                                                     0.6.1-1+b3                                                   deb                            
-libftdi1-2                                                                    1.5-11                                                       deb                            
+libftdi1-2                                                                    1.5-12                                                       deb                            
 libfuse2t64                                                                   2.9.9-9                                                      deb                            
 libfuse3-4                                                                    3.17.4-1                                                     deb                            
 libgav1-1                                                                     0.19.0-3+b1                                                  deb                            
@@ -1714,7 +1718,7 @@ libgspell-1-3                                                                 1.
 libgspell-1-common                                                            1.14.0-2                                                     deb                            
 libgssapi-krb5-2                                                              1.21.3-5                                                     deb                            
 libgssrpc4t64                                                                 1.21.3-5                                                     deb                            
-libgstreamer-plugins-base1.0-0                                                1.26.5-2                                                     deb                            
+libgstreamer-plugins-base1.0-0                                                1.26.5-2+b1                                                  deb                            
 libgstreamer1.0-0                                                             1.26.5-2                                                     deb                            
 libgtk-3-0t64                                                                 3.24.50-1                                                    deb                            
 libgtk-3-common                                                               3.24.50-1                                                    deb                            
@@ -1761,7 +1765,7 @@ libidn2-0                                                                     2.
 libigdgmm12                                                                   22.8.1+ds1-1                                                 deb                            
 libijs-0.35                                                                   0.35-15.3                                                    deb                            
 libimage-exiftool-perl                                                        13.25+dfsg-1                                                 deb                            
-libimagequant0                                                                2.18.0-1+b2                                                  deb                            
+libimagequant0                                                                4.4.0-3                                                      deb                            
 libimath-3-1-29t64                                                            3.1.12-1+b3                                                  deb                            
 libimlib2t64                                                                  1.12.4-2                                                     deb                            
 libimobiledevice-1.0-6                                                        1.3.0+git20250228-2                                          deb                            
@@ -1793,7 +1797,7 @@ libjpeg62-turbo                                                               1:
 libjq1                                                                        1.8.1-3                                                      deb                            
 libjs-jquery                                                                  3.6.1+dfsg+~3.5.14-1                                         deb                            
 libjs-skeleton                                                                2.0.4-2                                                      deb                            
-libjs-sphinxdoc                                                               8.1.3-5                                                      deb                            
+libjs-sphinxdoc                                                               8.2.3-2                                                      deb                            
 libjs-underscore                                                              1.13.4~dfsg+~1.11.4-3                                        deb                            
 libjson-c5                                                                    0.18+ds-1                                                    deb                            
 libjson-perl                                                                  4.10000-1                                                    deb                            
@@ -1810,7 +1814,7 @@ libkdb5-10t64                                                                 1.
 libkdcrawqt6-5                                                                25.04.0-1                                                    deb                            
 libkdecorations3-6                                                            4:6.3.4-1                                                    deb                            
 libkdecorations3private2                                                      4:6.3.4-1                                                    deb                            
-libkdsoap-qt6-2                                                               2.2.0+dfsg-3                                                 deb                            
+libkdsoap-qt6-2                                                               2.2.0+dfsg-4                                                 deb                            
 libkdsoapwsdiscoveryclient0                                                   0.4.0-2                                                      deb                            
 libkexiv2qt6-0                                                                25.04.0-1                                                    deb                            
 libkeyutils1                                                                  1.6.3-6                                                      deb                            
@@ -2118,7 +2122,7 @@ libnewt0.52                                                                   0.
 libnfnetlink0                                                                 1.0.2-3                                                      deb                            
 libnfs14                                                                      5.0.2-1+b2                                                   deb                            
 libnfsidmap1                                                                  1:2.8.3-1+b1                                                 deb                            
-libnftnl11                                                                    1.2.9-1                                                      deb                            
+libnftnl11                                                                    1.3.0-1                                                      deb                            
 libnghttp2-14                                                                 1.64.0-1.1+b1                                                deb                            
 libnghttp3-9                                                                  1.8.0-1                                                      deb                            
 libnginx-mod-http-fancyindex                                                  1:0.5.2-6                                                    deb                            
@@ -2131,8 +2135,8 @@ libnl-route-3-200                                                             3.
 libnm0                                                                        1.54.0-4                                                     deb                            
 libnorm1t64                                                                   1.5.9+dfsg-3.1+b2                                            deb                            
 libnotificationmanager1                                                       4:6.3.6-2                                                    deb                            
-libnotify-bin                                                                 0.8.6-1                                                      deb                            
-libnotify4                                                                    0.8.6-1                                                      deb                            
+libnotify-bin                                                                 0.8.6-2                                                      deb                            
+libnotify4                                                                    0.8.6-2                                                      deb                            
 libnpth0t64                                                                   1.8-3                                                        deb                            
 libnsl2                                                                       1.3.0-3+b3                                                   deb                            
 libnspr4                                                                      2:4.36-1                                                     deb                            
@@ -2220,7 +2224,7 @@ libpoppler147                                                                 25
 libpopt0                                                                      1.19+dfsg-2                                                  deb                            
 libportaudio2                                                                 19.6.0-1.2+b3                                                deb                            
 libportmidi0                                                                  1:217-6.1+b4                                                 deb                            
-libpostproc58                                                                 7:7.1.1-1+b5                                                 deb                            
+libpostproc58                                                                 7:7.1.1-1+b8                                                 deb                            
 libpq5                                                                        17.5-1                                                       deb                            
 libproc2-0                                                                    2:4.0.4-9                                                    deb                            
 libprocesscore10                                                              4:6.3.5-1                                                    deb                            
@@ -2372,7 +2376,7 @@ libserf-1-1                                                                   1.
 libsframe2                                                                    2.45-4                                                       deb                            
 libsharpyuv0                                                                  1.5.0-0.1                                                    deb                            
 libshine3                                                                     3.1.1-2+b2                                                   deb                            
-libshout3                                                                     2.4.6-1+b3                                                   deb                            
+libshout3                                                                     2.4.6-1+b5                                                   deb                            
 libsidplay2                                                                   2.1.1-16                                                     deb                            
 libsigc++-2.0-0v5                                                             2.12.1-3                                                     deb                            
 libsignon-qt6-1                                                               8.61+git20231015.c8ad982-7                                   deb                            
@@ -2416,9 +2420,9 @@ libstring-crc32-perl                                                          2.
 libstring-random-perl                                                         1:0.32-2                                                     deb                            
 libsvn1                                                                       1.14.5-3                                                     deb                            
 libsvtav1enc2                                                                 2.3.0+dfsg-1                                                 deb                            
-libswresample5                                                                7:7.1.1-1+b5                                                 deb                            
-libswscale8                                                                   7:7.1.1-1+b5                                                 deb                            
-libsybdb5                                                                     1.5.4+ds-1                                                   deb                            
+libswresample5                                                                7:7.1.1-1+b8                                                 deb                            
+libswscale8                                                                   7:7.1.1-1+b8                                                 deb                            
+libsybdb5                                                                     1.5.5+ds-1                                                   deb                            
 libsyn123-0t64                                                                1.33.2-1                                                     deb                            
 libsystemd-shared                                                             257.7-1                                                      deb                            
 libsystemd0                                                                   257.7-1                                                      deb                            
@@ -2438,9 +2442,11 @@ libtext-iconv-perl                                                            1.
 libtext-wrapi18n-perl                                                         0.06-10                                                      deb                            
 libthai-data                                                                  0.1.29-2                                                     deb                            
 libthai0                                                                      0.1.29-2+b1                                                  deb                            
-libtheora0                                                                    1.2.0~alpha1+dfsg-6                                          deb                            
+libtheora1                                                                    1.2.0+dfsg-5                                                 deb                            
 libtheoradec1                                                                 1.2.0~alpha1+dfsg-6                                          deb                            
+libtheoradec2                                                                 1.2.0+dfsg-5                                                 deb                            
 libtheoraenc1                                                                 1.2.0~alpha1+dfsg-6                                          deb                            
+libtheoraenc2                                                                 1.2.0+dfsg-5                                                 deb                            
 libtiff6                                                                      4.7.0-4                                                      deb                            
 libtimedate-perl                                                              2.3300-2                                                     deb                            
 libtinfo6                                                                     6.5+20250216-2                                               deb                            
@@ -2469,7 +2475,7 @@ libubertooth1                                                                 20
 libubsan1                                                                     15.2.0-1                                                     deb                            
 libuchardet0                                                                  0.0.8-1+b2                                                   deb                            
 libudev1                                                                      257.7-1                                                      deb                            
-libudfread0                                                                   1.1.2-1+b2                                                   deb                            
+libudfread3                                                                   1.2.0-2                                                      deb                            
 libudisks2-0                                                                  2.10.90-3                                                    deb                            
 libunibreak6                                                                  6.1-3                                                        deb                            
 libunistring5                                                                 1.3-2                                                        deb                            
@@ -2493,8 +2499,8 @@ libva2                                                                        2.
 libvdpau1                                                                     1.5-3+b1                                                     deb                            
 libvhdi1                                                                      20240509-2+b1                                                deb                            
 libvidstab1.1                                                                 1.1.0-2+b2                                                   deb                            
-libvlc5                                                                       3.0.21-10+b1                                                 deb                            
-libvlccore9                                                                   3.0.21-10+b1                                                 deb                            
+libvlc5                                                                       3.0.21-11+b1                                                 deb                            
+libvlccore9                                                                   3.0.21-11+b1                                                 deb                            
 libvmdk1                                                                      20240510-1+b1                                                deb                            
 libvolume-key1                                                                0.3.12-10                                                    deb                            
 libvorbis0a                                                                   1.3.7-3                                                      deb                            
@@ -2729,7 +2735,7 @@ mount                                                                         2.
 mpg123                                                                        1.33.2-1                                                     deb                            
 mpmath                                                                        1.3.0                                                        python                         
 mqtt                                                                          0.6.0                                                        gem                            
-mscorlib                                                                      9.0.425.16305                                                dotnet                         
+mscorlib                                                                      9.0.625.26613                                                dotnet                         
 msfJavaToolkit                                                                UNKNOWN                                                      java-archive                   
 msfpc                                                                         1.4.5-0kali3                                                 deb                            
 msgpack                                                                       1.0.3                                                        python                         
@@ -2786,7 +2792,7 @@ netifaces                                                                     0.
 netmask                                                                       2.5.0-1                                                      deb                            
 netsed                                                                        1.4-1                                                        deb                            
 netsniff-ng                                                                   0.6.9-1                                                      deb                            
-netstandard                                                                   9.0.425.16305                                                dotnet                         
+netstandard                                                                   9.0.625.26613                                                dotnet                         
 network-manager                                                               1.54.0-4                                                     deb                            
 network_interface                                                             0.0.4                                                        gem                            
 networkx                                                                      3.2.1                                                        python                         
@@ -2809,7 +2815,7 @@ normalize.css                                                                 8.
 nplusone                                                                      1.0.0                                                        python                         
 ntfs-3g                                                                       1:2022.10.3-5                                                deb                            
 numpy                                                                         2.2.4                                                        python                         
-oauthlib                                                                      3.2.2                                                        python                         
+oauthlib                                                                      3.3.1                                                        python                         
 observer                                                                      0.1.2                                                        gem                            
 ocean-sound-theme                                                             6.3.4-1                                                      deb                            
 ocl-icd-libopencl1                                                            2.3.3-1                                                      deb                            
@@ -2896,7 +2902,7 @@ pcapy                                                                         0.
 pci.ids                                                                       0.0~2025.07.11-1                                             deb                            
 pciutils                                                                      1:3.14.0-1                                                   deb                            
 pcmflux                                                                       1.0.4                                                        python                         
-pdf-parser                                                                    0.7.12-0kali1                                                deb                            
+pdf-parser                                                                    0.7.13-0kali1                                                deb                            
 pdf-reader                                                                    2.15.0                                                       gem                            
 pdfid                                                                         0.2.10-0kali1                                                deb                            
 peass                                                                         20250801.03e73bf3-0kali1                                     deb                            
@@ -2967,7 +2973,7 @@ postgresql-client-17                                                          17
 postgresql-client-common                                                      264                                                          deb                            
 postgresql-common                                                             264                                                          deb                            
 power_assert                                                                  2.0.3                                                        gem                            
-powershell                                                                    7.5.1-1.deb                                                  deb                            
+powershell                                                                    7.5.2-1.deb                                                  deb                            
 powershell-empire                                                             6.1.2-0kali2                                                 deb                            
 powersploit                                                                   3.0.0+git20200817.d943001-0kali1                             deb                            
 pp                                                                            0.5.0                                                        gem                            
@@ -2998,7 +3004,7 @@ ptunnel                                                                       0.
 ptyprocess                                                                    0.7.0                                                        python                         
 public_suffix                                                                 6.0.1                                                        gem                            
 public_suffix                                                                 6.0.2                                                        gem                            
-publicsuffix                                                                  20250328.1952-0.1                                            deb                            
+publicsuffix                                                                  20250820.0948-0.1                                            deb                            
 publicsuffix2                                                                 2.20191221                                                   python                         
 publicsuffixlist                                                              0.9.3                                                        python                         
 pulseaudio                                                                    17.0+dfsg1-2+b1                                              deb                            
@@ -3006,7 +3012,7 @@ pulseaudio-utils                                                              17
 pulsectl                                                                      24.12.0                                                      python                         
 puma                                                                          6.6.1                                                        gem                            
 pwnat                                                                         0.3.0-0kali2                                                 deb                            
-pwsh                                                                          7.5.1.500                                                    dotnet                         
+pwsh                                                                          7.5.2.500                                                    dotnet                         
 py-ubjson                                                                     0.16.1                                                       python                         
 pyasn1                                                                        0.6.1                                                        python                         
 pyasn1-modules                                                                0.4.1                                                        python                         
@@ -3029,7 +3035,10 @@ pygexf                                                                        0.
 pygments                                                                      2.18.0                                                       python                         
 pygobject                                                                     3.50.0                                                       python                         
 pyhamcrest                                                                    2.1.0                                                        python                         
-pyinstaller                                                                   6.13.0                                                       python                         
+pyinstaller                                                                   6.15.0                                                       python                         
+pyinstaller                                                                   6.15.0+ds-1                                                  deb                            
+pyinstaller-hooks-contrib                                                     2025.8                                                       python                         
+pyinstaller-hooks-contrib                                                     2025.8-2~kali1                                               deb                            
 pyjwt                                                                         2.10.1                                                       python                         
 pylibsrtp                                                                     0.12.0                                                       python                         
 pylnk3                                                                        0.4.2                                                        python                         
@@ -3064,7 +3073,7 @@ pyspnego                                                                      0.
 python-apt                                                                    3.0.0                                                        python                         
 python-apt-common                                                             3.0.0                                                        deb                            
 python-dateutil                                                               2.9.0                                                        python                         
-python-docx                                                                   1.1.2                                                        python                         
+python-docx                                                                   1.2.0                                                        python                         
 python-engineio                                                               4.12.1                                                       python                         
 python-is-python3                                                             3.13.3-1                                                     deb                            
 python-libnmap                                                                0.7.3                                                        python                         
@@ -3088,7 +3097,7 @@ python3-aiohappyeyeballs                                                      2.
 python3-aiohttp                                                               3.11.16-1                                                    deb                            
 python3-aiomultiprocess                                                       0.9.0-0kali2                                                 deb                            
 python3-aioquic                                                               1.2.0-1                                                      deb                            
-python3-aiosignal                                                             1.3.2-1                                                      deb                            
+python3-aiosignal                                                             1.4.0-1                                                      deb                            
 python3-aiosmb                                                                0.4.4-0kali2                                                 deb                            
 python3-aiosqlite                                                             0.21.0-1                                                     deb                            
 python3-aiowinreg                                                             0.0.7-0kali1                                                 deb                            
@@ -3122,7 +3131,7 @@ python3-backoff                                                               2.
 python3-base58                                                                1.0.3-2                                                      deb                            
 python3-bcrypt                                                                4.2.0-2.1+b1                                                 deb                            
 python3-bidict                                                                0.23.1-2                                                     deb                            
-python3-billiard                                                              4.2.1-2                                                      deb                            
+python3-billiard                                                              4.2.1-3                                                      deb                            
 python3-binwalk                                                               2.4.3+dfsg1-2                                                deb                            
 python3-bitstruct                                                             8.20.0-2                                                     deb                            
 python3-bleach                                                                6.2.0-1                                                      deb                            
@@ -3161,13 +3170,13 @@ python3-decorator                                                             5.
 python3-deprecated                                                            1.2.18-1                                                     deb                            
 python3-dev                                                                   3.13.5-1                                                     deb                            
 python3-dicttoxml                                                             1.7.16-2                                                     deb                            
-python3-distlib                                                               0.3.9-1                                                      deb                            
+python3-distlib                                                               0.4.0-1                                                      deb                            
 python3-distro                                                                1.9.0-1                                                      deb                            
 python3-django                                                                3:4.2.23-1                                                   deb                            
 python3-dnslib                                                                0.9.25-1                                                     deb                            
 python3-dnspython                                                             2.7.0-1                                                      deb                            
 python3-docopt                                                                0.6.2-6                                                      deb                            
-python3-docx                                                                  1.1.2+dfsg-1                                                 deb                            
+python3-docx                                                                  1.2.0+dfsg-1                                                 deb                            
 python3-donut                                                                 1.1-0kali3                                                   deb                            
 python3-dploot                                                                3.1.2-0kali1                                                 deb                            
 python3-dropbox                                                               12.0.2-2                                                     deb                            
@@ -3180,8 +3189,8 @@ python3-engineio                                                              4.
 python3-ephem                                                                 4.2-1                                                        deb                            
 python3-et-xmlfile                                                            2.0.0-1                                                      deb                            
 python3-exifread                                                              3.0.0-1                                                      deb                            
-python3-faraday-agent-parameters-types                                        1.8.1-0kali1                                                 deb                            
-python3-faraday-plugins                                                       1.25.0-0kali1                                                deb                            
+python3-faraday-agent-parameters-types                                        1.9.0-0kali1                                                 deb                            
+python3-faraday-plugins                                                       1.26.0-0kali1                                                deb                            
 python3-fastapi                                                               0.115.11-4                                                   deb                            
 python3-filedepot                                                             0.5.2-0kali5                                                 deb                            
 python3-filelock                                                              3.19.1-1                                                     deb                            
@@ -3303,7 +3312,7 @@ python3-networkx                                                              3.
 python3-nplusone                                                              1.0.0-0kali4                                                 deb                            
 python3-numpy                                                                 1:2.2.4+ds-1                                                 deb                            
 python3-numpy-dev                                                             1:2.2.4+ds-1                                                 deb                            
-python3-oauthlib                                                              3.2.2-4                                                      deb                            
+python3-oauthlib                                                              3.3.1-1                                                      deb                            
 python3-obfuscator                                                            0.0.2-0kali1                                                 deb                            
 python3-openpyxl                                                              3.1.5+dfsg-2                                                 deb                            
 python3-openssl                                                               25.1.0-1                                                     deb                            
@@ -3361,7 +3370,7 @@ python3-pyexploitdb                                                           0.
 python3-pyfiglet                                                              1.0.3+dfsg-1                                                 deb                            
 python3-pygame                                                                2.6.1-1+b2                                                   deb                            
 python3-pygments                                                              2.18.0+dfsg-2                                                deb                            
-python3-pyinstaller                                                           6.13.0+ds-2                                                  deb                            
+python3-pyinstaller                                                           6.15.0+ds-1                                                  deb                            
 python3-pylnk3                                                                0.4.2-0kali2                                                 deb                            
 python3-pylsqpack                                                             0.3.22-1                                                     deb                            
 python3-pymssql                                                               2.3.2-1+b1                                                   deb                            
@@ -3397,7 +3406,7 @@ python3-requests-file                                                         2.
 python3-retrying                                                              1.3.3-4                                                      deb                            
 python3-rich                                                                  13.9.4-1                                                     deb                            
 python3-rpds-py                                                               0.21.0-2+b1                                                  deb                            
-python3-rq                                                                    2.3.3-2                                                      deb                            
+python3-rq                                                                    2.5-1                                                        deb                            
 python3-ruamel.yaml                                                           0.18.10+ds-1                                                 deb                            
 python3-ruamel.yaml.clib                                                      0.2.12+ds-1+b1                                               deb                            
 python3-scapy                                                                 2.6.1+dfsg-1                                                 deb                            
@@ -3452,7 +3461,7 @@ python3-trie                                                                  0.
 python3-twisted                                                               24.11.0-1                                                    deb                            
 python3-txaio                                                                 23.1.1-4                                                     deb                            
 python3-typeguard                                                             4.4.4-1                                                      deb                            
-python3-typing-extensions                                                     4.14.1-1                                                     deb                            
+python3-typing-extensions                                                     4.15.0-1                                                     deb                            
 python3-tz                                                                    2025.2-3                                                     deb                            
 python3-tzlocal                                                               5.3.1-1                                                      deb                            
 python3-u-msgpack                                                             2.8.0-2                                                      deb                            
@@ -3463,7 +3472,7 @@ python3-ujson                                                                 5.
 python3-unicodedata2                                                          15.1.0+ds-1+b4                                               deb                            
 python3-unicrypto                                                             0.0.10-2                                                     deb                            
 python3-unidecode                                                             1.4.0-1                                                      deb                            
-python3-urllib3                                                               2.3.0-3                                                      deb                            
+python3-urllib3                                                               2.5.0-1                                                      deb                            
 python3-urwid                                                                 2.6.16-1                                                     deb                            
 python3-userpath                                                              1.9.2-1                                                      deb                            
 python3-uvicorn                                                               0.32.0-3                                                     deb                            
@@ -3615,10 +3624,10 @@ rdoc                                                                          6.
 readline                                                                      0.0.4                                                        gem                            
 readline-common                                                               8.2-6                                                        deb                            
 reaver                                                                        1.6.6-2+b1                                                   deb                            
-rebind                                                                        0.3.4-1kali7                                                 deb                            
+rebind                                                                        0.3.4-1kali8                                                 deb                            
 recog                                                                         3.1.21                                                       gem                            
 recon-ng                                                                      5.1.2-1.2                                                    deb                            
-recordmydesktop                                                               0.4.0-1+b2                                                   deb                            
+recordmydesktop                                                               0.4.0-1+b3                                                   deb                            
 redcarpet                                                                     3.6.1                                                        gem                            
 redis                                                                         6.1.0                                                        python                         
 redsocks                                                                      0.5-2+b5                                                     deb                            
@@ -3661,7 +3670,7 @@ rkelly-remix                                                                  0.
 rpcbind                                                                       1.2.7-1                                                      deb                            
 rpcsvc-proto                                                                  1.4.3-1                                                      deb                            
 rpds-py                                                                       0.21.0                                                       python                         
-rq                                                                            2.3.3                                                        python                         
+rq                                                                            2.5.0                                                        python                         
 rsh-redone-client                                                             85-4+kali1                                                   deb                            
 rsmangler                                                                     1.5-0kali3                                                   deb                            
 rspec                                                                         3.13.1                                                       gem                            
@@ -3723,7 +3732,7 @@ ruby-public-suffix                                                            6.
 ruby-rc4                                                                      0.1.5                                                        gem                            
 ruby-ruby2-keywords                                                           0.0.5-1                                                      deb                            
 ruby-rubygems                                                                 3.6.7-2                                                      deb                            
-ruby-snmp                                                                     1.3.2-1                                                      deb                            
+ruby-snmp                                                                     1.3.3-1                                                      deb                            
 ruby-spider                                                                   0.5.0-6                                                      deb                            
 ruby-typhoeus                                                                 1.4.0-6                                                      deb                            
 ruby-tzinfo                                                                   2.0.6-1                                                      deb                            
@@ -3745,9 +3754,9 @@ rubyntlm                                                                      0.
 rubyzip                                                                       2.3.2                                                        gem                            
 rubyzip                                                                       2.4.1                                                        gem                            
 runit-helper                                                                  2.16.4                                                       deb                            
-runtime.linux-x64.runtime.native.System.IO.Ports                              9.0.4                                                        dotnet                         
-runtime.native.System.IO.Ports                                                9.0.4                                                        dotnet                         
-runtimepack.Microsoft.NETCore.App.Runtime.linux-x64                           9.0.4                                                        dotnet                         
+runtime.linux-x64.runtime.native.System.IO.Ports                              9.0.6                                                        dotnet                         
+runtime.native.System.IO.Ports                                                9.0.6                                                        dotnet                         
+runtimepack.Microsoft.NETCore.App.Runtime.linux-x64                           9.0.6                                                        dotnet                         
 sakis3g                                                                       0.2.0e+git20150717-0kali2                                    deb                            
 samba                                                                         2:4.22.4+dfsg-1                                              deb                            
 samba-common                                                                  2:4.22.4+dfsg-1                                              deb                            
@@ -3805,7 +3814,7 @@ smbmap                                                                        1.
 smmap                                                                         6.0.0                                                        python                         
 smtp-user-enum                                                                1.2-1kali4                                                   deb                            
 sniffio                                                                       1.3.1                                                        python                         
-snmp                                                                          1.3.2                                                        gem                            
+snmp                                                                          1.3.3                                                        gem                            
 snmp                                                                          5.9.4+dfsg-2                                                 deb                            
 snmpcheck                                                                     1.9-0kali2                                                   deb                            
 snmpd                                                                         5.9.4+dfsg-2                                                 deb                            
@@ -3817,7 +3826,7 @@ soupsieve                                                                     2.
 sparta-scripts                                                                1.0.4+git20190226-0kali1                                     deb                            
 spider                                                                        2.1                                                          gem                            
 spiderfoot                                                                    4.0-0kali4                                                   deb                            
-spike                                                                         2.9-1kali9                                                   deb                            
+spike                                                                         2.9-1kali10                                                  deb                            
 spooftooph                                                                    0.5.2-1kali4                                                 deb                            
 sqlalchemy                                                                    2.0.43                                                       python                         
 sqlalchemy-schemadisplay                                                      1.3                                                          python                         
@@ -3847,7 +3856,7 @@ stdlib                                                                        go
 stdlib                                                                        go1.22.6                                                     go-module                      
 stdlib                                                                        go1.23.7                                                     go-module     (+5 duplicates)  
 stdlib                                                                        go1.24.4                                                     go-module     (+1 duplicate)   
-stdlib                                                                        go1.24.5                                                     go-module     (+4 duplicates)  
+stdlib                                                                        go1.24.7                                                     go-module     (+4 duplicates)  
 stix2                                                                         3.0.1                                                        python                         
 stix2-patterns                                                                2.0.0                                                        python                         
 stone                                                                         3.3.8                                                        python                         
@@ -3933,7 +3942,7 @@ typeguard                                                                     4.
 typeprof                                                                      0.21.9                                                       gem                            
 typhoeus                                                                      1.4.0                                                        gem                            
 typing-extensions                                                             4.12.2                                                       python        (+1 duplicate)   
-typing-extensions                                                             4.14.1                                                       python                         
+typing-extensions                                                             4.15.0                                                       python                         
 tzdata                                                                        2025b-5                                                      deb                            
 tzdata-legacy                                                                 2025b-5                                                      deb                            
 tzinfo                                                                        2.0.6                                                        gem           (+1 duplicate)   
@@ -3965,7 +3974,7 @@ unzip                                                                         6.
 update-inetd                                                                  4.54                                                         deb                            
 upx-ucl                                                                       4.2.4-1.1                                                    deb                            
 uri                                                                           0.13.2                                                       gem                            
-urllib3                                                                       2.3.0                                                        python                         
+urllib3                                                                       2.5.0                                                        python                         
 urlscan                                                                       1.0.3                                                        python                         
 urlscan                                                                       1.0.3-1                                                      deb                            
 urwid                                                                         2.6.16                                                       python                         
@@ -3986,13 +3995,13 @@ vim-tiny                                                                      2:
 vine                                                                          5.1.0                                                        python                         
 virtualenv                                                                    20.34.0                                                      python                         
 vlan                                                                          2.0.5+nmu3                                                   deb                            
-vlc-data                                                                      3.0.21-10                                                    deb                            
-vlc-plugin-base                                                               3.0.21-10+b1                                                 deb                            
-vlc-plugin-video-output                                                       3.0.21-10+b1                                                 deb                            
+vlc-data                                                                      3.0.21-11                                                    deb                            
+vlc-plugin-base                                                               3.0.21-11+b1                                                 deb                            
+vlc-plugin-video-output                                                       3.0.21-11+b1                                                 deb                            
 voiphopper                                                                    2.04-1kali7                                                  deb                            
 vpnc                                                                          0.5.3+git20241220-2                                          deb                            
 vpnc-scripts                                                                  0.1~git20220510-1                                            deb                            
-vulkan-tools                                                                  1.4.304.0+dfsg1-1                                            deb                            
+vulkan-tools                                                                  1.4.321.0+dfsg1-1                                            deb                            
 wadllib                                                                       2.0.0                                                        python                         
 wafw00f                                                                       2.3.1                                                        python                         
 wafw00f                                                                       2.3.1-1                                                      deb                            
@@ -4020,7 +4029,7 @@ werkzeug                                                                      3.
 wfuzz                                                                         3.1.0                                                        python                         
 wfuzz                                                                         3.1.0-6                                                      deb                            
 wget                                                                          1.25.0-2                                                     deb                            
-whatweb                                                                       0.6.1-1                                                      deb                            
+whatweb                                                                       0.6.2-1                                                      deb                            
 wheel                                                                         0.45.1                                                       python        (+1 duplicate)   
 wheel                                                                         0.46.1                                                       python                         
 whois                                                                         5.6.4                                                        deb                            
