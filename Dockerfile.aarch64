@@ -10,7 +10,8 @@ LABEL maintainer="thelamer"
 
 # title
 ENV TITLE="Kali Linux" \
-    NO_GAMEPAD=true
+    NO_GAMEPAD=true \
+    SELKIES_WAYLAND_SOCKET_INDEX=1
 
 RUN \
   echo "**** add icon ****" && \
@@ -56,6 +57,17 @@ RUN \
   sed -i \
     's/applications:org.kde.discover.desktop,/applications:org.kde.konsole.desktop,/g' \
     /usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/main.xml && \
+  setcap -r \
+    /usr/bin/kwin_wayland && \
+  rm -f \
+    /usr/bin/wl-paste \
+    /usr/bin/wl-copy && \
+  echo "#! /bin/bash" > \
+    /tmp/wl-paste && \
+  echo "#! /bin/bash" > \
+    /tmp/wl-copy && \
+  chmod +x /tmp/wl-* && \
+  cp /tmp/wl-* /usr/bin/ && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
