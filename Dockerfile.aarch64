@@ -10,8 +10,7 @@ LABEL maintainer="thelamer"
 
 # title
 ENV TITLE="Kali Linux" \
-    NO_GAMEPAD=true \
-    SELKIES_WAYLAND_SOCKET_INDEX=1
+    NO_GAMEPAD=true
 
 RUN \
   echo "**** add icon ****" && \
@@ -23,6 +22,7 @@ RUN \
   DEBIAN_FRONTEND=noninteractive \
   apt-get install -y --no-install-recommends \
     autopsy \
+    cargo \
     cutycapt \
     dirbuster \
     dolphin \
@@ -53,25 +53,23 @@ RUN \
     qt6-svg-plugins \
     sqlitebrowser \
     systemsettings && \
+  cargo install \
+    wl-clipboard-rs-tools && \
+  echo "**** replace wl-clipboard with rust ****" && \
+  mv \
+    /config/.cargo/bin/wl-* \
+    /usr/bin/ && \
   echo "**** kde tweaks ****" && \
   sed -i \
     's/applications:org.kde.discover.desktop,/applications:org.kde.konsole.desktop,/g' \
     /usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/main.xml && \
   setcap -r \
     /usr/bin/kwin_wayland && \
-  rm -f \
-    /usr/bin/wl-paste \
-    /usr/bin/wl-copy && \
-  echo "#! /bin/bash" > \
-    /tmp/wl-paste && \
-  echo "#! /bin/bash" > \
-    /tmp/wl-copy && \
-  chmod +x /tmp/wl-* && \
-  cp /tmp/wl-* /usr/bin/ && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
     /config/.cache \
+    /config/.cargo \
     /var/lib/apt/lists/* \
     /var/tmp/* \
     /tmp/*
