@@ -475,6 +475,7 @@ ca-certificates-java                                                          20
 ca-certificates-java                                                          UNKNOWN                                                      java-archive                   
 cacache                                                                       19.0.1                                                       npm                            
 cadaver                                                                       0.28+dfsg-2                                                  deb                            
+cargo                                                                         1.90.0+dfsg1-1                                               deb                            
 carlospolop/sh2bin                                                            v0.0.0-20211229180403-7fcde31bcad6                           go-module     (+5 duplicates)  
 catatonit                                                                     0.2.1-2+b6                                                   deb                            
 cbor                                                                          1.0.0                                                        python                         
@@ -1792,6 +1793,7 @@ libgfortran5                                                                  15
 libgif7                                                                       5.2.2-1+b1                                                   deb                            
 libgirepository-1.0-1                                                         1.86.0-6                                                     deb                            
 libgirepository-2.0-0                                                         2.86.3-1                                                     deb                            
+libgit2-1.9                                                                   1.9.2+ds-2                                                   deb                            
 libgl1                                                                        1.7.0-1+b2                                                   deb                            
 libgl1-mesa-dri                                                               25.3.2-2                                                     deb                            
 libgles2                                                                      1.7.0-1+b2                                                   deb                            
@@ -1855,6 +1857,7 @@ libhttp-date-perl                                                             6.
 libhttp-dav-perl                                                              0.50-1                                                       deb                            
 libhttp-message-perl                                                          7.01-1                                                       deb                            
 libhttp-negotiate-perl                                                        6.01-2                                                       deb                            
+libhttp-parser2.9                                                             2.9.4-6+b3                                                   deb                            
 libhunspell-1.7-0                                                             1.7.2+really1.7.2-11                                         deb                            
 libhwasan0                                                                    15.2.0-12                                                    deb                            
 libhwloc15                                                                    2.12.2-1                                                     deb                            
@@ -2169,6 +2172,7 @@ liblilv-0-0                                                                   0.
 liblinear4                                                                    2.3.0+dfsg-5+b2                                              deb                            
 liblirc-client0t64                                                            0.10.2-0.10                                                  deb                            
 libllvm18                                                                     1:18.1.8-20+b1                                               deb                            
+libllvm19                                                                     1:19.1.7-19                                                  deb                            
 libllvm21                                                                     1:21.1.8-1                                                   deb                            
 libllvmspirvlib18.1                                                           18.1.19-1                                                    deb                            
 liblmdb0                                                                      0.9.31-1+b2                                                  deb                            
@@ -2195,6 +2199,8 @@ libmariadb3                                                                   1:
 libmatroska7                                                                  1.7.1-2                                                      deb                            
 libmaxminddb0                                                                 1.12.2-1                                                     deb                            
 libmbedcrypto16                                                               3.6.5-0.1                                                    deb                            
+libmbedtls21                                                                  3.6.5-0.1                                                    deb                            
+libmbedx509-7                                                                 3.6.5-0.1                                                    deb                            
 libmd0                                                                        1.1.0-2+b1                                                   deb                            
 libmd4c0                                                                      0.5.2-2+b1                                                   deb                            
 libmemcached11t64                                                             1.1.4-1.1+b2                                                 deb                            
@@ -2551,6 +2557,8 @@ libssh-4                                                                      0.
 libssh2-1t64                                                                  1.11.1-1                                                     deb                            
 libssl3t64                                                                    3.5.4-1                                                      deb                            
 libstartup-notification0                                                      0.12-8                                                       deb                            
+libstd-rust-1.90                                                              1.90.0+dfsg1-1                                               deb                            
+libstd-rust-dev                                                               1.90.0+dfsg1-1                                               deb                            
 libstdc++-15-dev                                                              15.2.0-12                                                    deb                            
 libstdc++6                                                                    15.2.0-12                                                    deb                            
 libstemmer0d                                                                  3.0.1-1                                                      deb                            
@@ -3959,6 +3967,7 @@ runit-helper                                                                  2.
 runtime.linux-x64.runtime.native.System.IO.Ports                              9.0.10                                                       dotnet                         
 runtime.native.System.IO.Ports                                                9.0.10                                                       dotnet                         
 runtimepack.Microsoft.NETCore.App.Runtime.linux-x64                           9.0.10                                                       dotnet                         
+rustc                                                                         1.90.0+dfsg1-1                                               deb                            
 safer-buffer                                                                  2.1.2                                                        npm                            
 sakis3g                                                                       0.2.0e+git20150717-0kali2                                    deb                            
 samba                                                                         2:4.23.4+dfsg-1                                              deb                            
