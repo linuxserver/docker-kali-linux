@@ -619,7 +619,7 @@ et-xmlfile                                                                    2.
 etc                                                                           1.4.3                                                        gem                            
 ethon                                                                         0.18.0                                                       gem                            
 ethtool                                                                       1:6.19-1                                                     deb                            
-ettercap-common                                                               1:0.8.4-5                                                    deb                            
+ettercap-common                                                               1:0.8.4.1-2                                                  deb                            
 evdev                                                                         1.9.3                                                        python                         
 eventmachine                                                                  1.2.7                                                        gem                            
 evil-winrm                                                                    3.9                                                          gem                            
@@ -1541,7 +1541,7 @@ ldap3                                                                         2.
 ldapdomaindump                                                                0.9.4                                                        python                         
 legacy-cgi                                                                    2.6.4                                                        python                         
 legacycrypt                                                                   0.3                                                          python                         
-legion                                                                        0.5.2-0kali1                                                 deb                            
+legion                                                                        0.5.2-0kali2                                                 deb                            
 levenshtein                                                                   0.2.2                                                        gem                            
 libaa1                                                                        1.4p5-51.1+b2                                                deb                            
 libabsl20240722                                                               20240722.0-4                                                 deb                            
@@ -2041,10 +2041,10 @@ libkf6notifications-data                                                      6.
 libkf6notifications6                                                          6.23.0-2                                                     deb                            
 libkf6notifyconfig-data                                                       6.23.0-2                                                     deb                            
 libkf6notifyconfig6                                                           6.23.0-2                                                     deb                            
-libkf6package-data                                                            6.23.0-1                                                     deb                            
-libkf6package6                                                                6.23.0-1                                                     deb                            
-libkf6parts-data                                                              6.23.0-1                                                     deb                            
-libkf6parts6                                                                  6.23.0-1                                                     deb                            
+libkf6package-data                                                            6.23.0-2                                                     deb                            
+libkf6package6                                                                6.23.0-2                                                     deb                            
+libkf6parts-data                                                              6.23.0-2                                                     deb                            
+libkf6parts6                                                                  6.23.0-2                                                     deb                            
 libkf6prison6                                                                 6.23.0-1+b1                                                  deb                            
 libkf6prisonscanner6                                                          6.23.0-1+b1                                                  deb                            
 libkf6pty-data                                                                6.23.0-1                                                     deb                            
@@ -2056,9 +2056,9 @@ libkf6purposewidgets6                                                         6.
 libkf6qqc2desktopstyle-data                                                   6.23.0-2                                                     deb                            
 libkf6runner6                                                                 6.23.0-3                                                     deb                            
 libkf6screendpms8                                                             4:6.6.3-2                                                    deb                            
-libkf6service-bin                                                             6.23.1-1                                                     deb                            
-libkf6service-data                                                            6.23.1-1                                                     deb                            
-libkf6service6                                                                6.23.1-1                                                     deb                            
+libkf6service-bin                                                             6.23.1-2                                                     deb                            
+libkf6service-data                                                            6.23.1-2                                                     deb                            
+libkf6service6                                                                6.23.1-2                                                     deb                            
 libkf6solid-data                                                              6.23.0-2                                                     deb                            
 libkf6solid6                                                                  6.23.0-2                                                     deb                            
 libkf6sonnet-data                                                             6.23.0-2                                                     deb                            
@@ -2089,8 +2089,8 @@ libkf6userfeedbackwidgets6                                                    6.
 libkf6wallet-data                                                             6.23.0-2                                                     deb                            
 libkf6wallet6                                                                 6.23.0-2                                                     deb                            
 libkf6walletbackend6                                                          6.23.0-2                                                     deb                            
-libkf6widgetsaddons-data                                                      6.23.0-1                                                     deb                            
-libkf6widgetsaddons6                                                          6.23.0-1                                                     deb                            
+libkf6widgetsaddons-data                                                      6.23.0-2                                                     deb                            
+libkf6widgetsaddons6                                                          6.23.0-2                                                     deb                            
 libkf6windowsystem-data                                                       6.23.0-2                                                     deb                            
 libkf6windowsystem6                                                           6.23.0-2+b1                                                  deb                            
 libkf6xmlgui-data                                                             6.23.0-2                                                     deb                            
@@ -2206,7 +2206,7 @@ libnet-dns-perl                                                               1.
 libnet-http-perl                                                              6.24-1                                                       deb                            
 libnet-ip-perl                                                                1.26-4                                                       deb                            
 libnet-netmask-perl                                                           2.0003-1                                                     deb                            
-libnet-server-perl                                                            2.014-1                                                      deb                            
+libnet-server-perl                                                            2.018-1                                                      deb                            
 libnet-snmp-perl                                                              6.0.1-8                                                      deb                            
 libnet-ssleay-perl                                                            1.96-1                                                       deb                            
 libnet-whois-ip-perl                                                          1.19-3                                                       deb                            
@@ -2879,7 +2879,7 @@ my_dotnet.dll                                                                 0.
 mysql-common                                                                  5.8+1.1.1                                                    deb                            
 mysqlclient                                                                   1.4.6                                                        python                         
 nasm                                                                          3.01-1                                                       deb                            
-nassl                                                                         5.3.1                                                        python                         
+nassl                                                                         5.4.0                                                        python                         
 nbtscan                                                                       1.7.2-3                                                      deb                            
 ncrack                                                                        0.7+debian-6                                                 deb                            
 ncurses-base                                                                  6.6+20251231-1                                               deb                            
@@ -2953,8 +2953,8 @@ onesixtyone                                                                   0.
 open-uri                                                                      0.4.1                                                        gem                            
 open3                                                                         0.2.1                                                        gem                            
 openbox                                                                       3.6.1-12+b4                                                  deb                            
-openjdk-25-jre                                                                25.0.3~7ea-2                                                 deb                            
-openjdk-25-jre-headless                                                       25.0.3~7ea-2                                                 deb                            
+openjdk-25-jre                                                                25.0.3~8ea-1                                                 deb                            
+openjdk-25-jre-headless                                                       25.0.3~8ea-1                                                 deb                            
 openpyxl                                                                      3.1.5                                                        python                         
 openssh-client                                                                1:10.2p1-6                                                   deb                            
 openssh-client-gssapi                                                         1:10.2p1-6                                                   deb                            
@@ -3441,7 +3441,7 @@ python3-multidict                                                             6.
 python3-munkres                                                               1.1.4-3                                                      deb                            
 python3-mysqldb                                                               1.4.6-2+b6                                                   deb                            
 python3-nacl                                                                  1.5.0-8                                                      deb                            
-python3-nassl                                                                 5.3.1-0kali1                                                 deb                            
+python3-nassl                                                                 5.4.0-0kali3                                                 deb                            
 python3-neo4j                                                                 5.2.1-0kali1                                                 deb                            
 python3-neobolt                                                               1.7.17-0kali1                                                deb                            
 python3-neotime                                                               1.7.4-0kali1                                                 deb                            
