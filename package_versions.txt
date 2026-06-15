@@ -422,8 +422,8 @@ breeze-icon-theme                                                             4:
 breeze-wallpaper                                                              4:6.6.5-2                                                    deb                            
 brotli                                                                        1.2.0                                                        python                         
 browser-cookie3                                                               0.20.1                                                       python                         
-bsdextrautils                                                                 2.42-6                                                       deb                            
-bsdutils                                                                      1:2.42-6                                                     deb                            
+bsdextrautils                                                                 2.42.1-3                                                     deb                            
+bsdutils                                                                      1:2.42.1-3                                                   deb                            
 bson                                                                          5.2.0                                                        gem                            
 bubblewrap                                                                    0.11.2-2                                                     deb                            
 builder                                                                       3.3.0                                                        gem           (+1 duplicate)   
@@ -522,7 +522,7 @@ cryptsetup-nuke-password                                                      9 
 cssselect2                                                                    0.9.0                                                        python                         
 csv                                                                           3.2.8                                                        gem                            
 csv                                                                           3.3.5                                                        gem           (+1 duplicate)   
-curl                                                                          8.19.0-3                                                     deb                            
+curl                                                                          8.20.0-5                                                     deb                            
 cutycapt                                                                      0.0+20200623-1                                               deb                            
 cvss                                                                          3.2                                                          python                         
 cycler                                                                        0.12.1                                                       python                         
@@ -611,7 +611,7 @@ ecj                                                                           3.
 ed25519                                                                       1.4.0                                                        gem                            
 ed25519_jruby                                                                 UNKNOWN                                                      java-archive                   
 elastic-transport                                                             9.4.1                                                        python                         
-elasticsearch                                                                 9.4.0                                                        python                         
+elasticsearch                                                                 9.4.1                                                        python                         
 elftools                                                                      1.3.1                                                        gem                            
 elfutils                                                                      0.195-1                                                      deb                            
 em-http-request                                                               1.1.7                                                        gem                            
@@ -680,7 +680,7 @@ firmware-misc-nonfree                                                         20
 flac                                                                          1.5.0+ds-5+b1                                                deb                            
 flasgger                                                                      0.9.7.2.dev2                                                 python                         
 flashrom                                                                      1.6.0-3                                                      deb                            
-flask                                                                         3.1.2                                                        python                         
+flask                                                                         3.1.3                                                        python                         
 flask-celery-helper                                                           1.1.0                                                        python                         
 flask-classful                                                                0.15.0.dev1                                                  python                         
 flask-kvsession-fork                                                          0.6.4                                                        python                         
@@ -1689,8 +1689,7 @@ hrr_rb_ssh-ed25519                                                            0.
 html2text                                                                     2025.4.15                                                    python                         
 html5lib-modern                                                               1.2                                                          python                         
 http-accept                                                                   1.7.0                                                        gem                            
-http-cookie                                                                   1.1.0                                                        gem                            
-http-cookie                                                                   1.1.6                                                        gem                            
+http-cookie                                                                   1.1.6                                                        gem           (+1 duplicate)   
 http_parser.rb                                                                0.8.1                                                        gem                            
 httpagentparser                                                               1.9.1                                                        python                         
 httpclient                                                                    2.9.0                                                        gem           (+1 duplicate)   
@@ -1916,7 +1915,7 @@ libafflib0t64                                                                 3.
 libaio1t64                                                                    0.3.113-9+kali2                                              deb                            
 libaom3                                                                       3.13.1-2+b1                                                  deb                            
 libapache2-mod-php                                                            2:8.4+99                                                     deb                            
-libapache2-mod-php8.4                                                         8.4.21-1                                                     deb                            
+libapache2-mod-php8.4                                                         8.4.22-1                                                     deb                            
 libapparmor1                                                                  4.1.7-2                                                      deb                            
 libappimage1.0abi1t64                                                         1.0.4-5-7+b1                                                 deb                            
 libappstream5                                                                 1.1.2-1+b1                                                   deb                            
@@ -1941,7 +1940,7 @@ libasyncns0                                                                   0.
 libatasmart4                                                                  0.19-6+b2                                                    deb                            
 libatk-bridge2.0-0t64                                                         2.60.3-1                                                     deb                            
 libatk1.0-0t64                                                                2.60.3-1                                                     deb                            
-libatkmm-1.6-1v5                                                              2.28.4-5                                                     deb                            
+libatkmm-1.6-1v5                                                              2.28.5-1                                                     deb                            
 libatomic1                                                                    16.1.0-1                                                     deb                            
 libatspi2.0-0t64                                                              2.60.3-1                                                     deb                            
 libattr1                                                                      1:2.5.2-4                                                    deb                            
@@ -1962,7 +1961,7 @@ libbcg729-0                                                                   1.
 libbfio1                                                                      20170123-6+b3                                                deb                            
 libbinutils                                                                   2.46-3                                                       deb                            
 libblas3                                                                      3.12.1-7+b2                                                  deb                            
-libblkid1                                                                     2.42-6                                                       deb                            
+libblkid1                                                                     2.42.1-3                                                     deb                            
 libblockdev-crypto3                                                           3.5.0-1                                                      deb                            
 libblockdev-fs3                                                               3.5.0-1                                                      deb                            
 libblockdev-loop3                                                             3.5.0-1                                                      deb                            
@@ -1980,7 +1979,7 @@ libbpf1                                                                       1:
 libbrotli1                                                                    1.2.0-3                                                      deb                            
 libbs2b0                                                                      3.1.0+dfsg-8+b2                                              deb                            
 libbsd0                                                                       0.12.2-2+b2                                                  deb                            
-libbson2-2                                                                    2.3.0-1                                                      deb                            
+libbson2-2                                                                    2.3.1-1                                                      deb                            
 libbtbb1                                                                      2018.12.R1-1.1+b1                                            deb                            
 libbytesize-common                                                            2.12-1                                                       deb                            
 libbytesize1                                                                  2.12-1+b1                                                    deb                            
@@ -1993,7 +1992,7 @@ libc6                                                                         2.
 libc6-dev                                                                     2.42-16                                                      deb                            
 libcairo-gobject2                                                             1.18.4-3+b1                                                  deb                            
 libcairo2                                                                     1.18.4-3+b1                                                  deb                            
-libcairomm-1.0-1v5                                                            1.14.5-3                                                     deb                            
+libcairomm-1.0-1v5                                                            1.14.6-1                                                     deb                            
 libcanberra0                                                                  0.30-20+b1                                                   deb                            
 libcap-ng0                                                                    0.9.3-1                                                      deb                            
 libcap2                                                                       1:2.78-1                                                     deb                            
@@ -2027,8 +2026,9 @@ libct4                                                                        1.
 libctf-nobfd0                                                                 2.46-3                                                       deb                            
 libctf0                                                                       2.46-3                                                       deb                            
 libcups2t64                                                                   2.4.18-1                                                     deb                            
-libcurl3t64-gnutls                                                            8.19.0-3                                                     deb                            
-libcurl4t64                                                                   8.19.0-3                                                     deb                            
+libcurl3t64-gnutls                                                            8.20.0-5                                                     deb                            
+libcurl4-gnutls                                                               8.20.0-5                                                     deb                            
+libcurl4t64                                                                   8.20.0-5                                                     deb                            
 libdate-manip-perl                                                            6.99-1                                                       deb                            
 libdatrie1                                                                    0.2.14-1+b1                                                  deb                            
 libdav1d7                                                                     1.5.3-1+b2                                                   deb                            
@@ -2095,7 +2095,7 @@ libfaad2                                                                      2.
 libfalcosecurity0t64                                                          0.20.0-4.1                                                   deb                            
 libfbclient2                                                                  4.0.7.3271.ds6-1+b1                                          deb                            
 libfcft4t64                                                                   3.3.3-1                                                      deb                            
-libfdisk1                                                                     2.42-6                                                       deb                            
+libfdisk1                                                                     2.42.1-3                                                     deb                            
 libffi8                                                                       3.5.2-4                                                      deb                            
 libfftw3-double3                                                              3.3.10-2+b2                                                  deb                            
 libfftw3-single3                                                              3.3.10-2+b2                                                  deb                            
@@ -2132,7 +2132,7 @@ libgfortran5                                                                  16
 libgif7                                                                       5.2.2-1+b2                                                   deb                            
 libgirepository-1.0-1                                                         1.86.0-6+b1                                                  deb                            
 libgirepository-2.0-0                                                         2.88.1-2                                                     deb                            
-libgit2-1.9                                                                   1.9.3+ds-1+b1                                                deb                            
+libgit2-1.9                                                                   1.9.4+ds-1                                                   deb                            
 libgl1                                                                        1.7.0-3+b1                                                   deb                            
 libgl1-mesa-dri                                                               26.0.6-1                                                     deb                            
 libgles2                                                                      1.7.0-3+b1                                                   deb                            
@@ -2181,7 +2181,7 @@ libgvpr2                                                                      14
 libharfbuzz-gobject0                                                          12.3.2-2+b2                                                  deb                            
 libharfbuzz-subset0                                                           12.3.2-2+b2                                                  deb                            
 libharfbuzz0b                                                                 12.3.2-2+b2                                                  deb                            
-libhashkit2t64                                                                1.1.4-1.1+b4                                                 deb                            
+libhashkit2t64                                                                1.1.4-1.2                                                    deb                            
 libhavege2                                                                    1.9.22-1                                                     deb                            
 libheif-plugin-dav1d                                                          1.21.2-4                                                     deb                            
 libheif-plugin-j2kdec                                                         1.21.2-4                                                     deb                            
@@ -2190,7 +2190,7 @@ libheif-plugin-x265                                                           1.
 libheif1                                                                      1.21.2-4                                                     deb                            
 libhogweed6t64                                                                3.10.2-1+b1                                                  deb                            
 libhtml-form-perl                                                             6.13-1                                                       deb                            
-libhtml-parser-perl                                                           3.83-1+b4                                                    deb                            
+libhtml-parser-perl                                                           3.83-2                                                       deb                            
 libhtml-tagset-perl                                                           3.24-1                                                       deb                            
 libhtml-tree-perl                                                             5.07-3                                                       deb                            
 libhttp-cookies-perl                                                          6.11-1                                                       deb                            
@@ -2539,15 +2539,15 @@ libmatroska7                                                                  1.
 libmaxminddb0                                                                 1.13.3-1                                                     deb                            
 libmd0                                                                        1.2.0-1                                                      deb                            
 libmd4c0                                                                      0.5.3-1                                                      deb                            
-libmemcached11t64                                                             1.1.4-1.1+b4                                                 deb                            
+libmemcached11t64                                                             1.1.4-1.2                                                    deb                            
 libminizip1t64                                                                1:1.3.dfsg+really1.3.2-3                                     deb                            
 libmm-glib0                                                                   1.24.2-2+b1                                                  deb                            
 libmnl0                                                                       1.0.5-3+b2                                                   deb                            
-libmongoc2-2                                                                  2.3.0-1                                                      deb                            
-libmongocrypt0                                                                1.18.2-1                                                     deb                            
+libmongoc2-2                                                                  2.3.1-1                                                      deb                            
+libmongocrypt0                                                                1.19.0-1                                                     deb                            
 libmosquitto1                                                                 2.1.2-3                                                      deb                            
 libmotif-common                                                               2.3.8-5                                                      deb                            
-libmount1                                                                     2.42-6                                                       deb                            
+libmount1                                                                     2.42.1-3                                                     deb                            
 libmp3lame0                                                                   3.101~svn6531+dfsg-1                                         deb                            
 libmpc3                                                                       1.3.1-3                                                      deb                            
 libmpcdec6                                                                    2:0.1~r495-3+b2                                              deb                            
@@ -2626,7 +2626,7 @@ libopengl0                                                                    1.
 libopenjp2-7                                                                  2.5.4-1.1                                                    deb                            
 libopenjph0.27                                                                0.27.3-1                                                     deb                            
 libopenmpt-modplug1                                                           0.8.9.0-openmpt1-2+b4                                        deb                            
-libopenmpt0t64                                                                0.8.6-1                                                      deb                            
+libopenmpt0t64                                                                0.8.7-1                                                      deb                            
 libopus0                                                                      1.6.1-1+b1                                                   deb                            
 libopusfile0                                                                  0.12-4+b4                                                    deb                            
 liborc-0.4-0t64                                                               1:0.4.42-3                                                   deb                            
@@ -2661,7 +2661,7 @@ libperl5.40                                                                   5.
 libpgm-5.3-0t64                                                               5.3.128~dfsg-3                                               deb                            
 libphonon-l10n                                                                4:4.12.0-7                                                   deb                            
 libphonon4qt6-4t64                                                            4:4.12.0-7                                                   deb                            
-libpicohttpparser1                                                            1.2+ds-1                                                     deb                            
+libpicohttpparser1                                                            1.2+ds-2                                                     deb                            
 libpipeline1                                                                  1.5.8-3                                                      deb                            
 libpipewire-0.3-0t64                                                          1.6.6-1                                                      deb                            
 libpixman-1-0                                                                 0.46.4-1+b2                                                  deb                            
@@ -2683,8 +2683,8 @@ libpolkit-agent-1-0                                                           12
 libpolkit-gobject-1-0                                                         127+really127-3kali1                                         deb                            
 libpolkit-qt5-1-1                                                             0.201.1-1                                                    deb                            
 libpolkit-qt6-1-1                                                             0.201.1-1                                                    deb                            
-libpoppler-qt6-3t64                                                           25.03.0-11.1+b1                                              deb                            
-libpoppler147                                                                 25.03.0-11.1+b1                                              deb                            
+libpoppler-qt6-3t64                                                           26.01.0-5                                                    deb                            
+libpoppler156                                                                 26.01.0-5                                                    deb                            
 libpopt0                                                                      1.19+dfsg-2+b2                                               deb                            
 libportaudio2                                                                 19.7.0-1+b1                                                  deb                            
 libportmidi2                                                                  2:2.0.8-1+b1                                                 deb                            
@@ -2750,60 +2750,60 @@ libqt5webenginewidgets5                                                       5.
 libqt5widgets5t64                                                             5.15.17+dfsg-8                                               deb                            
 libqt5x11extras5                                                              5.15.17-2+b2                                                 deb                            
 libqt5xml5t64                                                                 5.15.17+dfsg-8                                               deb                            
-libqt6concurrent6                                                             6.10.2+dfsg-12                                               deb                            
+libqt6concurrent6                                                             6.10.2+dfsg-15                                               deb                            
 libqt6core5compat6                                                            6.10.2-2                                                     deb                            
-libqt6core6t64                                                                6.10.2+dfsg-12                                               deb                            
-libqt6dbus6                                                                   6.10.2+dfsg-12                                               deb                            
-libqt6gui6                                                                    6.10.2+dfsg-12                                               deb                            
+libqt6core6t64                                                                6.10.2+dfsg-15                                               deb                            
+libqt6dbus6                                                                   6.10.2+dfsg-15                                               deb                            
+libqt6gui6                                                                    6.10.2+dfsg-15                                               deb                            
 libqt6keychain1                                                               0.16.0-1                                                     deb                            
-libqt6labsplatform6                                                           6.10.2+dfsg-4                                                deb                            
+libqt6labsplatform6                                                           6.10.2+dfsg-6                                                deb                            
 libqt6location6                                                               6.10.2-3                                                     deb                            
 libqt6multimedia6                                                             6.10.2-4                                                     deb                            
 libqt6multimediawidgets6                                                      6.10.2-4                                                     deb                            
-libqt6network6                                                                6.10.2+dfsg-12                                               deb                            
-libqt6opengl6                                                                 6.10.2+dfsg-12                                               deb                            
-libqt6openglwidgets6                                                          6.10.2+dfsg-12                                               deb                            
+libqt6network6                                                                6.10.2+dfsg-15                                               deb                            
+libqt6opengl6                                                                 6.10.2+dfsg-15                                               deb                            
+libqt6openglwidgets6                                                          6.10.2+dfsg-15                                               deb                            
 libqt6positioning6                                                            6.10.2-3                                                     deb                            
 libqt6positioning6-plugins                                                    6.10.2-3                                                     deb                            
 libqt6positioningquick6                                                       6.10.2-3                                                     deb                            
-libqt6printsupport6                                                           6.10.2+dfsg-12                                               deb                            
-libqt6qml6                                                                    6.10.2+dfsg-4                                                deb                            
-libqt6qmlmeta6                                                                6.10.2+dfsg-4                                                deb                            
-libqt6qmlmodels6                                                              6.10.2+dfsg-4                                                deb                            
-libqt6qmlworkerscript6                                                        6.10.2+dfsg-4                                                deb                            
+libqt6printsupport6                                                           6.10.2+dfsg-15                                               deb                            
+libqt6qml6                                                                    6.10.2+dfsg-6                                                deb                            
+libqt6qmlmeta6                                                                6.10.2+dfsg-6                                                deb                            
+libqt6qmlmodels6                                                              6.10.2+dfsg-6                                                deb                            
+libqt6qmlworkerscript6                                                        6.10.2+dfsg-6                                                deb                            
 libqt6quick3d6                                                                6.10.2-3                                                     deb                            
 libqt6quick3druntimerender6                                                   6.10.2-3                                                     deb                            
 libqt6quick3dutils6                                                           6.10.2-3                                                     deb                            
-libqt6quick6                                                                  6.10.2+dfsg-4                                                deb                            
-libqt6quickcontrols2-6                                                        6.10.2+dfsg-4                                                deb                            
-libqt6quickshapes6                                                            6.10.2+dfsg-4                                                deb                            
-libqt6quicktemplates2-6                                                       6.10.2+dfsg-4                                                deb                            
-libqt6quickwidgets6                                                           6.10.2+dfsg-4                                                deb                            
-libqt6sensors6                                                                6.10.2-2                                                     deb                            
-libqt6serialport6                                                             6.10.2-2                                                     deb                            
-libqt6shadertools6                                                            6.10.2-2                                                     deb                            
-libqt6sql6                                                                    6.10.2+dfsg-12                                               deb                            
-libqt6sql6-sqlite                                                             6.10.2+dfsg-12                                               deb                            
+libqt6quick6                                                                  6.10.2+dfsg-6                                                deb                            
+libqt6quickcontrols2-6                                                        6.10.2+dfsg-6                                                deb                            
+libqt6quickshapes6                                                            6.10.2+dfsg-6                                                deb                            
+libqt6quicktemplates2-6                                                       6.10.2+dfsg-6                                                deb                            
+libqt6quickwidgets6                                                           6.10.2+dfsg-6                                                deb                            
+libqt6sensors6                                                                6.10.2-4                                                     deb                            
+libqt6serialport6                                                             6.10.2-3                                                     deb                            
+libqt6shadertools6                                                            6.10.2-3                                                     deb                            
+libqt6sql6                                                                    6.10.2+dfsg-15                                               deb                            
+libqt6sql6-sqlite                                                             6.10.2+dfsg-15                                               deb                            
 libqt6svg6                                                                    6.10.2-7                                                     deb                            
 libqt6svgwidgets6                                                             6.10.2-7                                                     deb                            
-libqt6test6                                                                   6.10.2+dfsg-12                                               deb                            
-libqt6texttospeech6                                                           6.10.2-2                                                     deb                            
-libqt6uitools6                                                                6.10.2-2                                                     deb                            
+libqt6test6                                                                   6.10.2+dfsg-15                                               deb                            
+libqt6texttospeech6                                                           6.10.2-3                                                     deb                            
+libqt6uitools6                                                                6.10.2-3                                                     deb                            
 libqt6virtualkeyboard6                                                        6.10.2+dfsg-3                                                deb                            
-libqt6waylandclient6                                                          6.10.2+dfsg-12                                               deb                            
-libqt6waylandcompositor6                                                      6.10.2-4                                                     deb                            
-libqt6webchannel6                                                             6.10.2-2                                                     deb                            
+libqt6waylandclient6                                                          6.10.2+dfsg-15                                               deb                            
+libqt6waylandcompositor6                                                      6.10.2-5                                                     deb                            
+libqt6webchannel6                                                             6.10.2-3                                                     deb                            
 libqt6webengine6-data                                                         6.10.2+dfsg-4                                                deb                            
 libqt6webenginecore6                                                          6.10.2+dfsg-4                                                deb                            
 libqt6webenginecore6-bin                                                      6.10.2+dfsg-4                                                deb                            
 libqt6webenginewidgets6                                                       6.10.2+dfsg-4                                                deb                            
-libqt6widgets6                                                                6.10.2+dfsg-12                                               deb                            
-libqt6wlshellintegration6                                                     6.10.2+dfsg-12                                               deb                            
-libqt6xml6                                                                    6.10.2+dfsg-12                                               deb                            
+libqt6widgets6                                                                6.10.2+dfsg-15                                               deb                            
+libqt6wlshellintegration6                                                     6.10.2+dfsg-15                                               deb                            
+libqt6xml6                                                                    6.10.2+dfsg-15                                               deb                            
 libquadmath0                                                                  16.1.0-1                                                     deb                            
 libquickcharts1                                                               6.23.0-1+b1                                                  deb                            
 libquickchartscontrols1                                                       6.23.0-1+b1                                                  deb                            
-librabbitmq4                                                                  0.15.0-1+b2                                                  deb                            
+librabbitmq4                                                                  0.16.0-1                                                     deb                            
 libradare2-6.0.0t64                                                           6.0.4+dfsg-1                                                 deb                            
 libradare2-common                                                             6.0.4+dfsg-1                                                 deb                            
 libraqm0                                                                      0.10.5-1                                                     deb                            
@@ -2815,7 +2815,7 @@ libreadline8t64                                                               8.
 libregexp-ipv6-perl                                                           0.03-3                                                       deb                            
 libresid-builder0c2a                                                          2.1.1-16+b2                                                  deb                            
 librhash1                                                                     1.4.6-1.1+b1                                                 deb                            
-librist4                                                                      0.2.15+dfsg-1                                                deb                            
+librist4                                                                      0.2.17+dfsg-1                                                deb                            
 librsvg2-2                                                                    2.62.1+dfsg-1                                                deb                            
 librsvg2-common                                                               2.62.1+dfsg-1                                                deb                            
 librtlsdr0                                                                    2.0.2-2+b2                                                   deb                            
@@ -2828,11 +2828,11 @@ libsasl2-2                                                                    2.
 libsasl2-modules-db                                                           2.1.28+dfsg1-11                                              deb                            
 libsbc1                                                                       2.1-1+b2                                                     deb                            
 libscim8v5                                                                    1.4.18+git20211204-0.5+b1                                    deb                            
-libsdl2-2.0-0                                                                 2.32.68+ds-1                                                 deb                            
+libsdl2-2.0-0                                                                 2.32.70+ds-1                                                 deb                            
 libsdl2-image-2.0-0                                                           2.8.12+dfsg-1                                                deb                            
 libsdl2-mixer-2.0-0                                                           2.8.2+dfsg-1                                                 deb                            
 libsdl2-ttf-2.0-0                                                             2.24.0+dfsg-3+b1                                             deb                            
-libsdl3-0                                                                     3.4.8+ds-2                                                   deb                            
+libsdl3-0                                                                     3.4.10+ds-1                                                  deb                            
 libseat1                                                                      0.9.3-1                                                      deb                            
 libseccomp2                                                                   2.6.0-2+b1                                                   deb                            
 libsecret-1-0                                                                 0.21.7-2+b1                                                  deb                            
@@ -2856,7 +2856,7 @@ libsignon-qt6-1                                                               8.
 libsimdutf33                                                                  8.2.0-1                                                      deb                            
 libslang2                                                                     2.3.3-6                                                      deb                            
 libsm6                                                                        2:1.2.6-1+b2                                                 deb                            
-libsmartcols1                                                                 2.42-6                                                       deb                            
+libsmartcols1                                                                 2.42.1-3                                                     deb                            
 libsmb2-6                                                                     6.2+dfsg-3+b1                                                deb                            
 libsmbclient0                                                                 2:4.24.3+dfsg-1                                              deb                            
 libsmi2t64                                                                    0.4.8+dfsg2-18+b1                                            deb                            
@@ -2964,7 +2964,7 @@ libusb-1.0-0                                                                  2:
 libusbmuxd-2.0-7                                                              2.1.1-1+b1                                                   deb                            
 libutempter0                                                                  1.2.1-5                                                      deb                            
 libutf8proc3                                                                  2.11.3-2                                                     deb                            
-libuuid1                                                                      2.42-6                                                       deb                            
+libuuid1                                                                      2.42.1-3                                                     deb                            
 libuv1t64                                                                     1.52.1-4                                                     deb                            
 libva-drm2                                                                    2.23.0-2                                                     deb                            
 libva-wayland2                                                                2.23.0-2                                                     deb                            
@@ -2998,7 +2998,7 @@ libwebp7                                                                      1.
 libwebpdemux2                                                                 1.5.0-0.1+b2                                                 deb                            
 libwebpmux3                                                                   1.5.0-0.1+b2                                                 deb                            
 libwebrtc-audio-processing-1-3                                                1.3-3+b3                                                     deb                            
-libwebsockets19t64                                                            4.3.5-4.1                                                    deb                            
+libwebsockets19t64                                                            4.3.5-5                                                      deb                            
 libwhisker2-perl                                                              2.5-1.3                                                      deb                            
 libwinpr3-3                                                                   3.26.0+dfsg-1                                                deb                            
 libwireshark-data                                                             4.6.6-1                                                      deb                            
@@ -3007,7 +3007,7 @@ libwiretap16                                                                  4.
 libwlroots-0.19                                                               0.19.3-1                                                     deb                            
 libwrap0                                                                      7.6.q-37                                                     deb                            
 libwsutil17                                                                   4.6.6-1                                                      deb                            
-libwtmpdb0                                                                    0.75.0-5+b1                                                  deb                            
+libwtmpdb0                                                                    0.75.0-6                                                     deb                            
 libwww-mechanize-perl                                                         2.20-1                                                       deb                            
 libwww-perl                                                                   6.83-1                                                       deb                            
 libwww-robotrules-perl                                                        6.02-1                                                       deb                            
@@ -3080,8 +3080,8 @@ libxml-regexp-perl                                                            0.
 libxml-sax-base-perl                                                          1.09-3                                                       deb                            
 libxml-sax-perl                                                               1.02+dfsg-5                                                  deb                            
 libxml-writer-perl                                                            0.900-2                                                      deb                            
-libxml2-16                                                                    2.15.2+dfsg-0.1                                              deb                            
-libxml2-utils                                                                 2.15.2+dfsg-0.1                                              deb                            
+libxml2-16                                                                    2.15.3+dfsg-1                                                deb                            
+libxml2-utils                                                                 2.15.3+dfsg-1                                                deb                            
 libxmlb2                                                                      0.3.24-2+b1                                                  deb                            
 libxmlsec1-10310                                                              1.3.10-2                                                     deb                            
 libxmlsec1-openssl10310                                                       1.3.10-2                                                     deb                            
@@ -3130,7 +3130,7 @@ locales-all                                                                   2.
 logger                                                                        1.6.0                                                        gem                            
 logger                                                                        1.7.0                                                        gem                            
 logging                                                                       2.4.0                                                        gem           (+1 duplicate)   
-login                                                                         1:4.16.0-2+really2.42-6                                      deb                            
+login                                                                         1:4.16.0-2+really2.42.1-3                                    deb                            
 login.defs                                                                    1:4.19.3-2                                                   deb                            
 logsave                                                                       1.47.4-1                                                     deb                            
 loguru                                                                        0.7.3                                                        python                         
@@ -3218,7 +3218,7 @@ montoya-api-sources                                                           UN
 more-itertools                                                                10.3.0                                                       python                         
 more-itertools                                                                10.8.0                                                       python        (+1 duplicate)   
 moul.io/http2curl                                                             v1.0.0                                                       go-module                      
-mount                                                                         2.42-6                                                       deb                            
+mount                                                                         2.42.1-3                                                     deb                            
 mpg123                                                                        1.33.5-1                                                     deb                            
 mpmath                                                                        1.4.1                                                        python                         
 mqtt                                                                          0.7.0                                                        gem                            
@@ -3322,11 +3322,11 @@ openbox                                                                       3.
 openjdk-25-jre                                                                25.0.3+9-2                                                   deb                            
 openjdk-25-jre-headless                                                       25.0.3+9-2                                                   deb                            
 openpyxl                                                                      3.1.5                                                        python                         
-openssh-client                                                                1:10.3p1-2                                                   deb                            
-openssh-client-gssapi                                                         1:10.3p1-2                                                   deb                            
+openssh-client                                                                1:10.3p1-4                                                   deb                            
+openssh-client-gssapi                                                         1:10.3p1-4                                                   deb                            
 openssh-client-ssh1                                                           1:7.5p1-18                                                   deb                            
-openssh-server                                                                1:10.3p1-2                                                   deb                            
-openssh-sftp-server                                                           1:10.3p1-2                                                   deb                            
+openssh-server                                                                1:10.3p1-4                                                   deb                            
+openssh-sftp-server                                                           1:10.3p1-4                                                   deb                            
 openssl                                                                       3.2.0                                                        gem                            
 openssl                                                                       3.3.3                                                        gem                            
 openssl                                                                       3.6.2-1                                                      deb                            
@@ -3375,7 +3375,8 @@ outcome                                                                       1.
 oxygen-sounds                                                                 4:6.6.5-2                                                    deb                            
 packagekit                                                                    1.3.5-1                                                      deb                            
 packaging                                                                     24.2                                                         python                         
-packaging                                                                     26.0                                                         python        (+1 duplicate)   
+packaging                                                                     26.0                                                         python                         
+packaging                                                                     26.2                                                         python                         
 packetfu                                                                      2.0.0                                                        gem                            
 pandas                                                                        2.3.3                                                        python                         
 parallel                                                                      1.28.0                                                       gem                            
@@ -3406,8 +3407,8 @@ perl-modules-5.40                                                             5.
 perl-openssl-defaults                                                         7+b2                                                         deb                            
 pexpect                                                                       4.9.0                                                        python                         
 pg                                                                            1.6.3                                                        gem                            
-pgcli                                                                         4.4.0                                                        python                         
-pgcli                                                                         4.4.0-1                                                      deb                            
+pgcli                                                                         4.5.0                                                        python                         
+pgcli                                                                         4.5.0-1                                                      deb                            
 pgspecial                                                                     2.2.1                                                        python                         
 phonenumbers                                                                  8.12.57                                                      python                         
 phonon-backend-vlc-common                                                     0.12.0-3                                                     deb                            
@@ -3416,18 +3417,18 @@ phonon4qt6-backend-vlc                                                        0.
 php                                                                           2:8.4+99                                                     deb                            
 php-common                                                                    2:99                                                         deb                            
 php-mysql                                                                     2:8.4+99                                                     deb                            
-php8.4                                                                        8.4.21-1                                                     deb                            
-php8.4-cli                                                                    8.4.21-1                                                     deb                            
-php8.4-common                                                                 8.4.21-1                                                     deb                            
-php8.4-mysql                                                                  8.4.21-1                                                     deb                            
-php8.4-opcache                                                                8.4.21-1                                                     deb                            
-php8.4-readline                                                               8.4.21-1                                                     deb                            
+php8.4                                                                        8.4.22-1                                                     deb                            
+php8.4-cli                                                                    8.4.22-1                                                     deb                            
+php8.4-common                                                                 8.4.22-1                                                     deb                            
+php8.4-mysql                                                                  8.4.22-1                                                     deb                            
+php8.4-opcache                                                                8.4.22-1                                                     deb                            
+php8.4-readline                                                               8.4.22-1                                                     deb                            
 pillow                                                                        12.2.0                                                       python        (+1 duplicate)   
 pinentry-curses                                                               1.3.2-4                                                      deb                            
 pip                                                                           26.1.1                                                       python        (+1 duplicate)   
 pipal                                                                         3.4.0-0kali1                                                 deb                            
-pipx                                                                          1.12.0                                                       python                         
-pipx                                                                          1.12.0-1                                                     deb                            
+pipx                                                                          1.14.0                                                       python                         
+pipx                                                                          1.14.0-1                                                     deb                            
 pixelflux                                                                     1.6.4                                                        python                         
 pixiewps                                                                      1.4.2-5                                                      deb                            
 pkexec                                                                        127+really127-3kali1                                         deb                            
@@ -3484,7 +3485,7 @@ promise                                                                       1.
 prompt-toolkit                                                                3.0.52                                                       python                         
 propcache                                                                     0.5.2                                                        python        (+1 duplicate)   
 proxychains4                                                                  4.17-3.1                                                     deb                            
-proxytunnel                                                                   1.12.3-1                                                     deb                            
+proxytunnel                                                                   1.13.0-1                                                     deb                            
 psmisc                                                                        23.7-2                                                       deb                            
 pstore                                                                        0.1.3                                                        gem                            
 psutil                                                                        7.2.2                                                        python                         
@@ -3514,9 +3515,9 @@ pycairo                                                                       1.
 pycares                                                                       5.0.1                                                        python                         
 pycparser                                                                     3.0                                                          python        (+1 duplicate)   
 pycryptodomex                                                                 3.20.0                                                       python                         
-pycurl                                                                        7.45.7                                                       python                         
-pydantic                                                                      2.12.5                                                       python                         
-pydantic-core                                                                 2.41.5                                                       python                         
+pycurl                                                                        7.46.0                                                       python                         
+pydantic                                                                      2.13.4                                                       python                         
+pydantic-core                                                                 2.46.4                                                       python                         
 pydantic-settings                                                             2.14.1                                                       python                         
 pydispatcher                                                                  2.0.7                                                        python                         
 pydot                                                                         4.0.1                                                        python                         
@@ -3543,8 +3544,7 @@ pymysql                                                                       1.
 pynacl                                                                        1.6.2                                                        python                         
 pynfsclient                                                                   0.1.5                                                        python                         
 pynput                                                                        1.8.2                                                        python                         
-pyopenssl                                                                     26.1.0                                                       python                         
-pyopenssl                                                                     26.2.0                                                       python                         
+pyopenssl                                                                     26.2.0                                                       python        (+1 duplicate)   
 pyotp                                                                         2.9.0                                                        python                         
 pyparsing                                                                     3.3.2                                                        python                         
 pypdf                                                                         6.9.2                                                        python                         
@@ -3575,7 +3575,7 @@ python-dotenv                                                                 1.
 python-engineio                                                               4.13.0                                                       python                         
 python-is-python3                                                             3.13.3-1                                                     deb                            
 python-libnmap                                                                0.7.3                                                        python                         
-python-magic                                                                  0.4.27                                                       python                         
+python-magic                                                                  0.4.28                                                       python                         
 python-matplotlib-data                                                        3.10.7+dfsg1-5                                               deb                            
 python-memcached                                                              1.60                                                         python                         
 python-multipart                                                              0.0.26                                                       python                         
@@ -3694,7 +3694,7 @@ python3-dsinternals                                                           1.
 python3-dunamai                                                               1.25.0-1                                                     deb                            
 python3-ecdsa                                                                 0.19.2-1                                                     deb                            
 python3-elastic-transport                                                     9.4.1-1                                                      deb                            
-python3-elasticsearch                                                         9.4.0-1                                                      deb                            
+python3-elasticsearch                                                         9.4.1-1                                                      deb                            
 python3-email-validator                                                       2.2.0-1                                                      deb                            
 python3-engineio                                                              4.13.0-2                                                     deb                            
 python3-ephem                                                                 4.2.1-1                                                      deb                            
@@ -3708,7 +3708,7 @@ python3-filelock                                                              3.
 python3-filetype                                                              1.2.0-1                                                      deb                            
 python3-filteralchemy                                                         0.1.0+git20190401-0kali2                                     deb                            
 python3-flasgger                                                              0.9.7.2~dev2+dfsg-4                                          deb                            
-python3-flask                                                                 3.1.2-1                                                      deb                            
+python3-flask                                                                 3.1.3-2                                                      deb                            
 python3-flask-celery-helper                                                   1.1.0-0kali1                                                 deb                            
 python3-flask-classful                                                        0.15.0~b1+git20211224.521173d-0kali1                         deb                            
 python3-flask-kvsession                                                       0.6.4-0kali1                                                 deb                            
@@ -3787,7 +3787,7 @@ python3-lsassy                                                                3.
 python3-lxml                                                                  6.1.0-1                                                      deb                            
 python3-lz4                                                                   4.4.5+dfsg-1                                                 deb                            
 python3-macholib                                                              1.16.4+ds-1                                                  deb                            
-python3-magic                                                                 2:0.4.27-4                                                   deb                            
+python3-magic                                                                 2:0.4.27-5                                                   deb                            
 python3-mako                                                                  1.3.10-3                                                     deb                            
 python3-markdown                                                              3.10.2-1                                                     deb                            
 python3-markdown-it                                                           4.2.0-2                                                      deb                            
@@ -3830,11 +3830,11 @@ python3-numpy-dev                                                             1:
 python3-oauthlib                                                              3.3.1-1                                                      deb                            
 python3-obfuscator                                                            0.0.2-0kali1                                                 deb                            
 python3-openpyxl                                                              3.1.5+dfsg-4                                                 deb                            
-python3-openssl                                                               26.1.0-1                                                     deb                            
+python3-openssl                                                               26.2.0-1                                                     deb                            
 python3-ordered-set                                                           4.1.0-1                                                      deb                            
 python3-oscrypto                                                              1.3.0-7                                                      deb                            
 python3-outcome                                                               1.3.0.post0-2                                                deb                            
-python3-packaging                                                             26.0-1                                                       deb                            
+python3-packaging                                                             26.2-1                                                       deb                            
 python3-pandas                                                                2.3.3+dfsg-3                                                 deb                            
 python3-pandas-lib                                                            2.3.3+dfsg-3+b1                                              deb                            
 python3-paramiko                                                              4.0.0-2                                                      deb                            
@@ -3877,9 +3877,9 @@ python3-pyasyncore                                                            1.
 python3-pycares                                                               5.0.1-3                                                      deb                            
 python3-pycparser                                                             3.0-1                                                        deb                            
 python3-pycryptodome                                                          3.20.0+dfsg-3                                                deb                            
-python3-pycurl                                                                7.45.7-4                                                     deb                            
-python3-pydantic                                                              2.12.5-2                                                     deb                            
-python3-pydantic-core                                                         2.41.5-5                                                     deb                            
+python3-pycurl                                                                7.46.0-1                                                     deb                            
+python3-pydantic                                                              2.13.4-1                                                     deb                            
+python3-pydantic-core                                                         2.46.4-1                                                     deb                            
 python3-pydantic-settings                                                     2.14.1-1                                                     deb                            
 python3-pydispatch                                                            2.0.7-1                                                      deb                            
 python3-pydot                                                                 4.0.1-1                                                      deb                            
@@ -3887,7 +3887,7 @@ python3-pydyf                                                                 0.
 python3-pyee                                                                  13.0.0-2                                                     deb                            
 python3-pyexploitdb                                                           0.3.24-0kali1                                                deb                            
 python3-pyfiglet                                                              1.0.4+dfsg-1                                                 deb                            
-python3-pygame                                                                2.6.1-4                                                      deb                            
+python3-pygame                                                                2.6.1-5                                                      deb                            
 python3-pygments                                                              2.19.2+dfsg-1                                                deb                            
 python3-pyinstaller                                                           6.18.0+ds-3                                                  deb                            
 python3-pylnk3                                                                0.4.3-0kali1                                                 deb                            
@@ -3905,7 +3905,7 @@ python3-pypykatz                                                              0.
 python3-pyqrcode                                                              1.2.1-4                                                      deb                            
 python3-pyqt5                                                                 5.15.11+dfsg-4                                               deb                            
 python3-pyqt5.sip                                                             12.18.0-1                                                    deb                            
-python3-pyqt6                                                                 6.11.0-1                                                     deb                            
+python3-pyqt6                                                                 6.11.0-2                                                     deb                            
 python3-pyqt6.sip                                                             13.11.1-1                                                    deb                            
 python3-pyramid                                                               2.0.2+dfsg-1                                                 deb                            
 python3-pyshodan                                                              0.2.3+git20220608-0kali1                                     deb                            
@@ -3923,7 +3923,7 @@ python3-qasync                                                                0.
 python3-qrcode                                                                8.2-1                                                        deb                            
 python3-rapidfuzz                                                             3.12.2+ds-1+b1                                               deb                            
 python3-redis                                                                 6.4.0-1                                                      deb                            
-python3-referencing                                                           0.36.2-3                                                     deb                            
+python3-referencing                                                           0.37.0+~2025.1.1-2                                           deb                            
 python3-regex                                                                 0.1.20250918-1+b1                                            deb                            
 python3-requests                                                              2.32.5+dfsg-1                                                deb                            
 python3-requests-file                                                         3.0.1-1                                                      deb                            
@@ -3986,7 +3986,7 @@ python3-translationstring                                                     1.
 python3-trie                                                                  0.4.0+ds-1                                                   deb                            
 python3-trio                                                                  0.33.0-1                                                     deb                            
 python3-trio-websocket                                                        0.12.2-2                                                     deb                            
-python3-twisted                                                               25.5.0-5                                                     deb                            
+python3-twisted                                                               26.4.0-1                                                     deb                            
 python3-txaio                                                                 25.9.2-2                                                     deb                            
 python3-typeguard                                                             4.4.4-2                                                      deb                            
 python3-typing-extensions                                                     4.15.0-2                                                     deb                            
@@ -4010,7 +4010,7 @@ python3-validators                                                            0.
 python3-venusian                                                              3.1.1-1                                                      deb                            
 python3-venv                                                                  3.13.9-3+b1                                                  deb                            
 python3-vine                                                                  5.1.0+dfsg-2                                                 deb                            
-python3-virtualenv                                                            21.3.1+ds-1                                                  deb                            
+python3-virtualenv                                                            21.4.1+ds-1                                                  deb                            
 python3-wadllib                                                               2.0.0-3                                                      deb                            
 python3-wapiti-swagger                                                        0.1.9-2                                                      deb                            
 python3-wcwidth                                                               0.2.14+dfsg1-1                                               deb                            
@@ -4020,7 +4020,7 @@ python3-webob                                                                 1:
 python3-websocket                                                             1.9.0-3                                                      deb                            
 python3-websockets                                                            16.0-1                                                       deb                            
 python3-websockify                                                            0.13.0+dfsg1-2                                               deb                            
-python3-werkzeug                                                              3.1.5-1                                                      deb                            
+python3-werkzeug                                                              3.1.8-1                                                      deb                            
 python3-wheel                                                                 0.47.0-1                                                     deb                            
 python3-whois                                                                 0.9.3-0kali1                                                 deb                            
 python3-winacl                                                                0.1.9-0kali2                                                 deb                            
@@ -4037,7 +4037,7 @@ python3-zipp                                                                  3.
 python3-zlib-wrapper                                                          0.1.3-0kali3                                                 deb                            
 python3-zope.deprecation                                                      6.0-3                                                        deb                            
 python3-zope.event                                                            6.0-2                                                        deb                            
-python3-zope.interface                                                        8.4-1                                                        deb                            
+python3-zope.interface                                                        8.5-1                                                        deb                            
 python3-zopfli                                                                0.4.2-1                                                      deb                            
 python3-zstandard                                                             0.25.0-1+b1                                                  deb                            
 python3.13                                                                    3.13.12-1                                                    deb                            
@@ -4054,7 +4054,7 @@ pywerview                                                                     0.
 pyyaml                                                                        6.0.3                                                        python                         
 pyzipper                                                                      0.3.6                                                        python                         
 qasync                                                                        0.28.0                                                       python                         
-qdbus-qt6                                                                     6.10.2-2                                                     deb                            
+qdbus-qt6                                                                     6.10.2-3                                                     deb                            
 qml-module-org-kde-kirigami2                                                  5.116.0-1+b2                                                 deb                            
 qml-module-org-kde-newstuff                                                   5.116.0-2+b2                                                 deb                            
 qml-module-qt-labs-platform                                                   5.15.17+dfsg-2+b2                                            deb                            
@@ -4107,38 +4107,38 @@ qml6-module-org-kde-sonnet                                                    6.
 qml6-module-org-kde-syntaxhighlighting                                        6.23.0-2                                                     deb                            
 qml6-module-org-kde-taskmanager                                               4:6.6.5-2                                                    deb                            
 qml6-module-org-kde-userfeedback                                              6.23.0-1                                                     deb                            
-qml6-module-qt-labs-animation                                                 6.10.2+dfsg-4                                                deb                            
-qml6-module-qt-labs-folderlistmodel                                           6.10.2+dfsg-4                                                deb                            
-qml6-module-qt-labs-platform                                                  6.10.2+dfsg-4                                                deb                            
-qml6-module-qt-labs-qmlmodels                                                 6.10.2+dfsg-4                                                deb                            
+qml6-module-qt-labs-animation                                                 6.10.2+dfsg-6                                                deb                            
+qml6-module-qt-labs-folderlistmodel                                           6.10.2+dfsg-6                                                deb                            
+qml6-module-qt-labs-platform                                                  6.10.2+dfsg-6                                                deb                            
+qml6-module-qt-labs-qmlmodels                                                 6.10.2+dfsg-6                                                deb                            
 qml6-module-qt5compat-graphicaleffects                                        6.10.2-2                                                     deb                            
-qml6-module-qtcore                                                            6.10.2+dfsg-4                                                deb                            
+qml6-module-qtcore                                                            6.10.2+dfsg-6                                                deb                            
 qml6-module-qtlocation                                                        6.10.2-3                                                     deb                            
 qml6-module-qtmultimedia                                                      6.10.2-4                                                     deb                            
 qml6-module-qtpositioning                                                     6.10.2-3                                                     deb                            
-qml6-module-qtqml                                                             6.10.2+dfsg-4                                                deb                            
-qml6-module-qtqml-models                                                      6.10.2+dfsg-4                                                deb                            
-qml6-module-qtqml-workerscript                                                6.10.2+dfsg-4                                                deb                            
-qml6-module-qtquick                                                           6.10.2+dfsg-4                                                deb                            
-qml6-module-qtquick-controls                                                  6.10.2+dfsg-4                                                deb                            
-qml6-module-qtquick-dialogs                                                   6.10.2+dfsg-4                                                deb                            
-qml6-module-qtquick-effects                                                   6.10.2+dfsg-4                                                deb                            
-qml6-module-qtquick-layouts                                                   6.10.2+dfsg-4                                                deb                            
-qml6-module-qtquick-shapes                                                    6.10.2+dfsg-4                                                deb                            
-qml6-module-qtquick-templates                                                 6.10.2+dfsg-4                                                deb                            
-qml6-module-qtquick-tooling                                                   6.10.2+dfsg-4                                                deb                            
+qml6-module-qtqml                                                             6.10.2+dfsg-6                                                deb                            
+qml6-module-qtqml-models                                                      6.10.2+dfsg-6                                                deb                            
+qml6-module-qtqml-workerscript                                                6.10.2+dfsg-6                                                deb                            
+qml6-module-qtquick                                                           6.10.2+dfsg-6                                                deb                            
+qml6-module-qtquick-controls                                                  6.10.2+dfsg-6                                                deb                            
+qml6-module-qtquick-dialogs                                                   6.10.2+dfsg-6                                                deb                            
+qml6-module-qtquick-effects                                                   6.10.2+dfsg-6                                                deb                            
+qml6-module-qtquick-layouts                                                   6.10.2+dfsg-6                                                deb                            
+qml6-module-qtquick-shapes                                                    6.10.2+dfsg-6                                                deb                            
+qml6-module-qtquick-templates                                                 6.10.2+dfsg-6                                                deb                            
+qml6-module-qtquick-tooling                                                   6.10.2+dfsg-6                                                deb                            
 qml6-module-qtquick-virtualkeyboard                                           6.10.2+dfsg-3                                                deb                            
-qml6-module-qtquick-window                                                    6.10.2+dfsg-4                                                deb                            
+qml6-module-qtquick-window                                                    6.10.2+dfsg-6                                                deb                            
 qml6-module-qtquick3d                                                         6.10.2-3                                                     deb                            
 qml6-module-sso-onlineaccounts                                                0.7.1+git20231028.05e79eb-2                                  deb                            
 qrcode                                                                        8.2                                                          python                         
 qsslcaudit                                                                    0.8.3-0kali2                                                 deb                            
 qt6-location-plugins                                                          6.10.2-3                                                     deb                            
-qt6-qpa-plugins                                                               6.10.2+dfsg-12                                               deb                            
+qt6-qpa-plugins                                                               6.10.2+dfsg-15                                               deb                            
 qt6-svg-plugins                                                               6.10.2-7                                                     deb                            
-qt6-wayland                                                                   6.10.2-4                                                     deb                            
-qtpaths6                                                                      6.10.2+dfsg-12                                               deb                            
-qtpaths6-bin                                                                  6.10.2+dfsg-12                                               deb                            
+qt6-wayland                                                                   6.10.2-5                                                     deb                            
+qtpaths6                                                                      6.10.2+dfsg-15                                               deb                            
+qtpaths6-bin                                                                  6.10.2+dfsg-15                                               deb                            
 racc                                                                          1.7.3                                                        gem                            
 racc                                                                          1.8.1                                                        gem           (+1 duplicate)   
 racc                                                                          1.8.1-2                                                      deb                            
@@ -4174,7 +4174,7 @@ redis                                                                         6.
 redis-server                                                                  5:8.0.6-2                                                    deb                            
 redis-tools                                                                   5:8.0.6-2                                                    deb                            
 redsocks                                                                      0.5-2+b5                                                     deb                            
-referencing                                                                   0.36.2                                                       python                         
+referencing                                                                   0.37.0                                                       python                         
 regex                                                                         2025.9.18                                                    python                         
 reline                                                                        0.5.10                                                       gem                            
 reline                                                                        0.6.3                                                        gem                            
@@ -4207,7 +4207,7 @@ rex-text                                                                      0.
 rex-zip                                                                       0.1.6                                                        gem                            
 rexml                                                                         3.3.9                                                        gem                            
 rexml                                                                         3.4.1                                                        gem                            
-rfkill                                                                        2.42-6                                                       deb                            
+rfkill                                                                        2.42.1-3                                                     deb                            
 rich                                                                          15.0.0                                                       python                         
 rinda                                                                         0.2.0                                                        gem           (+1 duplicate)   
 rkelly-remix                                                                  0.0.7                                                        gem                            
@@ -4224,7 +4224,7 @@ rspec-mocks                                                                   3.
 rspec-rerun                                                                   1.1.0                                                        gem                            
 rspec-support                                                                 3.13.7                                                       gem                            
 rss                                                                           0.3.1                                                        gem                            
-rsync                                                                         3.4.3+ds1-2                                                  deb                            
+rsync                                                                         3.4.4+ds1-1                                                  deb                            
 ruamel-yaml                                                                   0.18.14                                                      python                         
 ruamel-yaml-clib                                                              0.2.15                                                       python                         
 ruby                                                                          1:3.3+b1                                                     deb                            
@@ -4245,7 +4245,7 @@ ruby-ffi                                                                      1.
 ruby-get-process-mem                                                          1.0.0-1                                                      deb                            
 ruby-gssapi                                                                   1.3.1-1                                                      deb                            
 ruby-gyoku                                                                    1.4.0-1                                                      deb                            
-ruby-http-cookie                                                              1.1.0-1                                                      deb                            
+ruby-http-cookie                                                              1.1.6-1                                                      deb                            
 ruby-httpclient                                                               2.9.0-1                                                      deb                            
 ruby-i18n                                                                     1.14.8-1                                                     deb                            
 ruby-ipaddress                                                                0.8.3-5                                                      deb                            
@@ -4359,7 +4359,7 @@ snmp                                                                          1.
 snmp                                                                          5.9.5.2+dfsg-2.1+b1                                          deb                            
 snmpcheck                                                                     1.9-0kali2                                                   deb                            
 snmpd                                                                         5.9.5.2+dfsg-2.1+b1                                          deb                            
-socat                                                                         1.8.1.1-1                                                    deb                            
+socat                                                                         1.8.1.1-2                                                    deb                            
 software-properties-common                                                    0.111-1                                                      deb                            
 sortedcontainers                                                              2.4.0                                                        python                         
 sound-theme-freedesktop                                                       0.8-7                                                        deb                            
@@ -4376,17 +4376,17 @@ sqlalchemy-utc                                                                0.
 sqlite3                                                                       1.4.4                                                        gem                            
 sqlite3                                                                       3.46.1-9+b1                                                  deb                            
 sqlitebrowser                                                                 3.13.1-1                                                     deb                            
-sqlmap                                                                        1.10.5-1                                                     deb                            
+sqlmap                                                                        1.10.6-1                                                     deb                            
 sqlparse                                                                      0.5.5                                                        python                         
 sqsh                                                                          2.5.16.1-3+kali1                                             deb                            
 sqv                                                                           1.3.0-5+b2                                                   deb                            
 sse3-support                                                                  27+b1                                                        deb                            
 sshkey                                                                        3.0.0                                                        gem                            
 ssl-cert                                                                      1.1.3                                                        deb                            
-ssldump                                                                       1.9-1+b1                                                     deb                            
+ssldump                                                                       1.9-2                                                        deb                            
 sslh                                                                          2.1.4-1+b1                                                   deb                            
 sslscan                                                                       2.1.5-1                                                      deb                            
-sslsplit                                                                      0.5.5-2.1+b2                                                 deb                            
+sslsplit                                                                      0.5.5-3                                                      deb                            
 sslyze                                                                        6.3.1                                                        python                         
 sslyze                                                                        6.3.1-0kali1                                                 deb                            
 standard-imghdr                                                               3.13.0                                                       python                         
@@ -4480,7 +4480,7 @@ trio-websocket                                                                0.
 tshark                                                                        4.6.6-1                                                      deb                            
 tsort                                                                         0.2.0                                                        gem           (+1 duplicate)   
 ttfunk                                                                        1.7.0                                                        gem                            
-twisted                                                                       25.5.0                                                       python                         
+twisted                                                                       26.4.0                                                       python                         
 txaio                                                                         25.9.2                                                       python                         
 typeguard                                                                     4.3.0                                                        python                         
 typeguard                                                                     4.4.4                                                        python                         
@@ -4530,7 +4530,7 @@ usbutils                                                                      1:
 user-session-migration                                                        0.5.1                                                        deb                            
 useragent                                                                     0.16.11                                                      gem                            
 userpath                                                                      1.9.2                                                        python                         
-util-linux                                                                    2.42-6                                                       deb                            
+util-linux                                                                    2.42.1-3                                                     deb                            
 uvicorn                                                                       0.38.0                                                       python                         
 uvloop                                                                        0.22.1                                                       python                         
 validators                                                                    0.20.0                                                       python                         
@@ -4542,7 +4542,7 @@ vim-common                                                                    2:
 vim-runtime                                                                   2:9.2.0524-1                                                 deb                            
 vim-tiny                                                                      2:9.2.0524-1                                                 deb                            
 vine                                                                          5.1.0                                                        python                         
-virtualenv                                                                    21.3.1                                                       python                         
+virtualenv                                                                    21.4.1                                                       python                         
 vlan                                                                          2.0.5+nmu3                                                   deb                            
 vlc-data                                                                      3.0.23-3                                                     deb                            
 vlc-plugin-base                                                               3.0.23-3+b1                                                  deb                            
@@ -4575,7 +4575,7 @@ websocket-extensions                                                          0.
 websockets                                                                    16.0                                                         python        (+1 duplicate)   
 websockify                                                                    0.13.0                                                       python                         
 weevely                                                                       4.0.2-1                                                      deb                            
-werkzeug                                                                      3.1.5                                                        python                         
+werkzeug                                                                      3.1.8                                                        python                         
 wfuzz                                                                         3.1.0                                                        python                         
 wfuzz                                                                         3.1.0-6                                                      deb                            
 wget                                                                          1.25.0-2                                                     deb                            
@@ -4650,7 +4650,7 @@ xterm                                                                         41
 xtightvncviewer                                                               1:1.3.10-11                                                  deb                            
 xutils                                                                        1:7.7+26                                                     deb                            
 xvfb                                                                          2:21.1.22-1                                                  deb                            
-xwayland                                                                      2:24.1.11-1                                                  deb                            
+xwayland                                                                      2:24.1.12-1                                                  deb                            
 xxd                                                                           2:9.2.0524-1                                                 deb                            
 yajl-ruby                                                                     1.4.3                                                        gem                            
 yaml                                                                          0.3.0                                                        gem                            
@@ -4669,7 +4669,7 @@ zlib1g                                                                        1:
 zlib1g-dev                                                                    1:1.3.dfsg+really1.3.2-3                                     deb                            
 zope-deprecation                                                              6.0                                                          python                         
 zope-event                                                                    6.0                                                          python                         
-zope-interface                                                                8.4                                                          python                         
+zope-interface                                                                8.5                                                          python                         
 zopfli                                                                        0.4.2                                                        python                         
 zsh                                                                           5.9-8+b40                                                    deb                            
 zsh-autosuggestions                                                           0.7.1-1                                                      deb                            
