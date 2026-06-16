@@ -10,7 +10,6 @@ LABEL maintainer="thelamer"
 
 # title
 ENV TITLE="Kali Linux" \
-    NO_GAMEPAD=true \
     PIXELFLUX_WAYLAND=true
 
 RUN \
