@@ -1,0 +1,15 @@
+kwin 6.7.4: advertise wl_fixes v1 unless KWIN_USE_FIXES_V2 is set
+
+Backport of upstream commit 7c88a384c1da
+
+--- a/src/wayland/fixes.cpp
++++ b/src/wayland/fixes.cpp
+@@ -12,7 +12,7 @@ namespace KWin
+ {
+ 
+ #ifdef HAVE_ACK_GLOBAL_REMOVE
+-static constexpr int s_version = 2;
++static const int s_version = qEnvironmentVariableIsSet("KWIN_USE_FIXES_V2") ? 2 : 1;
+ #else
+ static constexpr int s_version = 1;
+ #endif

@@ -1,0 +1,186 @@
+kwin 6.7: keep advertising kde_output_device_v2 globals per output
+
+Have the registry register each device as a wl_global of its own, as
+6.6 did. The generated server class supports being both: a bind through the
+global and a registry announcement land in the same resource map, so the
+initial state, updates and the removed event reach both kinds of binder.
+Plasma's own clients bind only the registry object, so they see no duplicates.
+
+The global is retired the way kwin retires wl_output: on withdrawal the
+device sends removed, stops following its output and unpublishes the global
+with wl_global_remove, deleting itself once the global can be destroyed. A
+hard wl_global_destroy on withdrawal is fatal with libwayland 1.26 and
+wl_fixes v2 (advertised by 6.7.4): a client acknowledging the removal of an
+already destroyed global is disconnected with "the given registry did not
+announce global N", which is how plasmashell died whenever a virtual output
+went away. A client binding the retired global late is only told it is gone,
+and configurations naming it are ignored as for a destroyed device.
+
+Applies to kwin 6.7.x (verified against v6.7.4 and v6.7.5).
+
+--- a/src/wayland/outputdevice_v2.h
++++ b/src/wayland/outputdevice_v2.h
+@@ -65,7 +65,25 @@
+ 
+     static OutputDeviceV2Interface *get(wl_resource *native);
+ 
++    /**
++     * Additionally advertise this device as a kde_output_device_v2 global of
++     * its own, as kwin before 6.7 did, so clients enumerating output devices
++     * through wl_registry rather than kde_output_device_registry_v2 still
++     * find it. Resources bound either way share one resource map.
++     */
++    void announceGlobal(Display *display);
++
++    /**
++     * Withdraw the device: every bound client gets the removed event and the
++     * device stops following its output. A device announced as a global is
++     * then unpublished the way wl_output is, and deletes itself once the
++     * global can go away (every registry acknowledged the removal, or the
++     * deferred destroy fired); a device without one is deleted right away.
++     */
++    void remove();
++
+ private:
++    void retire();
+     void updatePhysicalSize();
+     void updateGlobalPosition();
+     void updateManufacturer();
+--- a/src/wayland/outputdevice_v2.cpp
++++ b/src/wayland/outputdevice_v2.cpp
+@@ -29,6 +29,7 @@
+     void announce(Resource *resource, OutputDeviceV2Interface *outputDevice);
+ 
+     std::unordered_map<BackendOutput *, std::unique_ptr<OutputDeviceV2Interface>> outputDevices;
++    Display *m_display;
+ 
+ protected:
+     void kde_output_device_registry_v2_bind_resource(Resource *resource) override;
+@@ -37,6 +38,7 @@
+ 
+ OutputDeviceRegistryV2Private::OutputDeviceRegistryV2Private(Display *display)
+     : QtWaylandServer::kde_output_device_registry_v2(*display, s_version)
++    , m_display(display)
+ {
+ }
+ 
+@@ -75,6 +77,9 @@
+ {
+     auto &outputDevice = d->outputDevices[output];
+     outputDevice = std::make_unique<OutputDeviceV2Interface>(output);
++    // Keep the pre-6.7 per-device global alongside the registry announcement,
++    // for clients that only look for kde_output_device_v2 in wl_registry.
++    outputDevice->announceGlobal(d->m_display);
+ 
+     const auto resources = d->resourceMap();
+     for (const auto &resource : resources) {
+@@ -84,7 +89,16 @@
+ 
+ void OutputDeviceRegistryV2::withdraw(BackendOutput *output)
+ {
+-    d->outputDevices.erase(output);
++    const auto it = d->outputDevices.find(output);
++    if (it == d->outputDevices.end()) {
++        return;
++    }
++    // The device outlives the registry entry: its global has to stay
++    // unpublished-but-known until the clients let go of it, and the device
++    // deletes itself when that happens.
++    OutputDeviceV2Interface *outputDevice = it->second.release();
++    d->outputDevices.erase(it);
++    outputDevice->remove();
+ }
+ 
+ static QtWaylandServer::kde_output_device_v2::transform kwinTransformToOutputDeviceTransform(OutputTransform transform)
+@@ -272,6 +286,7 @@
+ protected:
+     void kde_output_device_v2_bind_resource(Resource *resource) override;
+     void kde_output_device_v2_release(Resource *resource) override;
++    void kde_output_device_v2_destroy_global() override;
+ };
+ 
+ class OutputDeviceModeV2InterfacePrivate : public QtWaylandServer::kde_output_device_mode_v2
+@@ -416,7 +431,19 @@
+ 
+ OutputDeviceV2Interface::~OutputDeviceV2Interface()
+ {
++    retire();
++}
++
++void OutputDeviceV2Interface::retire()
++{
++    if (!d->m_handle) {
++        // Already withdrawn.
++        return;
++    }
++
+     d->m_doneTimer.stop();
++    disconnect(d->m_handle, nullptr, this, nullptr);
++    d->m_handle = nullptr;
+ 
+     const auto resources = d->resourceMap();
+     for (const auto resource : resources) {
+@@ -428,6 +455,38 @@
+     d->m_modes.clear();
+ }
+ 
++void OutputDeviceV2Interface::remove()
++{
++    retire();
++
++    if (d->isGlobal() && !d->isGlobalRemoved()) {
++        // Unpublish the global as OutputInterface does for wl_output: a client
++        // that still holds the name may bind it (and is told it is gone), a
++        // wl_fixes v2 client can acknowledge the removal, and the global is
++        // destroyed once they all did or the deferred destroy fires. The
++        // destroy_global hook deletes this device then; it may run right here.
++        d->globalRemove();
++        return;
++    }
++    delete this;
++}
++
++void OutputDeviceV2Interface::announceGlobal(Display *display)
++{
++    // A bind through the global lands in the same resource map as a registry
++    // announcement, so bind_resource, every update and the removed event on
++    // withdrawal reach it alike.
++    d->init(*display, s_version);
++}
++
++void OutputDeviceV2InterfacePrivate::kde_output_device_v2_destroy_global()
++{
++    // Reached from the deferred destroy (global already gone) or from the
++    // withdrawn notification (every registry let go; the destructor destroys
++    // the global). Either way the device has nothing left to serve.
++    delete q;
++}
++
+ void OutputDeviceV2Interface::scheduleDone()
+ {
+     if (d->m_uuid.isEmpty()) {
+@@ -459,6 +518,13 @@
+ 
+ void OutputDeviceV2InterfacePrivate::kde_output_device_v2_bind_resource(Resource *resource)
+ {
++    if (!m_handle) {
++        // Bound through the unpublished global after withdrawal: the device
++        // has no modes to offer any more, so only tell the client it is gone.
++        send_removed(resource->handle);
++        return;
++    }
++
+     sendGeometry(resource);
+     sendScale(resource);
+     sendEisaId(resource);
+@@ -1275,7 +1341,9 @@
+ OutputDeviceV2Interface *OutputDeviceV2Interface::get(wl_resource *native)
+ {
+     if (auto devicePrivate = resource_cast<OutputDeviceV2InterfacePrivate *>(native)) {
+-        return devicePrivate->q;
++        // A withdrawn device no longer backs an output; treat its resources
++        // like those of a destroyed one.
++        return devicePrivate->m_handle ? devicePrivate->q : nullptr;
+     }
+     return nullptr;
+ }
