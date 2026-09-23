@@ -73,6 +73,7 @@ RUN \
 
 # add local files
 COPY /root /
+COPY --from=ghcr.io/linuxserver/selkies-layers:arm64v8-kali-kwin / /
 
 # ports and volumes
 EXPOSE 3001
