@@ -395,9 +395,9 @@ bidict                                                                        0.
 bigdecimal                                                                    3.1.5                                                        gem                            
 bigdecimal                                                                    4.1.2                                                        gem                            
 billiard                                                                      4.2.4                                                        python                         
-bind9-dnsutils                                                                1:9.20.27-2                                                  deb                            
-bind9-host                                                                    1:9.20.27-2                                                  deb                            
-bind9-libs                                                                    1:9.20.27-2                                                  deb                            
+bind9-dnsutils                                                                1:9.20.29-1                                                  deb                            
+bind9-host                                                                    1:9.20.29-1                                                  deb                            
+bind9-libs                                                                    1:9.20.29-1                                                  deb                            
 bindata                                                                       2.4.15                                                       gem                            
 binutils                                                                      2.47-2                                                       deb                            
 binutils-common                                                               2.47-2                                                       deb                            
@@ -2982,7 +2982,7 @@ libsybdb5                                                                     1.
 libsyn123-0t64                                                                1.33.7-1                                                     deb                            
 libsystemd-shared                                                             261.2-1                                                      deb                            
 libsystemd0                                                                   261.2-1                                                      deb                            
-libtag2                                                                       2.3.1-2                                                      deb                            
+libtag2                                                                       2.3.2-3                                                      deb                            
 libtalloc2                                                                    2:2.4.4+samba4.24.6+dfsg-1                                   deb                            
 libtaskmanager6                                                               4:6.7.4-1                                                    deb                            
 libtasn1-6                                                                    4.21.0-2+b1                                                  deb                            
@@ -4613,7 +4613,7 @@ unicrypto                                                                     0.
 unidecode                                                                     1.4.0                                                        python                         
 unix-crypt                                                                    1.3.2                                                        gem                            
 unix-privesc-check                                                            1.6+git20170904.00e0d54-0kali1                               deb                            
-unrar                                                                         1:7.2.7-2                                                    deb                            
+unrar                                                                         1:7.3.1-1                                                    deb                            
 unsigned                                                                      UNKNOWN                                                      java-archive                   
 unzip                                                                         6.0-31                                                       deb                            
 update-inetd                                                                  4.54                                                         deb                            
