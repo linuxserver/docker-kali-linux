@@ -43,16 +43,25 @@ RUN \
     konsole \
     ksystemstats \
     kwin-addons \
+    kwin-style-aurorae \
     kwin-x11 \
     legion \
     ophcrack \
     ophcrack-cli \
+    papirus-icon-theme \
+    pipewire \
     plasma-desktop \
     plasma-workspace \
     qml-module-qt-labs-platform \
+    qt6-style-kvantum \
     qt6-svg-plugins \
     sqlitebrowser \
-    systemsettings && \
+    synaptic \
+    systemsettings \
+    wireplumber \
+    xdg-desktop-portal \
+    xdg-desktop-portal-kde \
+    xdg-user-dirs && \
   cargo install \
     wl-clipboard-rs-tools && \
   echo "**** replace wl-clipboard with rust ****" && \
