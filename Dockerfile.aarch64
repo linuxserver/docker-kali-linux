@@ -51,7 +51,6 @@ RUN \
     papirus-icon-theme \
     pipewire \
     plasma-desktop \
-    plasma-session-x11 \
     plasma-workspace \
     qml-module-qt-labs-platform \
     qt6-style-kvantum \
